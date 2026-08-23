@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment / machine-specific paths
+.env
+.env.*
+!.env.example
+local_config.*
+paths.local.*
+*.local.json
+*.local.yaml
+*.local.yml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+~$*
+tmp/
+temp/
+
+# Large scientific data — never commit
+data/
+datasets/
+raw/
+external_data/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.h5ad
+*.loom
+*.parquet
+*.feather
+*.rds
+*.RData
+*.mtx
+*.mtx.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.vcf
+*.vcf.gz
+
+# Model checkpoints / binary artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+*.pickle
+
+# Generated results / figures
+results/
+figures/generated/
+reports/generated/
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Local links / mounts to upstream projects
+paper4_data/
+paper5_data/
+upstream/
+mounts/
+
+# Keep lightweight provenance / contracts tracked even if results are ignored
+!results/README.md
+!data/README.md
