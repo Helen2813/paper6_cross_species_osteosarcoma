@@ -1,0 +1,33 @@
+{
+  "script_version": "02b-audit-dog2-parent-trial-selection-v2-no-cli",
+  "created_utc": "2026-08-26T01:23:02.535843+00:00",
+  "status": "BLOCKED_NO_PARENT_TRIAL_PATIENT_TABLE",
+  "status_reason": "No local lightweight table with at least 250 unique COTC subjects was found. The 324/309 parent-trial -> RNA186 selection mechanism cannot yet be audited at patient level.",
+  "paper4_root_resolution_source": "sibling_repository",
+  "script00_lock_verified": true,
+  "script02a_lock_verified": true,
+  "selected_subject_mapping_sha256": "e39a095747ad479239d4de4d062493446d0ae1a6f9c3d8d7d3f39c815058efce",
+  "selected_subject_n": 186,
+  "published_reference_counts": {
+    "randomized_n": 324,
+    "itt_n": 309,
+    "rna_subset_n": 186
+  },
+  "best_parent_candidate": null,
+  "causal_randomization_anchor_permission": "NOT_GRANTED",
+  "guardrails": [
+    "The original randomized trial does not automatically confer exchangeability on a molecular subset.",
+    "A balanced treatment count in RNA186 is insufficient evidence that RNA availability/QC selection was treatment-independent.",
+    "Measured baseline balance cannot rule out selection on unmeasured variables.",
+    "Exact blocked-randomization inference must wait until the original randomization strata and their availability in RNA186 are explicitly verified.",
+    "No treatment-effect heterogeneity or outcome association is tested in this script."
+  ],
+  "outputs": {
+    "candidate_tables": "02b_dog2_parent_trial_candidate_tables.csv",
+    "parent_columns": "02b_dog2_parent_trial_column_audit.csv",
+    "id_coverage": "02b_dog2_parent_selected_id_coverage.csv",
+    "selection_balance": "02b_dog2_selected_vs_not_selected_balance.csv",
+    "treatment_arm_selection": "02b_dog2_treatment_arm_selection_audit.csv",
+    "randomization_strata_selection": "02b_dog2_randomization_strata_selection_audit.csv"
+  }
+}

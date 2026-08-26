@@ -1,0 +1,36 @@
+{
+  "script_version": "02-audit-dog2-transcriptomic-selection-v1-no-cli",
+  "created_utc": "2026-08-26T00:48:09.609054+00:00",
+  "paper4_root_resolution_source": "sibling_repository",
+  "upstream_lock_verified": true,
+  "selected_transcriptomic_n": 186,
+  "selected_cotc021_022_ids_detected": 0,
+  "published_parent_randomized_n": 324,
+  "published_parent_itt_n": 309,
+  "selected186_summary": {
+    "n_selected": 186,
+    "treatment_column": "treatment",
+    "treatment_counts": {
+      "SOC": 93,
+      "Rapamycin": 93
+    }
+  },
+  "selection_audit_gate": "BLOCKED_SELECTED_ID_MAPPING_INCOMPLETE",
+  "selection_audit_reason": "Fewer than 170 of 186 transcriptomic dogs could be resolved to COTC021/022 subject IDs from the locked clinical table.",
+  "causal_arm_invariance_permission": "NOT_YET_GRANTED",
+  "interpretation_guardrails": [
+    "The original 324-dog randomization does not automatically guarantee exchangeability in the 186-dog RNA subset.",
+    "Absence of large measured imbalance cannot rule out selection on unmeasured variables.",
+    "Exact blocked-randomization inference must not be claimed until the original randomization strata and RNA-subset selection mechanism are verified.",
+    "A 93/93 treatment split inside the RNA subset alone is not evidence that selection was independent of treatment."
+  ],
+  "best_parent_candidate": null,
+  "outputs": {
+    "candidate_tables": "02_dog2_parent_cohort_candidate_tables.csv",
+    "selected186_columns": "02_dog2_selected186_column_audit.csv",
+    "parent_columns": "02_dog2_parent_cohort_column_audit.csv",
+    "selection_balance": "02_dog2_selection_balance_audit.csv",
+    "treatment_arm_selection": "02_dog2_treatment_arm_selection_audit.csv",
+    "id_audit": "02_dog2_parent_selected_id_audit.csv"
+  }
+}

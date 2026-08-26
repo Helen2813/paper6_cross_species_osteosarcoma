@@ -1,0 +1,65 @@
+{
+  "script_version": "02a-resolve-dog2-authoritative-ids-v3-no-cli",
+  "created_utc": "2026-08-26T01:09:49.949271+00:00",
+  "status": "PASS",
+  "status_reason": "The locked 186-dog Paper 4 clinical cohort matches the 186 authoritative GSE238110/Paper 5 COTC subjects exactly through a globally unique numeric patient identifier bridge.",
+  "paper4_root_resolution_source": "sibling_repository",
+  "upstream_lock_verified": true,
+  "mapping_strategy": "exact_set_equality_between_locked_clinical_patient_ids_and_unique_numeric_suffixes_of_authoritative_COTC_subjects",
+  "selected_locked_patient_id_source": "Patient ID",
+  "sources": {
+    "locked_dog2_clinical": {
+      "relative_path": "data/processed/GSE238110_DOG2_clinical_matched_indexed.csv",
+      "sha256": "c5026685cace935304ff332b7d1f9bc5d1e969c808df7a56fcfc6df58e2707b2"
+    },
+    "paper5_authoritative_subjects": {
+      "relative_path": "paper5/data_manifest/DOG2_subject_ids_authoritative.csv",
+      "sha256": "dd19e0a5d79c3200157ef6fd9ff29795132ccab560953a9371dd3422ab1e92c4",
+      "selected_cotc_source": "dog2_subject_id"
+    }
+  },
+  "checks": {
+    "locked_rows_186": true,
+    "authoritative_cotc_186": true,
+    "authoritative_numeric_suffixes_unique_186": true,
+    "locked_patient_ids_unique_186": true,
+    "locked_patient_id_set_equals_authoritative_suffix_set": true,
+    "mapped_cotc_unique_186": true,
+    "mapped_cotc_set_equals_authoritative_set": true
+  },
+  "counts": {
+    "locked_rows": 186,
+    "authoritative_cotc_subjects": 186,
+    "authoritative_unique_numeric_suffixes": 186,
+    "mapped_rows": 186,
+    "mapped_unique_patient_ids": 186,
+    "mapped_unique_cotc_subjects": 186
+  },
+  "optional_sample_map_crosscheck": {
+    "available": true,
+    "relative_path": "data/processed/GSE238110_sample_id_map.csv",
+    "sha256": "127b954c8b33bbc69a35c6e4b1be497c87e110b54cbadea36419d1429747ff89",
+    "rows": 198,
+    "best_source": "original_sample_column",
+    "best_unique_expression_patient_ids": 195,
+    "best_authoritative_overlap": 186,
+    "authoritative_suffixes_not_present": 0
+  },
+  "optional_original_match_crosscheck": {
+    "available": true,
+    "relative_path": "data/processed/DOG2_clinical_matched_to_GSE238110.csv",
+    "sha256": "e0fb337f3542ffc74ebcf1b80f3fd54adf614324ed7157a369984b81e4ffcad4",
+    "rows": 186,
+    "best_numeric_source": "Patient ID",
+    "best_numeric_authoritative_overlap": 186,
+    "best_expression_source": "original_sample_column",
+    "best_expression_authoritative_overlap": 186
+  },
+  "scientific_data_copied": false,
+  "model_fitting": false,
+  "outcome_association_testing": false,
+  "row_order_matching_used": false,
+  "many_to_many_merge_used": false,
+  "output_mapping": "02a_dog2_selected186_authoritative_id_mapping.csv",
+  "output_mapping_sha256": "e39a095747ad479239d4de4d062493446d0ae1a6f9c3d8d7d3f39c815058efce"
+}

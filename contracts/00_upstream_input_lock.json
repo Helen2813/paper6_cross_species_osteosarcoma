@@ -1,0 +1,194 @@
+{
+  "script_version": "00-lock-upstream-inputs-v1-no-cli",
+  "created_utc": "2026-08-23T21:02:06.696932+00:00",
+  "paper6_project": "paper6_cross_species_osteosarcoma",
+  "upstream_project": "paper4_sarcoma_dog",
+  "upstream_root_resolution_source": "sibling_repository",
+  "absolute_upstream_path_recorded": false,
+  "copy_policy": "read_in_place_no_scientific_data_copy",
+  "n_locked_assets": 14,
+  "manifest_file": "00_upstream_input_manifest.csv",
+  "manifest_sha256": "38e57a5882ac5f164875624503a7aa430ae5b7b856b8dcd3b00651a129373a66",
+  "paper4_internal_freeze_verification": {
+    "freeze_file_relative_path": "results/tables/GSE238110_frozen_transfer_program_freeze.json",
+    "freeze_file_sha256": "c0eb0a1e10666cc6e72f08842fa36d48a4a9c49966d19f90acc09bd684748e2c",
+    "frozen_after_script": "20_proliferation_overlap_crossfit_sensitivity.py",
+    "primary_canine_endpoint": "DFI",
+    "checks": [
+      {
+        "filename": "GSE238110_repeated_cv_program_scores_by_repeat.csv",
+        "status": "not_in_paper6_lock_scope",
+        "expected_sha256": "90e1ba5ecdef36d1fc813ead372b6fad70bfe6e7f57dc7578e353939b3a09c75",
+        "observed_sha256": null
+      },
+      {
+        "filename": "GSE238110_repeated_cv_program_model_contrasts.csv",
+        "status": "not_in_paper6_lock_scope",
+        "expected_sha256": "c4dd9f810ae1df0f3662754cb05349023bfb71a9ad1a5f3497401d8c0bbd5382",
+        "observed_sha256": null
+      },
+      {
+        "filename": "GSE238110_repeated_cv_program_model_contrast_summary.csv",
+        "status": "not_in_paper6_lock_scope",
+        "expected_sha256": "2aec5db69a38b9dab0e8769334c977a86f0f505fcd16e6402b2bbe9f1e9832de",
+        "observed_sha256": null
+      },
+      {
+        "filename": "GSE238110_frozen_canine_transfer_program_manifest.csv",
+        "status": "verified",
+        "expected_sha256": "fcd34b985ea99986f39dfc43ce8e4018db2fde9ecc8a225bb40ac93006d5372c",
+        "observed_sha256": "fcd34b985ea99986f39dfc43ce8e4018db2fde9ecc8a225bb40ac93006d5372c"
+      },
+      {
+        "filename": "GSE238110_frozen_transfer_gene_weights_strict.csv",
+        "status": "verified",
+        "expected_sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+        "observed_sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91"
+      },
+      {
+        "filename": "GSE238110_frozen_transfer_gene_weights_broad.csv",
+        "status": "not_in_paper6_lock_scope",
+        "expected_sha256": "ee5f661677b173507e04856f848b6757ede2750dd69b9bb0d88a9f6a2a77bd4c",
+        "observed_sha256": null
+      },
+      {
+        "filename": "GSE238110_frozen_transfer_programs_strict.gmt",
+        "status": "not_in_paper6_lock_scope",
+        "expected_sha256": "1d96f03c085aa5f4d2f81916a11b018919390be4f50894307726a1bb06ece738",
+        "observed_sha256": null
+      },
+      {
+        "filename": "GSE238110_frozen_transfer_programs_broad.gmt",
+        "status": "not_in_paper6_lock_scope",
+        "expected_sha256": "aa57acfd1cd67be7aeabd35763e47c76039b2211694db1d02ac053dc13a27129",
+        "observed_sha256": null
+      },
+      {
+        "filename": "GSE238110_frozen_transfer_scoring_specification.csv",
+        "status": "verified",
+        "expected_sha256": "562aab92caa949691f43b0285cf2585c98008e78c62d2c15477a6d156d7f47a7",
+        "observed_sha256": "562aab92caa949691f43b0285cf2585c98008e78c62d2c15477a6d156d7f47a7"
+      },
+      {
+        "filename": "GSE238110_frozen_transfer_programs_README.txt",
+        "status": "not_in_paper6_lock_scope",
+        "expected_sha256": "20d51001ad6da75a56c26d4efb22a029e8f423a507707ec31f2c7dc596d5dda9",
+        "observed_sha256": null
+      }
+    ]
+  },
+  "assets": {
+    "dog2_expression": {
+      "role": "required_source_expression",
+      "relative_path": "data/processed/GSE238110_DOG2_expression_log2cpm_matched_allgenes.csv",
+      "sha256": "6deae6ee8a2663fc4f7be1bb560831c465b295e5b0282bd495934222bbe16997",
+      "size_bytes": 63143134,
+      "n_rows": 186,
+      "n_columns": 21016
+    },
+    "dog2_clinical": {
+      "role": "required_source_clinical",
+      "relative_path": "data/processed/GSE238110_DOG2_clinical_matched_indexed.csv",
+      "sha256": "c5026685cace935304ff332b7d1f9bc5d1e969c808df7a56fcfc6df58e2707b2",
+      "size_bytes": 33260,
+      "n_rows": 186,
+      "n_columns": 25
+    },
+    "target_expression": {
+      "role": "required_primary_human_expression",
+      "relative_path": "data/processed/human_validation/TARGET_OS_expression_log2_gene_symbol.csv",
+      "sha256": "0cde0d000cafa4acb40f42f90bcf6b8e82ece92e5da8db1839bf99007eb5e52f",
+      "size_bytes": 66594174,
+      "n_rows": 88,
+      "n_columns": 56621
+    },
+    "target_clinical": {
+      "role": "required_primary_human_clinical",
+      "relative_path": "data/processed/human_validation/TARGET_OS_clinical_standardized.csv",
+      "sha256": "c89d6718bac4b9d2b3e880302cb5f48501814ee5a57fb609a174bdd505476793",
+      "size_bytes": 29748,
+      "n_rows": 88,
+      "n_columns": 15
+    },
+    "gse21257_expression": {
+      "role": "required_human_external_expression",
+      "relative_path": "data/processed/human_validation/GSE21257_expression_gene_symbol.csv",
+      "sha256": "16917b376ec94aa3196d92e39fb7aa8c6a52baa7077bc063691209a1ee68f073",
+      "size_bytes": 15939530,
+      "n_rows": 53,
+      "n_columns": 24996
+    },
+    "gse21257_clinical": {
+      "role": "required_human_external_clinical",
+      "relative_path": "data/processed/human_validation/GSE21257_clinical_standardized.csv",
+      "sha256": "e55bdc137e56997f5453475bcd9693d0381d606f9dfbb01a8ca673f990a00ad9",
+      "size_bytes": 262573,
+      "n_rows": 53,
+      "n_columns": 47
+    },
+    "gse39055_expression": {
+      "role": "required_human_stress_expression",
+      "relative_path": "data/processed/human_validation/GSE39055_expression_gene_symbol.csv",
+      "sha256": "83ac70f82531ea99f8d7c2f3c8ffc301bcf603d5a443a54abe261f3ed0945eff",
+      "size_bytes": 9284958,
+      "n_rows": 37,
+      "n_columns": 20793
+    },
+    "gse39055_clinical": {
+      "role": "required_human_stress_clinical",
+      "relative_path": "data/processed/human_validation/GSE39055_clinical_standardized.csv",
+      "sha256": "e6fc6f1a983bcd85d8eb5aefeaa46af9fe8f8ce405e5982f0bb39df456665304",
+      "size_bytes": 92970,
+      "n_rows": 37,
+      "n_columns": 14
+    },
+    "gse239948_expression": {
+      "role": "required_external_canine_expression",
+      "relative_path": "data/processed/canine_validation_GSE239948_expression_log2_symbol.csv",
+      "sha256": "168fa2693ceb1df4ebbe22ea3e92ddb5e79e2f06024a546202d73b53d3945176",
+      "size_bytes": 10697486,
+      "n_rows": 43,
+      "n_columns": 15307
+    },
+    "ortholog_qc": {
+      "role": "required_cross_species_mapping_reference",
+      "relative_path": "results/tables/GSE238110_RNA_master_candidate_evidence_table_with_ortholog_qc.csv",
+      "sha256": "26673d73d3e2b3769ae0eaf776d5f9fe239c594bf8c0f71e01b6ff50d1017586",
+      "size_bytes": 3115402,
+      "n_rows": 5013,
+      "n_columns": 111
+    },
+    "frozen_strict_weights": {
+      "role": "paper4_frozen_reference_only",
+      "relative_path": "results/tables/GSE238110_frozen_transfer_gene_weights_strict.csv",
+      "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+      "size_bytes": 50062,
+      "n_rows": 321,
+      "n_columns": 12
+    },
+    "frozen_program_manifest": {
+      "role": "paper4_frozen_reference_only",
+      "relative_path": "results/tables/GSE238110_frozen_canine_transfer_program_manifest.csv",
+      "sha256": "fcd34b985ea99986f39dfc43ce8e4018db2fde9ecc8a225bb40ac93006d5372c",
+      "size_bytes": 14880,
+      "n_rows": 13,
+      "n_columns": 55
+    },
+    "frozen_scoring_spec": {
+      "role": "paper4_frozen_reference_only",
+      "relative_path": "results/tables/GSE238110_frozen_transfer_scoring_specification.csv",
+      "sha256": "562aab92caa949691f43b0285cf2585c98008e78c62d2c15477a6d156d7f47a7",
+      "size_bytes": 14951,
+      "n_rows": 40,
+      "n_columns": 9
+    },
+    "paper4_freeze_json": {
+      "role": "required_upstream_provenance",
+      "relative_path": "results/tables/GSE238110_frozen_transfer_program_freeze.json",
+      "sha256": "c0eb0a1e10666cc6e72f08842fa36d48a4a9c49966d19f90acc09bd684748e2c",
+      "size_bytes": 2588,
+      "n_rows": null,
+      "n_columns": null
+    }
+  }
+}

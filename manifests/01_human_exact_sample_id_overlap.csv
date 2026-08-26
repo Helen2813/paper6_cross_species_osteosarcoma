@@ -1,0 +1,4 @@
+cohort_a,cohort_b,exact_normalized_id_overlap_n,example_overlapping_ids,interpretation
+GSE21257,GSE39055,0,,No exact ID overlap. This does NOT prove patient-level independence.
+GSE21257,TARGET-OS,0,,No exact ID overlap. This does NOT prove patient-level independence.
+GSE39055,TARGET-OS,0,,No exact ID overlap. This does NOT prove patient-level independence.

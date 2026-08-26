@@ -1,0 +1,23 @@
+cohort_id,column,nonmissing_n,missing_n,unique_n,dtype,example_values,numeric_fraction,numeric_min,numeric_median,numeric_max,binary_or_low_cardinality_counts,endpoint_candidate
+TARGET-OS,os_time_days,86,2,83,float64,3946.0 | 377.0 | 3050.0 | 2948.0 | 290.0,1.0,0.0,1387.0,5840.0,,True
+TARGET-OS,os_event,86,2,2,float64,0.0 | 1.0,1.0,0.0,0.0,1.0,"{""0.0"": 57, ""1.0"": 29}",True
+TARGET-OS,days_to_death,29,59,29,float64,290.0 | 519.0 | 619.0 | 627.0 | 1906.0,1.0,74.0,679.0,3976.0,,True
+TARGET-OS,days_to_last_follow_up,86,2,83,float64,3946.0 | 377.0 | 3050.0 | 2948.0 | 290.0,1.0,0.0,1387.0,5840.0,,True
+TARGET-OS,age_at_diagnosis_days,88,0,87,float64,7254.0 | 10205.0 | 10635.0 | 8470.0 | 7264.0,1.0,1299.0,5324.5,11828.0,,True
+TARGET-OS,age_at_diagnosis_years,88,0,87,float64,19.860369609856264 | 27.939767282683093 | 29.117043121149894 | 23.189596167008897 | 19.887748117727583,1.0,3.5564681724846,14.577686516084874,32.38329911019849,,True
+TARGET-OS,metastasis_fields_raw,87,1,2,object,"No Metastasis | Metastasis, NOS",0.0,,,,"{""Metastasis, NOS"": 22, ""No Metastasis"": 65}",True
+GSE21257,metastasis_within_5y,53,0,2,float64,1.0 | 0.0,1.0,0.0,1.0,1.0,"{""0.0"": 19, ""1.0"": 34}",True
+GSE21257,os_time_months,53,0,44,float64,27.0 | 21.0 | 46.0 | 28.0 | 11.0,1.0,4.0,45.0,246.0,,True
+GSE21257,os_time_days_approx,53,0,44,float64,821.8125 | 639.1875 | 1400.125 | 852.25 | 334.8125,1.0,121.75,1369.6875,7487.625,,True
+GSE21257,os_event,53,0,2,float64,1.0 | 0.0,1.0,0.0,0.0,1.0,"{""0.0"": 30, ""1.0"": 23}",True
+GSE21257,age_months,0,53,0,float64,,0.0,,,,,True
+GSE21257,age_years,0,53,0,float64,,0.0,,,,,True
+GSE21257,metastasis_endpoint_note,53,0,1,object,Pre-chemotherapy biopsy group parsed from GEO sample metadata; no classifier or association test fitted in script 22,0.0,,,,"{""Pre-chemotherapy biopsy group parsed from GEO sample metadata; no classifier or association test fitted in script 22"": 53}",True
+GSE21257,survival_endpoint_note,53,0,1,object,OS time/event parsed from GEO status text for sensitivity analysis; no survival model fitted in script 22,0.0,,,,"{""OS time/event parsed from GEO status text for sensitivity analysis; no survival model fitted in script 22"": 53}",True
+GSE39055,age_years,37,0,16,float64,4.0 | 11.0 | 5.0 | 13.0 | 12.0,1.0,4.0,11.0,71.0,,True
+GSE39055,percent_necrosis_raw,37,0,19,object,60% necrosis | >90% necrosis | 94% necrosis | >99% necrosis | 90-95% necrosis,0.0,,,,,True
+GSE39055,percent_necrosis_numeric,37,0,15,float64,60.0 | 90.0 | 94.0 | 99.0 | 98.0,1.0,5.0,60.0,99.0,,True
+GSE39055,good_necrosis_response_ge90,37,0,2,float64,0.0 | 1.0,1.0,0.0,0.0,1.0,"{""0.0"": 24, ""1.0"": 13}",True
+GSE39055,recurrence_event,37,0,2,float64,1.0 | 0.0,1.0,0.0,0.0,1.0,"{""0.0"": 19, ""1.0"": 18}",True
+GSE39055,death_event_descriptive,37,0,2,float64,1.0 | 0.0,1.0,0.0,0.0,1.0,"{""0.0"": 27, ""1.0"": 10}",True
+GSE39055,rfs_time_months,37,0,37,float64,126.3 | 19.5 | 82.6 | 61.1 | 30.4,1.0,0.0,33.5,200.9,,True

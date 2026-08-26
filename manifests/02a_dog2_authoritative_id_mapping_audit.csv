@@ -1,0 +1,57 @@
+section,source,n_rows,n_parseable_integer_ids,n_unique_integer_ids,overlap_with_authoritative_suffixes,missing_from_authoritative_suffixes,authoritative_suffixes_not_present,exact_set_match,example_values,n_parseable_expression_patient_ids,n_unique_expression_patient_ids,numeric_unique,numeric_authoritative_overlap,expression_pattern_unique,expression_authoritative_overlap
+locked_clinical_patient_id_source,__index__,186,0.0,0.0,0.0,0.0,186.0,False,100_0514_tumor | 101_0518_tumor | 102_0619_tumor | 103_0639_tumor | 104_0702_tumor,,,,,,
+locked_clinical_patient_id_source,Patient ID,186,186.0,186.0,186.0,0.0,0.0,True,514 | 518 | 619 | 639 | 702,,,,,,
+locked_clinical_patient_id_source,Tumor Location,186,0.0,0.0,0.0,0.0,186.0,False,Left distal radius | Left proximal humerus | Left distal tibia | Left distal femur | Right distal ulna,,,,,,
+locked_clinical_patient_id_source,Site,186,0.0,0.0,0.0,0.0,186.0,False,UW | UW | OSU | OSU | UIL,,,,,,
+locked_clinical_patient_id_source,age,186,46.0,11.0,0.0,11.0,186.0,False,5.5 | 8.3 | 7.5 | 6.9 | 9.5,,,,,,
+locked_clinical_patient_id_source,weight,186,44.0,28.0,0.0,28.0,186.0,False,42.7 | 44.3 | 30.8 | 36.2 | 33.2,,,,,,
+locked_clinical_patient_id_source,breed,186,0.0,0.0,0.0,0.0,186.0,False,Mixed Breed | Rottweiler | Mixed Breed | Greyhound | Labrador Retriever,,,,,,
+locked_clinical_patient_id_source,gender,186,0.0,0.0,0.0,0.0,186.0,False,Spayed Female | Spayed Female | Spayed Female | Castrated Male | Castrated Male,,,,,,
+locked_clinical_patient_id_source,PH,186,186.0,2.0,0.0,2.0,186.0,False,0 | 1 | 0 | 0 | 0,,,,,,
+locked_clinical_patient_id_source,ALP,186,0.0,0.0,0.0,0.0,186.0,False,Normal | Elevated | Normal | Normal | Normal,,,,,,
+locked_clinical_patient_id_source,Group,186,0.0,0.0,0.0,0.0,186.0,False,NPHNALP | PHEALP | NPHNALP | NPHNALP | NPHNALP,,,,,,
+locked_clinical_patient_id_source,DFS_time,186,186.0,136.0,17.0,119.0,169.0,False,33 | 12 | 63 | 234 | 153,,,,,,
+locked_clinical_patient_id_source,DFS_status,186,186.0,2.0,0.0,2.0,186.0,False,0 | 0 | 1 | 1 | 1,,,,,,
+locked_clinical_patient_id_source,OS_time,186,186.0,163.0,16.0,147.0,170.0,False,117 | 248 | 622 | 283 | 171,,,,,,
+locked_clinical_patient_id_source,OS_status,186,186.0,2.0,0.0,2.0,186.0,False,1 | 0 | 0 | 1 | 0,,,,,,
+locked_clinical_patient_id_source,treatment,186,0.0,0.0,0.0,0.0,186.0,False,SOC | SOC | SOC | SOC | SOC,,,,,,
+locked_clinical_patient_id_source,primary_immune_subtype,186,0.0,0.0,0.0,0.0,186.0,False,ID | IE-ECM | IE-ECM | ID | IE-ECM,,,,,,
+locked_clinical_patient_id_source,patient_id_clean,186,186.0,186.0,186.0,0.0,0.0,True,514 | 518 | 619 | 639 | 702,,,,,,
+locked_clinical_patient_id_source,sample_id_bracket,186,0.0,0.0,0.0,0.0,186.0,False,100_0514_tumor | 101_0518_tumor | 102_0619_tumor | 103_0639_tumor | 104_0702_tumor,,,,,,
+locked_clinical_patient_id_source,sample_type,186,0.0,0.0,0.0,0.0,186.0,False,primary_or_tumor | primary_or_tumor | primary_or_tumor | primary_or_tumor | primary_or_tumor,,,,,,
+locked_clinical_patient_id_source,dfi_time,186,186.0,136.0,17.0,119.0,169.0,False,33 | 12 | 63 | 234 | 153,,,,,,
+locked_clinical_patient_id_source,dfi_event,186,186.0,2.0,0.0,2.0,186.0,False,0 | 0 | 1 | 1 | 1,,,,,,
+locked_clinical_patient_id_source,os_time,186,186.0,163.0,16.0,147.0,170.0,False,117 | 248 | 622 | 283 | 171,,,,,,
+locked_clinical_patient_id_source,os_event,186,186.0,2.0,0.0,2.0,186.0,False,1 | 0 | 0 | 1 | 0,,,,,,
+locked_clinical_patient_id_source,dfi_event_365d,186,161.0,2.0,0.0,2.0,186.0,False, |  | 1.0 | 1.0 | 1.0,,,,,,
+locked_clinical_patient_id_source,dfi_event_540d,186,161.0,2.0,0.0,2.0,186.0,False, |  | 1.0 | 1.0 | 1.0,,,,,,
+sample_map_expression_patient_id_source,__index__,198,,,0.0,,186.0,,0 | 1 | 2 | 3 | 4,0.0,0.0,,,,
+sample_map_expression_patient_id_source,original_sample_column,198,,,186.0,,0.0,,14_0614__Tumor | 5_0220__Tumor | 13_0613__Tumor | 26_0722__Tumor | 4_0214__Tumor,198.0,195.0,,,,
+sample_map_expression_patient_id_source,sample_id_bracket,198,,,186.0,,0.0,,14_0614__Tumor | 5_0220__Tumor | 13_0613__Tumor | 26_0722__Tumor | 4_0214__Tumor,198.0,195.0,,,,
+original_match_identifier_source,__index__,186,,,,,,,0 | 1 | 2 | 3 | 4,,,186.0,3.0,0.0,0.0
+original_match_identifier_source,Patient ID,186,,,,,,,514 | 518 | 619 | 639 | 702,,,186.0,186.0,0.0,0.0
+original_match_identifier_source,Tumor Location,186,,,,,,,Left distal radius | Left proximal humerus | Left distal tibia | Left distal femur | Right distal ulna,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,Site,186,,,,,,,UW | UW | OSU | OSU | UIL,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,age,186,,,,,,,5.5 | 8.3 | 7.5 | 6.9 | 9.5,,,11.0,0.0,0.0,0.0
+original_match_identifier_source,weight,186,,,,,,,42.7 | 44.3 | 30.8 | 36.2 | 33.2,,,28.0,0.0,0.0,0.0
+original_match_identifier_source,breed,186,,,,,,,Mixed Breed | Rottweiler | Mixed Breed | Greyhound | Labrador Retriever,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,gender,186,,,,,,,Spayed Female | Spayed Female | Spayed Female | Castrated Male | Castrated Male,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,PH,186,,,,,,,0 | 1 | 0 | 0 | 0,,,2.0,0.0,0.0,0.0
+original_match_identifier_source,ALP,186,,,,,,,Normal | Elevated | Normal | Normal | Normal,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,Group,186,,,,,,,NPHNALP | PHEALP | NPHNALP | NPHNALP | NPHNALP,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,DFS_time,186,,,,,,,33 | 12 | 63 | 234 | 153,,,136.0,17.0,0.0,0.0
+original_match_identifier_source,DFS_status,186,,,,,,,0 | 0 | 1 | 1 | 1,,,2.0,0.0,0.0,0.0
+original_match_identifier_source,OS_time,186,,,,,,,117 | 248 | 622 | 283 | 171,,,163.0,16.0,0.0,0.0
+original_match_identifier_source,OS_status,186,,,,,,,1 | 0 | 0 | 1 | 0,,,2.0,0.0,0.0,0.0
+original_match_identifier_source,treatment,186,,,,,,,SOC | SOC | SOC | SOC | SOC,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,primary_immune_subtype,186,,,,,,,ID | IE-ECM | IE-ECM | ID | IE-ECM,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,patient_id_clean,186,,,,,,,514 | 518 | 619 | 639 | 702,,,186.0,186.0,0.0,0.0
+original_match_identifier_source,original_sample_column,186,,,,,,,100_0514_tumor | 101_0518_tumor | 102_0619_tumor | 103_0639_tumor | 104_0702_tumor,,,0.0,0.0,186.0,186.0
+original_match_identifier_source,sample_id_bracket,186,,,,,,,100_0514_tumor | 101_0518_tumor | 102_0619_tumor | 103_0639_tumor | 104_0702_tumor,,,0.0,0.0,186.0,186.0
+original_match_identifier_source,sample_type,186,,,,,,,primary_or_tumor | primary_or_tumor | primary_or_tumor | primary_or_tumor | primary_or_tumor,,,0.0,0.0,0.0,0.0
+original_match_identifier_source,dfi_time,186,,,,,,,33 | 12 | 63 | 234 | 153,,,136.0,17.0,0.0,0.0
+original_match_identifier_source,dfi_event,186,,,,,,,0 | 0 | 1 | 1 | 1,,,2.0,0.0,0.0,0.0
+original_match_identifier_source,os_time,186,,,,,,,117 | 248 | 622 | 283 | 171,,,163.0,16.0,0.0,0.0
+original_match_identifier_source,os_event,186,,,,,,,1 | 0 | 0 | 1 | 0,,,2.0,0.0,0.0,0.0
+original_match_identifier_source,dfi_event_365d,186,,,,,,, |  | 1.0 | 1.0 | 1.0,,,2.0,0.0,0.0,0.0
+original_match_identifier_source,dfi_event_540d,186,,,,,,, |  | 1.0 | 1.0 | 1.0,,,2.0,0.0,0.0,0.0

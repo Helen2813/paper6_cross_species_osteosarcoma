@@ -1,0 +1,30 @@
+{
+  "script_version": "01-inventory-human-osteosarcoma-cohorts-v1-no-cli",
+  "created_utc": "2026-08-23T23:10:45.137193+00:00",
+  "upstream_lock_verified": true,
+  "scientific_data_copied": false,
+  "model_fitting": false,
+  "outcome_association_testing": false,
+  "local_human_cohorts_audited": [
+    "GSE21257",
+    "GSE39055",
+    "TARGET-OS"
+  ],
+  "public_candidate_count": 9,
+  "known_overlap_risks": [
+    {
+      "cohort": "GSE42352_GSE33382",
+      "risk": "published patient/sample overlap with GSE21257; independent-cohort status forbidden until lineage audit"
+    }
+  ],
+  "pooled_human_source_gate": "NOT_READY",
+  "pooled_human_source_gate_reason": "Compatible survival endpoints, patient-level independence, and cross-platform harmonization eligibility have not yet been frozen for all public candidate cohorts.",
+  "next_required_stage": "Acquire/audit metadata only for candidate human cohorts and build a patient-lineage/endpoint compatibility table before any dog-vs-pooled-human source comparison.",
+  "outputs": {
+    "public_registry": "01_human_public_cohort_candidate_registry.csv",
+    "local_summary": "01_human_local_cohort_audit.csv",
+    "clinical_columns": "01_human_clinical_column_audit.csv",
+    "endpoint_candidates": "01_human_endpoint_candidate_audit.csv",
+    "exact_id_overlap": "01_human_exact_sample_id_overlap.csv"
+  }
+}

@@ -1,0 +1,27 @@
+source,column,nonmissing_n,missing_n,unique_n,dtype,numeric_fraction,semantic_candidates,examples
+DOG2_selected186,original_sample_column,186,0,186,object,0.0,,100_0514_tumor | 101_0518_tumor | 102_0619_tumor | 103_0639_tumor | 104_0702_tumor
+DOG2_selected186,Patient ID,186,0,186,int64,1.0,,514 | 518 | 619 | 639 | 702
+DOG2_selected186,Tumor Location,186,0,24,object,0.0,tumor_location,Left distal radius | Left proximal humerus | Left distal tibia | Left distal femur | Right distal ulna
+DOG2_selected186,Site,186,0,21,object,0.0,center,UW | OSU | UIL | IL | AU
+DOG2_selected186,age,186,0,75,float64,1.0,age,5.5 | 8.3 | 7.5 | 6.9 | 9.5
+DOG2_selected186,weight,185,1,140,float64,1.0,weight,42.7 | 44.3 | 30.8 | 36.2 | 33.2
+DOG2_selected186,breed,186,0,37,object,0.0,breed,Mixed Breed | Rottweiler | Greyhound | Labrador Retriever | Labradoodle
+DOG2_selected186,gender,186,0,4,object,0.0,sex,Spayed Female | Castrated Male | Intact Male | Intact Female
+DOG2_selected186,PH,186,0,2,int64,1.0,tumor_location,0 | 1
+DOG2_selected186,ALP,186,0,4,object,0.0,alp,Normal | Elevated | normal | Normal¬†
+DOG2_selected186,Group,186,0,4,object,0.0,,NPHNALP | PHEALP | NPHEALP | PHNALP
+DOG2_selected186,DFS_time,186,0,136,int64,1.0,,33 | 12 | 63 | 234 | 153
+DOG2_selected186,DFS_status,186,0,2,int64,1.0,,0 | 1
+DOG2_selected186,OS_time,186,0,163,int64,1.0,,117 | 248 | 622 | 283 | 171
+DOG2_selected186,OS_status,186,0,2,int64,1.0,,1 | 0
+DOG2_selected186,treatment,186,0,2,object,0.0,treatment,SOC | Rapamycin
+DOG2_selected186,primary_immune_subtype,186,0,3,object,0.0,,ID | IE-ECM | IE
+DOG2_selected186,patient_id_clean,186,0,186,int64,1.0,,514 | 518 | 619 | 639 | 702
+DOG2_selected186,sample_id_bracket,186,0,186,object,0.0,,100_0514_tumor | 101_0518_tumor | 102_0619_tumor | 103_0639_tumor | 104_0702_tumor
+DOG2_selected186,sample_type,186,0,1,object,0.0,,primary_or_tumor
+DOG2_selected186,dfi_time,186,0,136,int64,1.0,dfi,33 | 12 | 63 | 234 | 153
+DOG2_selected186,dfi_event,186,0,2,int64,1.0,dfi,0 | 1
+DOG2_selected186,os_time,186,0,163,int64,1.0,,117 | 248 | 622 | 283 | 171
+DOG2_selected186,os_event,186,0,2,int64,1.0,os,1 | 0
+DOG2_selected186,dfi_event_365d,161,25,2,float64,1.0,dfi,1.0 | 0.0
+DOG2_selected186,dfi_event_540d,161,25,2,float64,1.0,dfi,1.0 | 0.0
