@@ -1,0 +1,29 @@
+{
+  "script_version": "02c-probe-icdc-parent-trial-api-v1-no-cli",
+  "created_utc": "2026-08-26T01:28:59.836813+00:00",
+  "graphql_endpoint": "https://caninecommons.cancer.gov/v1/graphql/",
+  "status": "PASS_READY_FOR_ICDC_CASE_QUERY_DESIGN",
+  "status_reason": "ICDC exposes COTC021 and COTC022 with the expected public case counts (152 + 157 = 309), and GraphQL schema introspection succeeded. A case-level metadata query can now be frozen in the next script.",
+  "expected_reference_counts": {
+    "COTC021": 152,
+    "COTC022": 157
+  },
+  "observed_counts": {
+    "COTC021": 152,
+    "COTC022": 157
+  },
+  "observed_combined_cases": 309,
+  "expected_combined_cases": 309,
+  "study_count_match": true,
+  "graphql_introspection_available": true,
+  "candidate_query_field_count": 52,
+  "scientific_data_copied": false,
+  "omics_downloaded": false,
+  "model_fitting": false,
+  "outcome_association_testing": false,
+  "outputs": {
+    "study_inventory": "02c_icdc_study_inventory.csv",
+    "candidate_query_fields": "02c_icdc_graphql_query_fields.csv",
+    "schema_probe": "02c_icdc_graphql_schema_probe.json"
+  }
+}

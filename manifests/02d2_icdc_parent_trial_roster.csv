@@ -1,0 +1,310 @@
+type,case_id,program_name,clinical_study_designation,disease_term,breed,cotc_subject_id,__requested_study__,selected_rna186
+case,COTC021-0101,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0101,COTC021,False
+case,COTC021-0103,Comparative Oncology Program,COTC021,Osteosarcoma,Bernese Mountain Dog,COTC021-0103,COTC021,False
+case,COTC021-0105,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0105,COTC021,True
+case,COTC021-0201,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0201,COTC021,True
+case,COTC021-0203,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0203,COTC021,True
+case,COTC021-0205,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0205,COTC021,False
+case,COTC021-0207,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0207,COTC021,True
+case,COTC021-0209,Comparative Oncology Program,COTC021,Osteosarcoma,Saint Bernard,COTC021-0209,COTC021,True
+case,COTC021-0211,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-0211,COTC021,True
+case,COTC021-0213,Comparative Oncology Program,COTC021,Osteosarcoma,Belgian Malinois,COTC021-0213,COTC021,False
+case,COTC021-0215,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0215,COTC021,True
+case,COTC021-0217,Comparative Oncology Program,COTC021,Osteosarcoma,Other,COTC021-0217,COTC021,False
+case,COTC021-0219,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0219,COTC021,False
+case,COTC021-0226,Comparative Oncology Program,COTC021,Osteosarcoma,Greyhound,COTC021-0226,COTC021,True
+case,COTC021-0301,Comparative Oncology Program,COTC021,Osteosarcoma,Rottweiler,COTC021-0301,COTC021,True
+case,COTC021-0303,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-0303,COTC021,True
+case,COTC021-0305,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0305,COTC021,True
+case,COTC021-0307,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0307,COTC021,True
+case,COTC021-0309,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0309,COTC021,True
+case,COTC021-0311,Comparative Oncology Program,COTC021,Osteosarcoma,Catahoula Hound,COTC021-0311,COTC021,True
+case,COTC021-0313,Comparative Oncology Program,COTC021,Osteosarcoma,Irish Wolfhound,COTC021-0313,COTC021,False
+case,COTC021-0314,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0314,COTC021,True
+case,COTC021-0315,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0315,COTC021,False
+case,COTC021-0317,Comparative Oncology Program,COTC021,Osteosarcoma,Doberman Pinscher,COTC021-0317,COTC021,True
+case,COTC021-0319,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-0319,COTC021,False
+case,COTC021-0321,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-0321,COTC021,False
+case,COTC021-0323,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0323,COTC021,False
+case,COTC021-0325,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0325,COTC021,False
+case,COTC021-0327,Comparative Oncology Program,COTC021,Osteosarcoma,Rottweiler,COTC021-0327,COTC021,False
+case,COTC021-0329,Comparative Oncology Program,COTC021,Osteosarcoma,Alaskan Malamute,COTC021-0329,COTC021,True
+case,COTC021-0335,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0335,COTC021,True
+case,COTC021-0405,Comparative Oncology Program,COTC021,Osteosarcoma,Saint Bernard,COTC021-0405,COTC021,True
+case,COTC021-0407,Comparative Oncology Program,COTC021,Osteosarcoma,Bulldog,COTC021-0407,COTC021,False
+case,COTC021-0501,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0501,COTC021,False
+case,COTC021-0503,Comparative Oncology Program,COTC021,Osteosarcoma,Greyhound,COTC021-0503,COTC021,False
+case,COTC021-0505,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0505,COTC021,True
+case,COTC021-0507,Comparative Oncology Program,COTC021,Osteosarcoma,Leonberger,COTC021-0507,COTC021,False
+case,COTC021-0509,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0509,COTC021,True
+case,COTC021-0511,Comparative Oncology Program,COTC021,Osteosarcoma,Rottweiler,COTC021-0511,COTC021,True
+case,COTC021-0513,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0513,COTC021,True
+case,COTC021-0515,Comparative Oncology Program,COTC021,Osteosarcoma,Irish Wolfhound,COTC021-0515,COTC021,True
+case,COTC021-0517,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0517,COTC021,True
+case,COTC021-0519,Comparative Oncology Program,COTC021,Osteosarcoma,German Shorthaired Pointer,COTC021-0519,COTC021,True
+case,COTC021-0520,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0520,COTC021,False
+case,COTC021-0523,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0523,COTC021,True
+case,COTC021-0524,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0524,COTC021,True
+case,COTC021-0525,Comparative Oncology Program,COTC021,Osteosarcoma,Border Collie,COTC021-0525,COTC021,False
+case,COTC021-0601,Comparative Oncology Program,COTC021,Osteosarcoma,Saint Bernard,COTC021-0601,COTC021,True
+case,COTC021-0603,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0603,COTC021,True
+case,COTC021-0605,Comparative Oncology Program,COTC021,Osteosarcoma,Irish Setter,COTC021-0605,COTC021,False
+case,COTC021-0607,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0607,COTC021,True
+case,COTC021-0609,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0609,COTC021,False
+case,COTC021-0621,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0621,COTC021,True
+case,COTC021-0625,Comparative Oncology Program,COTC021,Osteosarcoma,Doberman Pinscher,COTC021-0625,COTC021,True
+case,COTC021-0629,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0629,COTC021,False
+case,COTC021-0630,Comparative Oncology Program,COTC021,Osteosarcoma,Greyhound,COTC021-0630,COTC021,True
+case,COTC021-0631,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0631,COTC021,True
+case,COTC021-0637,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0637,COTC021,False
+case,COTC021-0638,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0638,COTC021,False
+case,COTC021-0640,Comparative Oncology Program,COTC021,Osteosarcoma,Boxer,COTC021-0640,COTC021,True
+case,COTC021-0641,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0641,COTC021,False
+case,COTC021-0643,Comparative Oncology Program,COTC021,Osteosarcoma,Siberian Husky,COTC021-0643,COTC021,True
+case,COTC021-0701,Comparative Oncology Program,COTC021,Osteosarcoma,Irish Setter,COTC021-0701,COTC021,True
+case,COTC021-0703,Comparative Oncology Program,COTC021,Osteosarcoma,Boxer,COTC021-0703,COTC021,True
+case,COTC021-0705,Comparative Oncology Program,COTC021,Osteosarcoma,Afghan Hound,COTC021-0705,COTC021,True
+case,COTC021-0707,Comparative Oncology Program,COTC021,Osteosarcoma,Greyhound,COTC021-0707,COTC021,False
+case,COTC021-0709,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0709,COTC021,True
+case,COTC021-0711,Comparative Oncology Program,COTC021,Osteosarcoma,Australian Shepherd,COTC021-0711,COTC021,False
+case,COTC021-0713,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0713,COTC021,True
+case,COTC021-0715,Comparative Oncology Program,COTC021,Osteosarcoma,German Shepherd Dog,COTC021-0715,COTC021,True
+case,COTC021-0717,Comparative Oncology Program,COTC021,Osteosarcoma,Siberian Husky,COTC021-0717,COTC021,True
+case,COTC021-0722,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0722,COTC021,True
+case,COTC021-0723,Comparative Oncology Program,COTC021,Osteosarcoma,American Staffordshire Terrier,COTC021-0723,COTC021,True
+case,COTC021-0725,Comparative Oncology Program,COTC021,Osteosarcoma,Siberian Husky,COTC021-0725,COTC021,True
+case,COTC021-0730,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0730,COTC021,False
+case,COTC021-0731,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-0731,COTC021,False
+case,COTC021-0732,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0732,COTC021,True
+case,COTC021-0801,Comparative Oncology Program,COTC021,Osteosarcoma,Bernese Mountain Dog,COTC021-0801,COTC021,False
+case,COTC021-0803,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-0803,COTC021,True
+case,COTC021-0805,Comparative Oncology Program,COTC021,Osteosarcoma,Boxer,COTC021-0805,COTC021,False
+case,COTC021-0807,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-0807,COTC021,False
+case,COTC021-0809,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0809,COTC021,False
+case,COTC021-0811,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0811,COTC021,False
+case,COTC021-0813,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0813,COTC021,True
+case,COTC021-0814,Comparative Oncology Program,COTC021,Osteosarcoma,German Shepherd Dog,COTC021-0814,COTC021,True
+case,COTC021-0815,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-0815,COTC021,True
+case,COTC021-0817,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0817,COTC021,True
+case,COTC021-0819,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0819,COTC021,True
+case,COTC021-0825,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0825,COTC021,False
+case,COTC021-0903,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-0903,COTC021,False
+case,COTC021-0908,Comparative Oncology Program,COTC021,Osteosarcoma,Alaskan Malamute,COTC021-0908,COTC021,False
+case,COTC021-1001,Comparative Oncology Program,COTC021,Osteosarcoma,Mastiff,COTC021-1001,COTC021,True
+case,COTC021-1003,Comparative Oncology Program,COTC021,Osteosarcoma,Rhodesian Ridgeback,COTC021-1003,COTC021,True
+case,COTC021-1005,Comparative Oncology Program,COTC021,Osteosarcoma,Bull Terrier,COTC021-1005,COTC021,True
+case,COTC021-1007,Comparative Oncology Program,COTC021,Osteosarcoma,Other,COTC021-1007,COTC021,True
+case,COTC021-1009,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-1009,COTC021,True
+case,COTC021-1013,Comparative Oncology Program,COTC021,Osteosarcoma,Other,COTC021-1013,COTC021,True
+case,COTC021-1015,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1015,COTC021,True
+case,COTC021-1020,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-1020,COTC021,False
+case,COTC021-1024,Comparative Oncology Program,COTC021,Osteosarcoma,Greyhound,COTC021-1024,COTC021,True
+case,COTC021-1101,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-1101,COTC021,True
+case,COTC021-1103,Comparative Oncology Program,COTC021,Osteosarcoma,Rottweiler,COTC021-1103,COTC021,True
+case,COTC021-1104,Comparative Oncology Program,COTC021,Osteosarcoma,Newfoundland,COTC021-1104,COTC021,True
+case,COTC021-1105,Comparative Oncology Program,COTC021,Osteosarcoma,Other,COTC021-1105,COTC021,False
+case,COTC021-1106,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-1106,COTC021,True
+case,COTC021-1111,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-1111,COTC021,False
+case,COTC021-1401,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1401,COTC021,True
+case,COTC021-1403,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1403,COTC021,False
+case,COTC021-1405,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-1405,COTC021,True
+case,COTC021-1407,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1407,COTC021,True
+case,COTC021-1409,Comparative Oncology Program,COTC021,Osteosarcoma,Rottweiler,COTC021-1409,COTC021,True
+case,COTC021-1411,Comparative Oncology Program,COTC021,Osteosarcoma,Rottweiler,COTC021-1411,COTC021,True
+case,COTC021-1413,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-1413,COTC021,False
+case,COTC021-1415,Comparative Oncology Program,COTC021,Osteosarcoma,Airedale Terrier,COTC021-1415,COTC021,True
+case,COTC021-1417,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1417,COTC021,True
+case,COTC021-1419,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1419,COTC021,True
+case,COTC021-1421,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1421,COTC021,False
+case,COTC021-1703,Comparative Oncology Program,COTC021,Osteosarcoma,Bernese Mountain Dog,COTC021-1703,COTC021,True
+case,COTC021-1713,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-1713,COTC021,True
+case,COTC021-1714,Comparative Oncology Program,COTC021,Osteosarcoma,Other,COTC021-1714,COTC021,False
+case,COTC021-1715,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-1715,COTC021,False
+case,COTC021-1801,Comparative Oncology Program,COTC021,Osteosarcoma,Boxer,COTC021-1801,COTC021,False
+case,COTC021-1805,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-1805,COTC021,True
+case,COTC021-1806,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-1806,COTC021,True
+case,COTC021-1901,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-1901,COTC021,False
+case,COTC021-1903,Comparative Oncology Program,COTC021,Osteosarcoma,German Shorthaired Pointer,COTC021-1903,COTC021,True
+case,COTC021-1904,Comparative Oncology Program,COTC021,Osteosarcoma,Bulldog,COTC021-1904,COTC021,True
+case,COTC021-1905,Comparative Oncology Program,COTC021,Osteosarcoma,Saint Bernard,COTC021-1905,COTC021,True
+case,COTC021-1906,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1906,COTC021,False
+case,COTC021-1907,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-1907,COTC021,True
+case,COTC021-1908,Comparative Oncology Program,COTC021,Osteosarcoma,Mastiff,COTC021-1908,COTC021,True
+case,COTC021-1909,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1909,COTC021,True
+case,COTC021-1910,Comparative Oncology Program,COTC021,Osteosarcoma,Siberian Husky,COTC021-1910,COTC021,False
+case,COTC021-1912,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-1912,COTC021,False
+case,COTC021-1913,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-1913,COTC021,False
+case,COTC021-1914,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-1914,COTC021,False
+case,COTC021-1915,Comparative Oncology Program,COTC021,Osteosarcoma,Greyhound,COTC021-1915,COTC021,False
+case,COTC021-1917,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-1917,COTC021,False
+case,COTC021-2001,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-2001,COTC021,False
+case,COTC021-2003,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-2003,COTC021,True
+case,COTC021-2007,Comparative Oncology Program,COTC021,Osteosarcoma,Old English Sheepdog,COTC021-2007,COTC021,True
+case,COTC021-2009,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-2009,COTC021,True
+case,COTC021-2013,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-2013,COTC021,False
+case,COTC021-2201,Comparative Oncology Program,COTC021,Osteosarcoma,Saint Bernard,COTC021-2201,COTC021,False
+case,COTC021-2205,Comparative Oncology Program,COTC021,Osteosarcoma,Greyhound,COTC021-2205,COTC021,True
+case,COTC021-2214,Comparative Oncology Program,COTC021,Osteosarcoma,Golden Retriever,COTC021-2214,COTC021,False
+case,COTC021-2215,Comparative Oncology Program,COTC021,Osteosarcoma,German Shepherd Dog,COTC021-2215,COTC021,True
+case,COTC021-2301,Comparative Oncology Program,COTC021,Osteosarcoma,Great Pyrenees,COTC021-2301,COTC021,False
+case,COTC021-2307,Comparative Oncology Program,COTC021,Osteosarcoma,Great Dane,COTC021-2307,COTC021,True
+case,COTC021-2312,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-2312,COTC021,True
+case,COTC021-2317,Comparative Oncology Program,COTC021,Osteosarcoma,Mixed Breed,COTC021-2317,COTC021,True
+case,COTC021-2321,Comparative Oncology Program,COTC021,Osteosarcoma,Labrador Retriever,COTC021-2321,COTC021,True
+case,COTC022-0102,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-0102,COTC022,True
+case,COTC022-0104,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0104,COTC022,False
+case,COTC022-0106,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-0106,COTC022,True
+case,COTC022-0202,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-0202,COTC022,True
+case,COTC022-0204,Comparative Oncology Program,COTC022,Osteosarcoma,American Staffordshire Terrier,COTC022-0204,COTC022,True
+case,COTC022-0206,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0206,COTC022,True
+case,COTC022-0208,Comparative Oncology Program,COTC022,Osteosarcoma,Anatolian Shepherd Dog,COTC022-0208,COTC022,False
+case,COTC022-0210,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0210,COTC022,True
+case,COTC022-0212,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0212,COTC022,True
+case,COTC022-0214,Comparative Oncology Program,COTC022,Osteosarcoma,Bullmastiff,COTC022-0214,COTC022,True
+case,COTC022-0216,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-0216,COTC022,True
+case,COTC022-0220,Comparative Oncology Program,COTC022,Osteosarcoma,German Shepherd Dog,COTC022-0220,COTC022,True
+case,COTC022-0222,Comparative Oncology Program,COTC022,Osteosarcoma,German Shepherd Dog,COTC022-0222,COTC022,True
+case,COTC022-0224,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0224,COTC022,True
+case,COTC022-0225,Comparative Oncology Program,COTC022,Osteosarcoma,Vizsla,COTC022-0225,COTC022,True
+case,COTC022-0227,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-0227,COTC022,False
+case,COTC022-0228,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-0228,COTC022,True
+case,COTC022-0302,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0302,COTC022,False
+case,COTC022-0304,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0304,COTC022,False
+case,COTC022-0306,Comparative Oncology Program,COTC022,Osteosarcoma,Australian Shepherd,COTC022-0306,COTC022,True
+case,COTC022-0308,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0308,COTC022,False
+case,COTC022-0310,Comparative Oncology Program,COTC022,Osteosarcoma,Shorthaired Pointer,COTC022-0310,COTC022,False
+case,COTC022-0312,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-0312,COTC022,False
+case,COTC022-0318,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0318,COTC022,True
+case,COTC022-0331,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0331,COTC022,False
+case,COTC022-0333,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-0333,COTC022,False
+case,COTC022-0402,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0402,COTC022,True
+case,COTC022-0404,Comparative Oncology Program,COTC022,Osteosarcoma,Newfoundland,COTC022-0404,COTC022,True
+case,COTC022-0406,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-0406,COTC022,True
+case,COTC022-0408,Comparative Oncology Program,COTC022,Osteosarcoma,Golden Retriever,COTC022-0408,COTC022,False
+case,COTC022-0409,Comparative Oncology Program,COTC022,Osteosarcoma,Greater Swiss Mountain Dog,COTC022-0409,COTC022,False
+case,COTC022-0410,Comparative Oncology Program,COTC022,Osteosarcoma,Doberman Pinscher,COTC022-0410,COTC022,True
+case,COTC022-0411,Comparative Oncology Program,COTC022,Osteosarcoma,Siberian Husky,COTC022-0411,COTC022,True
+case,COTC022-0502,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0502,COTC022,True
+case,COTC022-0504,Comparative Oncology Program,COTC022,Osteosarcoma,Newfoundland,COTC022-0504,COTC022,True
+case,COTC022-0506,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-0506,COTC022,True
+case,COTC022-0508,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-0508,COTC022,False
+case,COTC022-0510,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0510,COTC022,True
+case,COTC022-0512,Comparative Oncology Program,COTC022,Osteosarcoma,Golden Retriever,COTC022-0512,COTC022,True
+case,COTC022-0514,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0514,COTC022,True
+case,COTC022-0516,Comparative Oncology Program,COTC022,Osteosarcoma,Golden Retriever,COTC022-0516,COTC022,True
+case,COTC022-0518,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0518,COTC022,True
+case,COTC022-0521,Comparative Oncology Program,COTC022,Osteosarcoma,Flat-Coated Retriever,COTC022-0521,COTC022,False
+case,COTC022-0522,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0522,COTC022,True
+case,COTC022-0602,Comparative Oncology Program,COTC022,Osteosarcoma,Newfoundland,COTC022-0602,COTC022,True
+case,COTC022-0604,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-0604,COTC022,False
+case,COTC022-0606,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0606,COTC022,True
+case,COTC022-0608,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0608,COTC022,True
+case,COTC022-0610,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0610,COTC022,False
+case,COTC022-0611,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0611,COTC022,False
+case,COTC022-0613,Comparative Oncology Program,COTC022,Osteosarcoma,Newfoundland,COTC022-0613,COTC022,True
+case,COTC022-0614,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0614,COTC022,True
+case,COTC022-0615,Comparative Oncology Program,COTC022,Osteosarcoma,Siberian Husky,COTC022-0615,COTC022,True
+case,COTC022-0616,Comparative Oncology Program,COTC022,Osteosarcoma,Saint Bernard,COTC022-0616,COTC022,True
+case,COTC022-0618,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0618,COTC022,True
+case,COTC022-0619,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0619,COTC022,True
+case,COTC022-0620,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-0620,COTC022,True
+case,COTC022-0623,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0623,COTC022,False
+case,COTC022-0624,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-0624,COTC022,False
+case,COTC022-0627,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0627,COTC022,False
+case,COTC022-0628,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0628,COTC022,False
+case,COTC022-0632,Comparative Oncology Program,COTC022,Osteosarcoma,German Shepherd Dog,COTC022-0632,COTC022,False
+case,COTC022-0633,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0633,COTC022,False
+case,COTC022-0634,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0634,COTC022,False
+case,COTC022-0639,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-0639,COTC022,True
+case,COTC022-0642,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-0642,COTC022,True
+case,COTC022-0702,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0702,COTC022,True
+case,COTC022-0704,Comparative Oncology Program,COTC022,Osteosarcoma,Bulldog,COTC022-0704,COTC022,True
+case,COTC022-0706,Comparative Oncology Program,COTC022,Osteosarcoma,Catahoula Hound,COTC022-0706,COTC022,True
+case,COTC022-0708,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0708,COTC022,False
+case,COTC022-0710,Comparative Oncology Program,COTC022,Osteosarcoma,Labradoodle,COTC022-0710,COTC022,True
+case,COTC022-0712,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0712,COTC022,True
+case,COTC022-0716,Comparative Oncology Program,COTC022,Osteosarcoma,Goldendoodle,COTC022-0716,COTC022,True
+case,COTC022-0718,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0718,COTC022,False
+case,COTC022-0719,Comparative Oncology Program,COTC022,Osteosarcoma,Rhodesian Ridgeback,COTC022-0719,COTC022,True
+case,COTC022-0720,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0720,COTC022,True
+case,COTC022-0721,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0721,COTC022,True
+case,COTC022-0727,Comparative Oncology Program,COTC022,Osteosarcoma,Chesapeake Bay Retriever,COTC022-0727,COTC022,False
+case,COTC022-0729,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0729,COTC022,True
+case,COTC022-0733,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0733,COTC022,True
+case,COTC022-0735,Comparative Oncology Program,COTC022,Osteosarcoma,Irish Setter,COTC022-0735,COTC022,False
+case,COTC022-0802,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-0802,COTC022,False
+case,COTC022-0804,Comparative Oncology Program,COTC022,Osteosarcoma,Australian Shepherd,COTC022-0804,COTC022,False
+case,COTC022-0806,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-0806,COTC022,False
+case,COTC022-0808,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0808,COTC022,False
+case,COTC022-0812,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-0812,COTC022,False
+case,COTC022-0821,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0821,COTC022,False
+case,COTC022-0823,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-0823,COTC022,False
+case,COTC022-0904,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-0904,COTC022,True
+case,COTC022-0905,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-0905,COTC022,True
+case,COTC022-0907,Comparative Oncology Program,COTC022,Osteosarcoma,Mastiff,COTC022-0907,COTC022,True
+case,COTC022-0909,Comparative Oncology Program,COTC022,Osteosarcoma,Cane Corso,COTC022-0909,COTC022,False
+case,COTC022-0910,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-0910,COTC022,False
+case,COTC022-1002,Comparative Oncology Program,COTC022,Osteosarcoma,Mastiff,COTC022-1002,COTC022,True
+case,COTC022-1004,Comparative Oncology Program,COTC022,Osteosarcoma,Pit Bull Terrier,COTC022-1004,COTC022,True
+case,COTC022-1006,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-1006,COTC022,False
+case,COTC022-1008,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-1008,COTC022,False
+case,COTC022-1010,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-1010,COTC022,True
+case,COTC022-1011,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1011,COTC022,True
+case,COTC022-1012,Comparative Oncology Program,COTC022,Osteosarcoma,Other,COTC022-1012,COTC022,True
+case,COTC022-1014,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-1014,COTC022,True
+case,COTC022-1016,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1016,COTC022,True
+case,COTC022-1022,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-1022,COTC022,True
+case,COTC022-1023,Comparative Oncology Program,COTC022,Osteosarcoma,Golden Retriever,COTC022-1023,COTC022,True
+case,COTC022-1025,Comparative Oncology Program,COTC022,Osteosarcoma,Staffordshire Bull Terrier,COTC022-1025,COTC022,True
+case,COTC022-1102,Comparative Oncology Program,COTC022,Osteosarcoma,German Shepherd Dog,COTC022-1102,COTC022,False
+case,COTC022-1107,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-1107,COTC022,True
+case,COTC022-1110,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1110,COTC022,False
+case,COTC022-1402,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1402,COTC022,False
+case,COTC022-1404,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1404,COTC022,False
+case,COTC022-1406,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-1406,COTC022,False
+case,COTC022-1410,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-1410,COTC022,True
+case,COTC022-1412,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1412,COTC022,True
+case,COTC022-1414,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-1414,COTC022,True
+case,COTC022-1422,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1422,COTC022,False
+case,COTC022-1704,Comparative Oncology Program,COTC022,Osteosarcoma,Golden Retriever,COTC022-1704,COTC022,True
+case,COTC022-1705,Comparative Oncology Program,COTC022,Osteosarcoma,Saint Bernard,COTC022-1705,COTC022,False
+case,COTC022-1707,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-1707,COTC022,True
+case,COTC022-1708,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-1708,COTC022,True
+case,COTC022-1709,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-1709,COTC022,True
+case,COTC022-1710,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-1710,COTC022,True
+case,COTC022-1712,Comparative Oncology Program,COTC022,Osteosarcoma,Golden Retriever,COTC022-1712,COTC022,True
+case,COTC022-1802,Comparative Oncology Program,COTC022,Osteosarcoma,Doberman Pinscher,COTC022-1802,COTC022,False
+case,COTC022-1803,Comparative Oncology Program,COTC022,Osteosarcoma,Weimaraner,COTC022-1803,COTC022,True
+case,COTC022-1804,Comparative Oncology Program,COTC022,Osteosarcoma,Great Pyrenees,COTC022-1804,COTC022,False
+case,COTC022-1808,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-1808,COTC022,False
+case,COTC022-1902,Comparative Oncology Program,COTC022,Osteosarcoma,Golden Retriever,COTC022-1902,COTC022,True
+case,COTC022-1911,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-1911,COTC022,False
+case,COTC022-1916,Comparative Oncology Program,COTC022,Osteosarcoma,Other,COTC022-1916,COTC022,True
+case,COTC022-2002,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-2002,COTC022,False
+case,COTC022-2004,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-2004,COTC022,True
+case,COTC022-2005,Comparative Oncology Program,COTC022,Osteosarcoma,Saint Bernard,COTC022-2005,COTC022,False
+case,COTC022-2006,Comparative Oncology Program,COTC022,Osteosarcoma,Old English Bulldog,COTC022-2006,COTC022,True
+case,COTC022-2008,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-2008,COTC022,False
+case,COTC022-2010,Comparative Oncology Program,COTC022,Osteosarcoma,Chow Chow,COTC022-2010,COTC022,True
+case,COTC022-2011,Comparative Oncology Program,COTC022,Osteosarcoma,Boxer,COTC022-2011,COTC022,True
+case,COTC022-2012,Comparative Oncology Program,COTC022,Osteosarcoma,Other,COTC022-2012,COTC022,True
+case,COTC022-2202,Comparative Oncology Program,COTC022,Osteosarcoma,Labrador Retriever,COTC022-2202,COTC022,True
+case,COTC022-2204,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-2204,COTC022,False
+case,COTC022-2206,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-2206,COTC022,False
+case,COTC022-2207,Comparative Oncology Program,COTC022,Osteosarcoma,Greyhound,COTC022-2207,COTC022,False
+case,COTC022-2208,Comparative Oncology Program,COTC022,Osteosarcoma,German Shorthaired Pointer,COTC022-2208,COTC022,True
+case,COTC022-2210,Comparative Oncology Program,COTC022,Osteosarcoma,Borzoi,COTC022-2210,COTC022,False
+case,COTC022-2213,Comparative Oncology Program,COTC022,Osteosarcoma,Bulldog,COTC022-2213,COTC022,False
+case,COTC022-2302,Comparative Oncology Program,COTC022,Osteosarcoma,Rottweiler,COTC022-2302,COTC022,False
+case,COTC022-2303,Comparative Oncology Program,COTC022,Osteosarcoma,Saint Bernard,COTC022-2303,COTC022,True
+case,COTC022-2304,Comparative Oncology Program,COTC022,Osteosarcoma,Irish Setter,COTC022-2304,COTC022,True
+case,COTC022-2306,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-2306,COTC022,True
+case,COTC022-2308,Comparative Oncology Program,COTC022,Osteosarcoma,Great Dane,COTC022-2308,COTC022,True
+case,COTC022-2310,Comparative Oncology Program,COTC022,Osteosarcoma,Flat-Coated Retriever,COTC022-2310,COTC022,False
+case,COTC022-2314,Comparative Oncology Program,COTC022,Osteosarcoma,Newfoundland,COTC022-2314,COTC022,False
+case,COTC022-2315,Comparative Oncology Program,COTC022,Osteosarcoma,Doberman Pinscher,COTC022-2315,COTC022,False
+case,COTC022-2316,Comparative Oncology Program,COTC022,Osteosarcoma,Doberman Pinscher,COTC022-2316,COTC022,True
+case,COTC022-2318,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-2318,COTC022,True
+case,COTC022-2319,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-2319,COTC022,False
+case,COTC022-2320,Comparative Oncology Program,COTC022,Osteosarcoma,Mastiff,COTC022-2320,COTC022,False
+case,COTC022-2322,Comparative Oncology Program,COTC022,Osteosarcoma,Mixed Breed,COTC022-2322,COTC022,True

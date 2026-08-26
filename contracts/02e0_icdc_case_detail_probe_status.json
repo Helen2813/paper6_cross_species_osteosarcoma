@@ -1,0 +1,54 @@
+{
+  "script_version": "02e0-probe-icdc-case-detail-v1-no-cli",
+  "created_utc": "2026-08-26T02:25:54.359471+00:00",
+  "endpoint": "https://caninecommons.cancer.gov/v1/graphql/",
+  "test_case_id": "COTC021-0101",
+  "status": "BLOCKED_CASE_QUERY_NOT_PUBLIC_OR_SCHEMA_MISMATCH",
+  "status_reason": "The minimal public case(case_id) probe failed. The 309-case batch must not be retried until the API route/schema is corrected.",
+  "probe_results": [
+    {
+      "probe": "minimal_case",
+      "status": "NO_CASE_OBJECT",
+      "http_status": 200,
+      "error": "",
+      "returned_case_keys": ""
+    },
+    {
+      "probe": "study",
+      "status": "NO_CASE_OBJECT",
+      "http_status": 200,
+      "error": "",
+      "returned_case_keys": ""
+    },
+    {
+      "probe": "demographic",
+      "status": "NO_CASE_OBJECT",
+      "http_status": 200,
+      "error": "",
+      "returned_case_keys": ""
+    },
+    {
+      "probe": "cohort_arm",
+      "status": "NO_CASE_OBJECT",
+      "http_status": 200,
+      "error": "",
+      "returned_case_keys": ""
+    },
+    {
+      "probe": "enrollment",
+      "status": "NO_CASE_OBJECT",
+      "http_status": 200,
+      "error": "",
+      "returned_case_keys": ""
+    },
+    {
+      "probe": "baseline_diagnosis",
+      "status": "NO_CASE_OBJECT",
+      "http_status": 200,
+      "error": "",
+      "returned_case_keys": ""
+    }
+  ],
+  "outcome_fields_requested": false,
+  "omics_downloaded": false
+}

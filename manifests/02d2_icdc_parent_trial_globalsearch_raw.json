@@ -1,0 +1,2490 @@
+{
+  "COTC021": {
+    "data": {
+      "globalSearch": {
+        "cases": [
+          {
+            "type": "case",
+            "case_id": "COTC021-0101",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0103",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bernese Mountain Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0105",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0201",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0203",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0205",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0207",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0209",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0211",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0213",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Belgian Malinois"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0215",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0217",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0219",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0226",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0301",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0303",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0305",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0307",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0309",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0311",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Catahoula Hound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0313",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Irish Wolfhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0314",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0315",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0317",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Doberman Pinscher"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0319",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0321",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0323",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0325",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0327",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0329",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Alaskan Malamute"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0335",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0405",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0407",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bulldog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0501",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0503",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0505",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0507",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Leonberger"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0509",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0511",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0513",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0515",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Irish Wolfhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0517",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0519",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shorthaired Pointer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0520",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0523",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0524",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0525",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Border Collie"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0601",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0603",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0605",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Irish Setter"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0607",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0609",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0621",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0625",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Doberman Pinscher"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0629",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0630",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0631",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0637",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0638",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0640",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Boxer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0641",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0643",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Siberian Husky"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0701",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Irish Setter"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0703",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Boxer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0705",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Afghan Hound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0707",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0709",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0711",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Australian Shepherd"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0713",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0715",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0717",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Siberian Husky"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0722",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0723",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "American Staffordshire Terrier"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0725",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Siberian Husky"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0730",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0731",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0732",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0801",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bernese Mountain Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0803",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0805",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Boxer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0807",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0809",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0811",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0813",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0814",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0815",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0817",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0819",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0825",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0903",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-0908",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Alaskan Malamute"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1001",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mastiff"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1003",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rhodesian Ridgeback"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1005",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bull Terrier"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1007",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1009",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1013",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1015",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1020",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1024",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1101",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1103",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1104",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Newfoundland"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1105",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1106",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1111",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1401",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1403",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1405",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1407",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1409",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1411",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1413",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1415",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Airedale Terrier"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1417",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1419",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1421",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1703",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bernese Mountain Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1713",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1714",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1715",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1801",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Boxer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1805",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1806",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1901",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1903",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shorthaired Pointer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1904",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bulldog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1905",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1906",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1907",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1908",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mastiff"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1909",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1910",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Siberian Husky"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1912",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1913",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1914",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1915",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-1917",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2001",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2003",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2007",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Old English Sheepdog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2009",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2013",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2201",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2205",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2214",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2215",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2301",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2307",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2312",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2317",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC021-2321",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC021",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          }
+        ]
+      }
+    }
+  },
+  "COTC022": {
+    "data": {
+      "globalSearch": {
+        "cases": [
+          {
+            "type": "case",
+            "case_id": "COTC022-0102",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0104",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0106",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0202",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0204",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "American Staffordshire Terrier"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0206",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0208",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Anatolian Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0210",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0212",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0214",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bullmastiff"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0216",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0220",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0222",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0224",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0225",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Vizsla"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0227",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0228",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0302",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0304",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0306",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Australian Shepherd"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0308",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0310",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Shorthaired Pointer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0312",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0318",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0331",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0333",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0402",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0404",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Newfoundland"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0406",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0408",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0409",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greater Swiss Mountain Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0410",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Doberman Pinscher"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0411",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Siberian Husky"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0502",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0504",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Newfoundland"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0506",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0508",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0510",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0512",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0514",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0516",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0518",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0521",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Flat-Coated Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0522",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0602",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Newfoundland"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0604",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0606",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0608",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0610",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0611",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0613",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Newfoundland"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0614",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0615",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Siberian Husky"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0616",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0618",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0619",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0620",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0623",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0624",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0627",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0628",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0632",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0633",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0634",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0639",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0642",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0702",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0704",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bulldog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0706",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Catahoula Hound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0708",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0710",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labradoodle"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0712",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0716",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Goldendoodle"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0718",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0719",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rhodesian Ridgeback"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0720",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0721",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0727",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Chesapeake Bay Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0729",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0733",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0735",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Irish Setter"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0802",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0804",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Australian Shepherd"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0806",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0808",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0812",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0821",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0823",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0904",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0905",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0907",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mastiff"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0909",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Cane Corso"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-0910",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1002",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mastiff"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1004",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Pit Bull Terrier"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1006",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1008",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1010",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1011",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1012",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1014",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1016",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1022",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1023",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1025",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Staffordshire Bull Terrier"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1102",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shepherd Dog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1107",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1110",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1402",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1404",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1406",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1410",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1412",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1414",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1422",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1704",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1705",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1707",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1708",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1709",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1710",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1712",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1802",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Doberman Pinscher"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1803",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Weimaraner"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1804",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Pyrenees"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1808",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1902",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Golden Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1911",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-1916",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2002",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2004",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2005",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2006",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Old English Bulldog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2008",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2010",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Chow Chow"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2011",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Boxer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2012",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Other"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2202",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Labrador Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2204",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2206",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2207",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Greyhound"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2208",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "German Shorthaired Pointer"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2210",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Borzoi"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2213",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Bulldog"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2302",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Rottweiler"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2303",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Saint Bernard"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2304",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Irish Setter"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2306",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2308",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Great Dane"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2310",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Flat-Coated Retriever"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2314",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Newfoundland"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2315",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Doberman Pinscher"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2316",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Doberman Pinscher"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2318",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2319",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2320",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mastiff"
+          },
+          {
+            "type": "case",
+            "case_id": "COTC022-2322",
+            "program_name": "Comparative Oncology Program",
+            "clinical_study_designation": "COTC022",
+            "disease_term": "Osteosarcoma",
+            "breed": "Mixed Breed"
+          }
+        ]
+      }
+    }
+  }
+}

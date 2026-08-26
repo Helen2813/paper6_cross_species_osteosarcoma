@@ -1,0 +1,7 @@
+probe,status,http_status,error,returned_case_keys
+minimal_case,NO_CASE_OBJECT,200,,
+study,NO_CASE_OBJECT,200,,
+demographic,NO_CASE_OBJECT,200,,
+cohort_arm,NO_CASE_OBJECT,200,,
+enrollment,NO_CASE_OBJECT,200,,
+baseline_diagnosis,NO_CASE_OBJECT,200,,

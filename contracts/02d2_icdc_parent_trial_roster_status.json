@@ -1,0 +1,43 @@
+{
+  "script_version": "02d2-fetch-icdc-parent-roster-globalsearch-v1-no-cli",
+  "created_utc": "2026-08-26T01:40:05.744974+00:00",
+  "graphql_endpoint": "https://caninecommons.cancer.gov/v1/graphql/",
+  "status": "PASS_PARENT309_ROSTER_LOCK_READY",
+  "status_reason": "ICDC globalSearch returned exactly 152 COTC021 and 157 COTC022 cases; all 309 case IDs map uniquely to COTC subjects, all 186 frozen RNA-profiled DOG2 subjects are contained in the parent roster, and exactly 123 parent cases are not in RNA186.",
+  "expected_counts": {
+    "COTC021": 152,
+    "COTC022": 157
+  },
+  "observed_counts": {
+    "COTC021": 152,
+    "COTC022": 157
+  },
+  "expected_total": 309,
+  "observed_total_rows": 309,
+  "unique_case_ids": 309,
+  "unique_cotc_subject_ids": 309,
+  "selected_rna186_overlap": 186,
+  "selected_rna186_missing": 0,
+  "parent_not_selected": 123,
+  "checks": {
+    "study_counts_match_152_157": true,
+    "combined_rows_309": true,
+    "unique_case_ids_309": true,
+    "parseable_unique_cotc_309": true,
+    "duplicate_case_rows_zero": true,
+    "duplicate_cotc_rows_zero": true,
+    "all_rna186_found_in_parent": true,
+    "rna186_missing_zero": true,
+    "parent_not_selected_123": true
+  },
+  "scientific_data_copied": false,
+  "omics_downloaded": false,
+  "model_fitting": false,
+  "outcome_association_testing": false,
+  "parent_roster_sha256": "f239e754446f4eb73de6b6c5c178c40c55ad14dc78dc7fbe56d1cb5d73a3c9db",
+  "outputs": {
+    "parent_roster": "02d2_icdc_parent_trial_roster.csv",
+    "overlap_audit": "02d2_icdc_parent_vs_rna186_overlap.csv",
+    "raw_graphql": "02d2_icdc_parent_trial_globalsearch_raw.json"
+  }
+}

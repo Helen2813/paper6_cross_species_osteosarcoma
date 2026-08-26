@@ -1,0 +1,27 @@
+{
+  "script_version": "02d-fetch-icdc-parent-trial-cases-v1-no-cli",
+  "created_utc": "2026-08-26T01:35:03.833421+00:00",
+  "graphql_endpoint": "https://caninecommons.cancer.gov/v1/graphql/",
+  "status": "BLOCKED_NO_EXACT_309_CASE_QUERY",
+  "status_reason": "No introspected direct study-linked case/clinical GraphQL field returned exactly 152 COTC021 and 157 COTC022 records.",
+  "expected_parent_counts": {
+    "COTC021": 152,
+    "COTC022": 157
+  },
+  "expected_parent_total": 309,
+  "selected_subject_n": 186,
+  "query_candidate_count": 6,
+  "exact_309_query_count": 0,
+  "selected_query_field": null,
+  "selected_identifier_field": null,
+  "selected_cotc_field": null,
+  "downloaded_omics": false,
+  "model_fitting": false,
+  "outcome_association_testing": false,
+  "outputs": {
+    "query_attempts": "02d_icdc_case_query_attempts.csv",
+    "parent_cases_flat": "02d_icdc_parent_trial_cases_flat.csv",
+    "parent_cases_raw": "02d_icdc_parent_trial_cases_raw.json",
+    "identifier_field_audit": "02d_icdc_parent_trial_identifier_field_audit.csv"
+  }
+}

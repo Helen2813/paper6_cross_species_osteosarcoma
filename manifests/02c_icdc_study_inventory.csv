@@ -1,0 +1,19 @@
+program_id,clinical_study_designation,clinical_study_name,clinical_study_type,numberOfCases
+COP,COTC007B,Preclinical Comparison of Three Indenoisoquinoline Candidates in Tumor-Bearing Dogs,Clinical Trial,84
+COP,COTC021,Evaluation of Orally Administered mTOR inhibitor Rapamycin in Dogs in the Adjuvant Setting with Osteosarcoma,Clinical Trial,152
+COP,COTC022,A Contemporaneous Controlled Study of the Standard of Care (SOC) in Dogs with Appendicular Osteosarcoma,Clinical Trial,157
+CMCP,GLIOMA01,Comparative Molecular Life History of Spontaneous Canine and Human Gliomas,Genomics,81
+CMCP,MGT01,Molecular Homology and Differences Between Spontaneous Canine Mammary Cancer and Human Breast Cancer,Genomics,13
+COP,NCATS-COP01,Models for Diagnosis and Treatment of Human Cancers Using Comparative Canine-Human Transcriptomics,Transcriptomics,60
+CMCP,ORGANOIDS01,"Characterization of Healthy, Diseased, and Cancer Canine Organoids for Applications in Personalized Medicine and Translational Research",Genomics,5
+CMCP,OSA01,A Multi-Platform Sequencing Analysis of Canine Appendicular Osteosarcoma.,Genomics,60
+CSU FACC,OSA02,"Association of canine osteosarcoma outcomes with clinical, genomic mutation, and transcriptomic expression profiles",Transcriptomics/Genomics,117
+CMCP,OSA03,Comparative analysis using whole genome bisulfite sequencing of human and canine osteosarcoma,Genomics,44
+CMCP,OSA04,A Transcriptomic Evaluation of Canine Osteosarcoma,Transcriptomics,7
+PRECINCT,PRECINCT01,Inhaled IL-15 Immunotherapy for Treatment of Lung Metastases (from primary osteosarcoma or melanoma),Clinical Trial,21
+CSU FACC,STS01,Genomic/Transcriptomic Analysis of Canine Soft Tissue Sarcomas,Genomics/Transcriptomics,29
+CSU FACC,TCL01,Whole exome sequencing analysis of canine cancer cell lines,Genomics,45
+PCCR,UBC01,Antitumor Activity and Molecular Effects of Vemurafenib in Dogs with BRAF-mutant Bladder Cancer,Clinical Trial,38
+PCCR,UBC02,Basal and Luminal Molecular Subtypes in Naturally-Occurring Canine Urothelial Carcinoma Are Associated With Tumor Immune Signatures and Dog Breed,Genomics,60
+PCCR,UBC03,Transcriptomic analyses of early stage bladder cancer in Scottish Terriers detected through screening,Transcriptomics,20
+CMCP,UC01,Whole exome sequencing analysis of canine urothelial carcinomas without BRAF V595E mutation,Genomics,36

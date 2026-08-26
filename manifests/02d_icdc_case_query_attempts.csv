@@ -1,0 +1,7 @@
+query_field,return_named_type,scalar_field_count,cotc021_records,cotc022_records,combined_records,exact_expected_counts,status
+clinicalDataNodeCaseCounts,ClinicalDataNodeCounts,14,1,1,2,False,SUCCESS
+clinicalDataNodeCounts,ClinicalDataNodeCounts,14,1,1,2,False,SUCCESS
+priorSurgeryNodeDataOverview,PriorSurgeryNodeDataOverview,1,1,1,2,False,SUCCESS
+caseCountOfStudy,Int,0,0,0,0,False,NO_SCALAR_FIELDS
+caseOverview2,CaseOverview2,26,0,0,0,False,SUCCESS
+offTreatmentNodeData,OffTreatmentNodeData,8,0,0,0,False,SUCCESS

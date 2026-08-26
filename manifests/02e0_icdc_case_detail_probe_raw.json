@@ -1,0 +1,108 @@
+{
+  "minimal_case": {
+    "http_status": 200,
+    "text": "{\"data\":{\"case\":[{\"case_id\":\"COTC021-0101\",\"patient_id\":\"0101\"}]}}",
+    "json": {
+      "data": {
+        "case": [
+          {
+            "case_id": "COTC021-0101",
+            "patient_id": "0101"
+          }
+        ]
+      }
+    }
+  },
+  "study": {
+    "http_status": 200,
+    "text": "{\"data\":{\"case\":[{\"case_id\":\"COTC021-0101\",\"study\":{\"clinical_study_name\":\"Evaluation of Orally Administered mTOR inhibitor Rapamycin in Dogs in the Adjuvant Setting with Osteosarcoma\",\"clinical_study_designation\":\"COTC021\",\"accession_id\":\"000017\"}}]}}",
+    "json": {
+      "data": {
+        "case": [
+          {
+            "case_id": "COTC021-0101",
+            "study": {
+              "clinical_study_name": "Evaluation of Orally Administered mTOR inhibitor Rapamycin in Dogs in the Adjuvant Setting with Osteosarcoma",
+              "clinical_study_designation": "COTC021",
+              "accession_id": "000017"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "demographic": {
+    "http_status": 200,
+    "text": "{\"data\":{\"case\":[{\"case_id\":\"COTC021-0101\",\"demographic\":{\"breed\":\"Labrador Retriever\",\"sex\":\"Female\",\"patient_age_at_enrollment\":8.4,\"neutered_indicator\":\"Yes\",\"weight\":42.3,\"additional_breed_detail\":\"\"}}]}}",
+    "json": {
+      "data": {
+        "case": [
+          {
+            "case_id": "COTC021-0101",
+            "demographic": {
+              "breed": "Labrador Retriever",
+              "sex": "Female",
+              "patient_age_at_enrollment": 8.4,
+              "neutered_indicator": "Yes",
+              "weight": 42.3,
+              "additional_breed_detail": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "cohort_arm": {
+    "http_status": 200,
+    "text": "{\"data\":{\"case\":[{\"case_id\":\"COTC021-0101\",\"cohort\":null}]}}",
+    "json": {
+      "data": {
+        "case": [
+          {
+            "case_id": "COTC021-0101",
+            "cohort": null
+          }
+        ]
+      }
+    }
+  },
+  "enrollment": {
+    "http_status": 200,
+    "text": "{\"data\":{\"case\":[{\"case_id\":\"COTC021-0101\",\"enrollment\":{\"site_short_name\":\"\",\"patient_subgroup\":\"\"}}]}}",
+    "json": {
+      "data": {
+        "case": [
+          {
+            "case_id": "COTC021-0101",
+            "enrollment": {
+              "site_short_name": "",
+              "patient_subgroup": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "baseline_diagnosis": {
+    "http_status": 200,
+    "text": "{\"data\":{\"case\":[{\"case_id\":\"COTC021-0101\",\"diagnoses\":[{\"disease_term\":\"Osteosarcoma\",\"stage_of_disease\":\"Not Determined\",\"primary_disease_site\":\"Bone (Appendicular)\",\"histological_grade\":\"\",\"histology_cytopathology\":\"\"}]}]}}",
+    "json": {
+      "data": {
+        "case": [
+          {
+            "case_id": "COTC021-0101",
+            "diagnoses": [
+              {
+                "disease_term": "Osteosarcoma",
+                "stage_of_disease": "Not Determined",
+                "primary_disease_site": "Bone (Appendicular)",
+                "histological_grade": "",
+                "histology_cytopathology": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

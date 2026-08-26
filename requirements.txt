@@ -1,0 +1,8 @@
+# Paper 6 — initial CPU / metadata environment
+# Python 3.10 recommended for consistency with the current workstation.
+
+numpy>=1.26,<3.0
+pandas>=2.2,<3.0
+scipy>=1.11,<2.0
+requests>=2.31,<3.0
+openpyxl>=3.1,<4.0

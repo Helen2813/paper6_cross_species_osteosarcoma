@@ -1,0 +1,29 @@
+{
+  "script_version": "02e-fetch-icdc-parent309-baseline-clinical-v1-no-cli",
+  "created_utc": "2026-08-26T02:16:40.110101+00:00",
+  "graphql_endpoint": "https://caninecommons.cancer.gov/v1/graphql/",
+  "status": "FAIL_CASE_FETCH_INCOMPLETE",
+  "status_reason": "309 of 309 ICDC case-detail requests failed after retries.",
+  "parent_roster_sha256": "f239e754446f4eb73de6b6c5c178c40c55ad14dc78dc7fbe56d1cb5d73a3c9db",
+  "expected_parent_n": 309,
+  "fetched_pass_n": 0,
+  "fetched_fail_n": 309,
+  "checks": {
+    "rows_309": false,
+    "unique_case_ids_309": false,
+    "study_designation_matches_roster_all_309": false,
+    "forbidden_outcome_columns_zero": true
+  },
+  "forbidden_outcome_columns_detected": [],
+  "outcome_fields_requested": false,
+  "omics_downloaded": false,
+  "model_fitting": false,
+  "outcome_association_testing": false,
+  "baseline_clinical_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+  "outputs": {
+    "baseline_clinical": "02e_icdc_parent309_baseline_clinical.csv",
+    "field_completeness": "02e_icdc_parent309_field_completeness.csv",
+    "case_fetch_audit": "02e_icdc_parent309_case_fetch_audit.csv",
+    "raw_case_details": "02e_icdc_parent309_baseline_raw.json"
+  }
+}
