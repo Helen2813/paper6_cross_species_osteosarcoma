@@ -1,0 +1,75 @@
+{
+  "05a_contract_sha256": "12227ee7bdbd6578c5e3b92d079bc0234d86988490535cbb06a6101808c090d2",
+  "05a_scenario_registry_sha256": "db9af41270eef7dd1f3820209d93cb6168007fb4d86e0a30fbb4e2522cd599af",
+  "05c_requirements": {
+    "may_change_scientific_generator_parameters": false,
+    "must_import_authoritative_05b_generator": true,
+    "must_replay_fixture_before_model_matrix": true,
+    "must_verify_generator_script_sha256": true,
+    "must_verify_recipe_manifest_sha256": true
+  },
+  "authoritative_generator_script": "scripts\\05b_materialize_known_truth_simulation_recipes.py",
+  "authoritative_generator_script_sha256": "22e5695eb7774d1478e05a0d771ac269831d8921eb5c7e2bcd372eee7927b516",
+  "created_utc": "2026-08-29T23:29:40.502289+00:00",
+  "data_generation": {
+    "evolutionary_prior_rule": {
+      "P0_CORRECT": "Beta(8,2) transportable; Beta(2,8) nontransportable",
+      "P1_UNINFORMATIVE": "Beta(5,5) all modules",
+      "P2_MISLEADING": "Beta(2,8) transportable; Beta(8,2) nontransportable"
+    },
+    "exact_event_count_calibration": "Independent exponential censoring latent variables are scaled between ordered event-time/censor-latent ratios so the requested observed event count is exact. No real-data times are used.",
+    "mapping_corruption_rule": "corrupt frozen fraction; approximately half dropped (-1), remaining corrupted module indices cyclically mis-mapped",
+    "module_distribution": "multivariate_normal",
+    "source_baseline_hazard": 0.01,
+    "source_covariance": {
+      "block_size": 10,
+      "blocks": 5,
+      "global_correlation": 0.03,
+      "within_block_correlation": 0.3
+    },
+    "source_effect_magnitude": [
+      0.2,
+      0.45
+    ],
+    "target_baseline_hazard": 0.01,
+    "target_covariance_shift": "convex blend of source correlation with a random low-rank correlation matrix at the frozen scenario shift strength",
+    "target_train_n_rule": "round(target_events / (1-target_censor_fraction)), at least target_events+1"
+  },
+  "fixture_manifest_sha256": "8b238c64b82c82431ccf821198d5002c732f8513e34e9e26c73df714b8f58747",
+  "generator_version": "paper6-known-truth-module-survival-generator-v1",
+  "replicate_truth_summary_sha256": "8683c561cbffefd2938e8217dcf5389e07b8c4f205e625267478487db2baba46",
+  "safety": {
+    "GPU_execution": false,
+    "model_fitting": false,
+    "network_access": false,
+    "real_DOG2_values_read": false,
+    "real_human_values_read": false
+  },
+  "scenario_recipe_manifest_sha256": "2f2a11ee1f158c20dbf311269062599af150715753f3769a173259cf8023cf74",
+  "scientific_status": "PASS_KNOWN_TRUTH_SIMULATION_RECIPES_AND_GENERATOR_FROZEN",
+  "script_version": "05b-materialize-known-truth-simulation-recipes-v1-no-cli",
+  "simulation_scale": {
+    "n_causal_modules": 10,
+    "n_modules": 50,
+    "n_scenarios": 180,
+    "source_events": 124,
+    "source_n": 186,
+    "target_event_grid": [
+      5,
+      10,
+      15,
+      20,
+      29,
+      40
+    ],
+    "target_test_n": 500,
+    "total_replicates": 21600
+  },
+  "status": "PASS",
+  "storage_policy": {
+    "full_data_fixtures": 6,
+    "full_matrices_for_all_replicates": false,
+    "reason": "Disk-efficient exact regeneration from frozen recipes/seeds; 05c must generate arrays in memory from this authoritative generator.",
+    "recipe_files": 180
+  }
+}

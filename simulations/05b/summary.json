@@ -1,0 +1,25 @@
+{
+  "GPU_execution": false,
+  "final_artifact_hashes": {
+    "fixture_manifest_tsv": "8b238c64b82c82431ccf821198d5002c732f8513e34e9e26c73df714b8f58747",
+    "generator_contract_json": "c4b0df435b8cf4c65d207bdac0980e550df98a916440909817ae0384e90232c6",
+    "replicate_truth_summary_tsv": "8683c561cbffefd2938e8217dcf5389e07b8c4f205e625267478487db2baba46",
+    "scenario_recipe_manifest_tsv": "2f2a11ee1f158c20dbf311269062599af150715753f3769a173259cf8023cf74"
+  },
+  "fixture_replay_pass": true,
+  "fixture_storage_bytes": 918299,
+  "full_data_fixtures": 6,
+  "generator_version": "paper6-known-truth-module-survival-generator-v1",
+  "model_fitting": false,
+  "n_scenarios": 180,
+  "next": "05c run the closed B0/B4/A0-A4 model matrix using on-the-fly regeneration from frozen 05b recipes.",
+  "real_data_values_read": false,
+  "recipe_files": 180,
+  "recipe_storage_bytes": 6520630,
+  "run_finished_utc": "2026-08-29T23:29:40.531052+00:00",
+  "run_started_utc": "2026-08-29T23:29:34.961255+00:00",
+  "scientific_status": "PASS_KNOWN_TRUTH_SIMULATION_RECIPES_AND_GENERATOR_FROZEN",
+  "script_version": "05b-materialize-known-truth-simulation-recipes-v1-no-cli",
+  "status": "PASS",
+  "total_replicates": 21600
+}
