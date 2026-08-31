@@ -1,4 +1,4 @@
-# Paper 6 — Cross-Species Transfer Learning for Osteosarcoma Survival
+# Paper 6 - Cross-Species Transfer Learning for Osteosarcoma Survival
 
 **Working manuscript title:**  
 **When Cross-Species Compatibility Does Not Guarantee Transfer Utility in Event-Limited Survival Modeling**
@@ -434,17 +434,8 @@ The public release is intended to include:
 
 ---
 
-## 12. AI-assisted development disclosure
 
-Generative AI tools were used during development for manuscript-drafting support and code-drafting/debugging discussion.
-
-All scientific thresholds, frozen analysis decisions, dataset access decisions, model-selection rules, numerical analyses, result interpretation, and final manuscript content remain author-controlled and are subject to the repository's versioned contracts and reproducibility checks.
-
-The public manuscript contains the formal journal-specific disclosure.
-
----
-
-## 13. Citation
+## 12. Citation
 
 The manuscript is currently under internal review. Citation metadata will be added after a stable public manuscript or preprint record is available.
 
