@@ -1,0 +1,19 @@
+estimand,model,metric,mc_bootstrap_draws,mc_seed,mc_mean,mc_sd,mc_p025,mc_median,mc_p975,resampling_unit,scenario_resampling
+frozen_original,A2,mean_delta_uno_c,4000,2070713194,0.01424552768,0.0003042497022,0.01365283604,0.01424466457,0.01483496904,retained replicate within each fixed frozen scenario,False
+frozen_original,A3,mean_delta_uno_c,4000,2070713194,-0.02548766441,0.0002363025826,-0.02595565454,-0.02548806395,-0.02502174462,retained replicate within each fixed frozen scenario,False
+frozen_original,A2,negative_transfer_rate_at_deltaC_le_-0.02,4000,2070713194,0.2154644028,0.002886747838,0.2098333333,0.2155,0.2210833333,retained replicate within each fixed frozen scenario,False
+frozen_original,A3,negative_transfer_rate_at_deltaC_le_-0.02,4000,2070713194,0.4863064583,0.002030989165,0.4823055556,0.4863611111,0.4902777778,retained replicate within each fixed frozen scenario,False
+frozen_original,A2,catastrophic_transfer_rate_at_deltaC_le_-0.05,4000,2070713194,0.07201427083,0.001803279206,0.06847222222,0.07202777778,0.07552777778,retained replicate within each fixed frozen scenario,False
+frozen_original,A3,catastrophic_transfer_rate_at_deltaC_le_-0.05,4000,2070713194,0.3268893264,0.001978044361,0.3230555556,0.3268611111,0.3308340278,retained replicate within each fixed frozen scenario,False
+core_only,A2,mean_delta_uno_c,4000,2070713194,0.01927281547,0.0005466040403,0.01819276186,0.01926601769,0.02037229458,retained replicate within each fixed frozen scenario,False
+core_only,A3,mean_delta_uno_c,4000,2070713194,0.003240637781,0.0003694556041,0.002517990974,0.003250801565,0.003945717853,retained replicate within each fixed frozen scenario,False
+core_only,A2,negative_transfer_rate_at_deltaC_le_-0.02,4000,2070713194,0.2095292361,0.004579708392,0.2004166667,0.2095833333,0.2186111111,retained replicate within each fixed frozen scenario,False
+core_only,A3,negative_transfer_rate_at_deltaC_le_-0.02,4000,2070713194,0.3247660417,0.003649703214,0.3176388889,0.3247222222,0.3319444444,retained replicate within each fixed frozen scenario,False
+core_only,A2,catastrophic_transfer_rate_at_deltaC_le_-0.05,4000,2070713194,0.08571142361,0.0031948991,0.07944444444,0.08569444444,0.09208333333,retained replicate within each fixed frozen scenario,False
+core_only,A3,catastrophic_transfer_rate_at_deltaC_le_-0.05,4000,2070713194,0.1530694792,0.002989800848,0.1472222222,0.1530555556,0.1588888889,retained replicate within each fixed frozen scenario,False
+regime_balanced,A2,mean_delta_uno_c,4000,2070713194,0.01556617731,0.0004582958883,0.01464544063,0.01556872651,0.0164534809,retained replicate within each fixed frozen scenario,False
+regime_balanced,A3,mean_delta_uno_c,4000,2070713194,-0.001136192233,0.0003119756935,-0.001767191456,-0.001134566921,-0.0005417989803,retained replicate within each fixed frozen scenario,False
+regime_balanced,A2,negative_transfer_rate_at_deltaC_le_-0.02,4000,2070713194,0.2192856036,0.003936807666,0.2116014957,0.2191987179,0.2270833333,retained replicate within each fixed frozen scenario,False
+regime_balanced,A3,negative_transfer_rate_at_deltaC_le_-0.02,4000,2070713194,0.3437496955,0.003243241596,0.3373076923,0.3437393162,0.3503418803,retained replicate within each fixed frozen scenario,False
+regime_balanced,A2,catastrophic_transfer_rate_at_deltaC_le_-0.05,4000,2070713194,0.08540414263,0.002799642828,0.07999973291,0.0853525641,0.09096180556,retained replicate within each fixed frozen scenario,False
+regime_balanced,A3,catastrophic_transfer_rate_at_deltaC_le_-0.05,4000,2070713194,0.1735239717,0.002291080019,0.1691338141,0.1734775641,0.1781199252,retained replicate within each fixed frozen scenario,False

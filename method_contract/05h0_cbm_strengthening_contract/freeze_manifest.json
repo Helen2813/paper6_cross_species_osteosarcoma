@@ -1,0 +1,17 @@
+{
+  "contract_sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d",
+  "freeze_name": "05h0_cbm_strengthening_contract",
+  "freeze_timestamp_utc": "2026-09-10T23:52:48.475565+00:00",
+  "frozen_files_sha256": {
+    "cbm_strengthening_contract.json": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d",
+    "cbm_strengthening_contract.md": "02ae4e67865cb2e4351de9f6691a013fcdcf7d06c78aa21a1b6044ba24024a8e",
+    "script_inventory_sha256.json": "a7dea51d3ebda730ddc599d0022baec67d684b26ef752145497c6ae4aff8d3f0"
+  },
+  "metrics_calculated": false,
+  "models_fitted": false,
+  "outcomes_accessed": false,
+  "project_root_at_freeze": "C:\\Users\\olegk\\Desktop\\paper6_cross_species_osteosarcoma",
+  "python_script_count_snapshotted": 90,
+  "scientific_results_accessed": false,
+  "script_version": "05h0-freeze-cbm-strengthening-contract-v1-no-cli"
+}

@@ -1,0 +1,134 @@
+{
+  "aggregation": "existing within-scenario metrics; equal weight per frozen scenario",
+  "all_crosschecks_passed": true,
+  "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+  "authoritative_scientific_source": "results\\simulation_phase_diagram\\05d\\scenario_model_metric_summary.tsv",
+  "authoritative_scientific_source_sha256": "303b61ac560fa4e4692c8b4939ef84feb71a8f5d7065f98656d07ef483426a16",
+  "direct_source_fields": [
+    "mean_uno_c",
+    "mean_delta_c_vs_B0",
+    "negative_transfer_rate",
+    "catastrophic_negative_transfer_rate"
+  ],
+  "eligible_for_primary_selection": [
+    "A2",
+    "A3"
+  ],
+  "frozen_primary_decision": "HOLD_NO_SAFE_SELECTABLE_ARCHITECTURE",
+  "human_outcomes_read": false,
+  "interpretation_rule": "Non-eligible models remain non-eligible. Descriptive 05h2b results cannot reopen the frozen primary architecture-selection decision.",
+  "model_fitting": false,
+  "model_summary": [
+    {
+      "aggregation": "existing within-scenario metrics; equal weight across all 180 frozen scenarios",
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.0,
+      "eligible_for_primary_selection": false,
+      "equal_scenario_mean_uno_c": 0.5555544100569354,
+      "frozen_role": "frozen target-only reference",
+      "mean_delta_uno_c_vs_B0_if_defined": 0.0,
+      "model": "B0",
+      "n_frozen_scenarios": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.0
+    },
+    {
+      "aggregation": "existing within-scenario metrics; equal weight across all 180 frozen scenarios",
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.09944444444444443,
+      "eligible_for_primary_selection": false,
+      "equal_scenario_mean_uno_c": 0.5449887052435014,
+      "frozen_role": "frozen non-selectable comparator",
+      "mean_delta_uno_c_vs_B0_if_defined": -0.010565704683982139,
+      "model": "B4",
+      "n_frozen_scenarios": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.3055277777777778
+    },
+    {
+      "aggregation": "existing within-scenario metrics; equal weight across all 180 frozen scenarios",
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.0,
+      "eligible_for_primary_selection": false,
+      "equal_scenario_mean_uno_c": 0.5553512035368217,
+      "frozen_role": "frozen non-selectable comparator",
+      "mean_delta_uno_c_vs_B0_if_defined": -0.00020320639945519957,
+      "model": "A0",
+      "n_frozen_scenarios": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.009000000000000001
+    },
+    {
+      "aggregation": "existing within-scenario metrics; equal weight across all 180 frozen scenarios",
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.16055555555555553,
+      "eligible_for_primary_selection": false,
+      "equal_scenario_mean_uno_c": 0.5721983228690095,
+      "frozen_role": "frozen non-selectable comparator",
+      "mean_delta_uno_c_vs_B0_if_defined": 0.01664391275615982,
+      "model": "A1",
+      "n_frozen_scenarios": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.28677777777777774
+    },
+    {
+      "aggregation": "existing within-scenario metrics; equal weight across all 180 frozen scenarios",
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.07197222222222222,
+      "eligible_for_primary_selection": true,
+      "equal_scenario_mean_uno_c": 0.5698086889104711,
+      "frozen_role": "frozen selectable architecture",
+      "mean_delta_uno_c_vs_B0_if_defined": 0.014254278730330786,
+      "model": "A2",
+      "n_frozen_scenarios": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.21541666666666665
+    },
+    {
+      "aggregation": "existing within-scenario metrics; equal weight across all 180 frozen scenarios",
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.3268888888888889,
+      "eligible_for_primary_selection": true,
+      "equal_scenario_mean_uno_c": 0.5300669310316443,
+      "frozen_role": "frozen selectable architecture",
+      "mean_delta_uno_c_vs_B0_if_defined": -0.025487478748374284,
+      "model": "A3",
+      "n_frozen_scenarios": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.4863333333333334
+    },
+    {
+      "aggregation": "existing within-scenario metrics; equal weight across all 180 frozen scenarios",
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.4078333333333333,
+      "eligible_for_primary_selection": false,
+      "equal_scenario_mean_uno_c": 0.51910727717893,
+      "frozen_role": "frozen non-selectable comparator",
+      "mean_delta_uno_c_vs_B0_if_defined": -0.03644713287798908,
+      "model": "A4",
+      "n_frozen_scenarios": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.5117222222222222
+    }
+  ],
+  "models": [
+    "B0",
+    "B4",
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+  ],
+  "n_scenarios": 180,
+  "primary_decision_changed": false,
+  "reference_model": "B0",
+  "regime_counts": {
+    "R0": 6,
+    "R1": 6,
+    "R2": 78,
+    "R3": 6,
+    "R4": 6,
+    "R5": 78
+  },
+  "script_version": "05h2b-export-all-model-safety-summary-v1-explicit-frozen-schema-no-cli",
+  "status": "PASS_FROZEN_ALL_MODEL_SAFETY_SUMMARY_EXPORTED",
+  "survival_metric_reestimation": false,
+  "thresholds": {
+    "catastrophic_transfer_delta_uno_c": -0.05,
+    "negative_transfer_delta_uno_c": -0.02
+  }
+}

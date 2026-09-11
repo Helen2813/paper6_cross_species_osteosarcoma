@@ -1,0 +1,68 @@
+{
+  "inputs": {
+    "05h3c_contract": {
+      "path": "method_contract\\05h3c_aggregation_input_contract\\aggregation_input_contract.json",
+      "sha256": "fb6c9369ebc4d70e6928cb860cc4e1678284edbd156d1387e945deb79a08731e"
+    },
+    "05h3c_design": {
+      "path": "method_contract\\05h3c_aggregation_input_contract\\resolved_frozen_scenario_design.tsv",
+      "sha256": "3cfcdea06c9534bdc78b92a5b607e437ef8743c5dbe67c362f18f6678fbc68ff"
+    },
+    "05h3c_manifest": {
+      "path": "method_contract\\05h3c_aggregation_input_contract\\freeze_manifest.json",
+      "sha256": "7ea3b9c6a9083eaa4eeb632370d559267cf9e71007bba4e19f170e884e7d6bd0"
+    },
+    "05h3c_npz_inventory": {
+      "path": "method_contract\\05h3c_aggregation_input_contract\\retained_npz_source_inventory.csv",
+      "sha256": "4389e67cd53cef57be7019903db2820794663875f76b1c13fdaf7d28312aea56"
+    }
+  },
+  "mc_bootstrap_draws": 4000,
+  "mc_seed": 2070713194,
+  "outputs": [
+    {
+      "bytes": 3354,
+      "file": "aggregation_sensitivity.json",
+      "sha256": "5178aeef118f3a98ed2e7e74ee39d3afb4e79f60a8e153238fc5aad497942688"
+    },
+    {
+      "bytes": 803,
+      "file": "chain_checks.csv",
+      "sha256": "a2470f3c281d2724faf095fed8a8d672fc4c8f5e2773752626494f0c4dbe6315"
+    },
+    {
+      "bytes": 2579,
+      "file": "README_for_supplement.txt",
+      "sha256": "929f2031f818c5d93ea7635b0e28a615247c1b4e8b546d63a00b956b0672f9c2"
+    },
+    {
+      "bytes": 17909,
+      "file": "Supplementary_Data_A2_A3_scenario_metrics.csv",
+      "sha256": "90c5ab91e4f4d600314d0ff547161c45b5cd6ba6e7bdb162eb240838fbfcf861"
+    },
+    {
+      "bytes": 331465,
+      "file": "Supplementary_Data_aggregation_sensitivity_mc_draws.npz",
+      "sha256": "6dcc3ccaa1bf1de4d63816baea0263f2560e1ee05f3ff2ccdcd63091de5fc1cf"
+    },
+    {
+      "bytes": 3685,
+      "file": "Supplementary_Data_aggregation_sensitivity_mc_summary.csv",
+      "sha256": "8556f7df9a385934fc4262a1a40d78e11f8e9a97472807d412ed074066fc53f8"
+    },
+    {
+      "bytes": 719,
+      "file": "Supplementary_Data_regime_components.csv",
+      "sha256": "c641ba56b4f977eaf1fb71ba2fd3e57e3448a05288c227d57f4d70f33ce93be4"
+    },
+    {
+      "bytes": 2070,
+      "file": "Supplementary_Table_aggregation_sensitivity.csv",
+      "sha256": "c84b845fcd0ca5bf9c3006982e069da9fe65780ab32213e76b2a414fb15e1033"
+    }
+  ],
+  "script_relative_path": "scripts\\05h3d_compute_frozen_aggregation_sensitivity.py",
+  "script_sha256": "9f18e3134f70c5b778da6a2e0e0a4802542d52fe53890d3196652051179f538a",
+  "script_version": "05h3d-compute-frozen-aggregation-sensitivity-v1-no-discovery-no-cli",
+  "status": "PASS_POSTHOLD_AGGREGATION_SENSITIVITY"
+}

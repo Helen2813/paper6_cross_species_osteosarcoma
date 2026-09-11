@@ -1,0 +1,455 @@
+{
+  "inventory_type": "Python script byte-hash snapshot at CBM strengthening freeze",
+  "scripts": [
+    {
+      "path": "scripts/00_lock_upstream_inputs.py",
+      "sha256": "7706c70c61569405dd059fab2b1c9f62906d4b9b4e7df08663d5671766c64599",
+      "size_bytes": 18598
+    },
+    {
+      "path": "scripts/01_inventory_human_osteosarcoma_cohorts.py",
+      "sha256": "23205e5175d597cade8f4a5dcc2182de3776aacb038d47b438a6515fbcfee71b",
+      "size_bytes": 22414
+    },
+    {
+      "path": "scripts/02_audit_dog2_transcriptomic_selection.py",
+      "sha256": "ca2c07b78042d736eab51321c59657d6423197186b01aa7df2e86f25f1d8f093",
+      "size_bytes": 34650
+    },
+    {
+      "path": "scripts/02a_resolve_dog2_authoritative_ids.py",
+      "sha256": "86ffd07afdab2a5816d707781fe8704bf417823e7b14a5963bdeff796dfe7dc8",
+      "size_bytes": 28855
+    },
+    {
+      "path": "scripts/02b_audit_dog2_parent_trial_selection.py",
+      "sha256": "38a8d01dd0e1083ae7ac2f7f90910896e922039a82176431903641725ec6000f",
+      "size_bytes": 42784
+    },
+    {
+      "path": "scripts/02c_probe_icdc_parent_trial_api.py",
+      "sha256": "f60fe1e6048b8447e4962e263c58db2423adbf0bc72f00d9ca2533ff9491759d",
+      "size_bytes": 12768
+    },
+    {
+      "path": "scripts/02d2_fetch_icdc_parent_roster_globalsearch.py",
+      "sha256": "da109e08a615e6b2cab141c4d07c7db3f8ed7271feebeff1884d16109c6b0aae",
+      "size_bytes": 15912
+    },
+    {
+      "path": "scripts/02d_fetch_icdc_parent_trial_cases.py",
+      "sha256": "0405c4f560c6e9e416ba999b5e7826b329d7167b4f868f070c833d1ade0bbb56",
+      "size_bytes": 26168
+    },
+    {
+      "path": "scripts/02e0_probe_icdc_case_detail.py",
+      "sha256": "14b8b7ca694182f66d48a9b3e79075f17db786d5ea90f5af0cbfe1fcc412d04b",
+      "size_bytes": 7483
+    },
+    {
+      "path": "scripts/02e1_probe_icdc_case_routes.py",
+      "sha256": "1d7a29473f19fda70286355dcbdfc9a839479c09c6e9e3478e2c79546f584c3e",
+      "size_bytes": 10502
+    },
+    {
+      "path": "scripts/02e2_inventory_icdc_case_schema.py",
+      "sha256": "09774882c336045bb5aa574f289459e477c22fa85ada1cd0b79c60653c3fd17a",
+      "size_bytes": 19912
+    },
+    {
+      "path": "scripts/02e3_freeze_icdc_baseline_field_contract.py",
+      "sha256": "0900b59d2513ea746fa798b066050b1e1eb0e8174ae923bc3d7a64f08cbb9bc3",
+      "size_bytes": 33453
+    },
+    {
+      "path": "scripts/02e4_probe_one_icdc_baseline_case.py",
+      "sha256": "d02762218c1316e19c934e7f6f073fa11b12cd53bed10003c07507a7ff6f7692",
+      "size_bytes": 18908
+    },
+    {
+      "path": "scripts/02e5_freeze_cotc_study_as_arm_contract.py",
+      "sha256": "d0b7e5604b194502cfa647cf89bb04e7669bf69e0d40df18ecb3982743149716",
+      "size_bytes": 13614
+    },
+    {
+      "path": "scripts/02e6_materialize_icdc_baseline_309.py",
+      "sha256": "fcfa3d5a1e63cf15fccb3006febe6297958878b0d25ebfd18fdcaaca5add837c",
+      "size_bytes": 39833
+    },
+    {
+      "path": "scripts/02e6_materialize_icdc_baseline_309_v2.py",
+      "sha256": "d63e2b16ae760703d9eaaa37d7c8160052cde1199ac39d50128b2421e074f36b",
+      "size_bytes": 47225
+    },
+    {
+      "path": "scripts/02e7_audit_dog2_186_selection.py",
+      "sha256": "797e495205340b283def5c57be72761788cf1bf264d166c42dab091841fb94a7",
+      "size_bytes": 37415
+    },
+    {
+      "path": "scripts/02e8_freeze_expression_gate_zero_contract.py",
+      "sha256": "27b9fb96c43867014cf6db9a62789dec9df53cc439a1cb67c27fe5512e0a4b09",
+      "size_bytes": 23382
+    },
+    {
+      "path": "scripts/02e9_run_expression_gate_zero.py",
+      "sha256": "0182196ee2c3ab1bb38ff88d93a9b00fce3633073003b26d132c7a6be424c7cb",
+      "size_bytes": 62031
+    },
+    {
+      "path": "scripts/02e9_run_expression_gate_zero_v2.py",
+      "sha256": "05fa96682662b8211a565cc30259cb24d6372ed7728e2dd9290ff6401b3fe0d1",
+      "size_bytes": 67764
+    },
+    {
+      "path": "scripts/02e_fetch_icdc_parent309_baseline_clinical.py",
+      "sha256": "39d871759caf040821698de0b35b0d61d5d6e9651053abc5c7b251fd0091960b",
+      "size_bytes": 23523
+    },
+    {
+      "path": "scripts/02f0_freeze_cross_species_transport_contract.py",
+      "sha256": "3a273811c0f922abdf26e2971f6cd46513cf14a3ae7e88e8cadb0b7e478944a1",
+      "size_bytes": 31790
+    },
+    {
+      "path": "scripts/02f0_preflight_audit_transport_universe.py",
+      "sha256": "53c0af100e42f5f96d031187acd6f33d11f948ca307bab9a301cc6becfe8ffec",
+      "size_bytes": 33338
+    },
+    {
+      "path": "scripts/02f0_preflight_audit_transport_universe_v2.py",
+      "sha256": "a6e49e6427bddb9f519dc017f81e8a998063c1ee5e164724a0a2936bf8ef8295",
+      "size_bytes": 36650
+    },
+    {
+      "path": "scripts/02f0_preflight_audit_transport_universe_v3.py",
+      "sha256": "d18c3f181a46005f4ceea6a488efd083529ff7f127fb4dc4ac3e43abf53884a4",
+      "size_bytes": 40313
+    },
+    {
+      "path": "scripts/02f0a_freeze_preoutcome_transport_amendment.py",
+      "sha256": "8e85f14342bf4eb79aa57feaed971ead806f15c21449f0f0f978feed5f915d24",
+      "size_bytes": 38354
+    },
+    {
+      "path": "scripts/02g0_probe_current_ensembl_biomart.py",
+      "sha256": "06b35e678a2b5769061d710916e74a5c98f88473fe63bf1707991494419dcdb4",
+      "size_bytes": 23870
+    },
+    {
+      "path": "scripts/02g_build_transcriptomewide_outcome_blind_ortholog_bridge.py",
+      "sha256": "7984822d3b9e41ac3ec749be8536897fe0b00d33ea1fb2dc4f302ffa0447bba7",
+      "size_bytes": 56249
+    },
+    {
+      "path": "scripts/02g_build_transcriptomewide_outcome_blind_ortholog_bridge_v2.py",
+      "sha256": "686ce55ba7af6f96dd0d52b7f83115a1adbf2a872e41a29cc762672868465d93",
+      "size_bytes": 60813
+    },
+    {
+      "path": "scripts/02g_build_transcriptomewide_outcome_blind_ortholog_bridge_v3.py",
+      "sha256": "3c608f3b7d65f82d5b170720f7c695ddeb6421fe2ec02172dfd7c944d0accc27",
+      "size_bytes": 62411
+    },
+    {
+      "path": "scripts/02h_audit_module_coverage.py",
+      "sha256": "d0d012f8ff2fd7e1cb30bf92898779ea23959c523c4002b28a1f4b04585192c8",
+      "size_bytes": 27293
+    },
+    {
+      "path": "scripts/02i_freeze_revised_model_benchmark_source_gate_contract.py",
+      "sha256": "0c3f624e2960a3d664640fa730c475ea6e0216b4fc04f28c2a925c9b2867c6bc",
+      "size_bytes": 31777
+    },
+    {
+      "path": "scripts/03a_freeze_dog2_source_prognostic_gate.py",
+      "sha256": "99d7f75cb8961ad1fda3d727c60d0a4bdee3e38d3a9a0ee57a3ad0f5bde2bdcb",
+      "size_bytes": 38004
+    },
+    {
+      "path": "scripts/03b_run_dog2_source_prognostic_gate.py",
+      "sha256": "dcf332fed4844c8b5076086be2cbbb411b90f30c342c6d0120fcb361def15115",
+      "size_bytes": 76606
+    },
+    {
+      "path": "scripts/03b_run_dog2_source_prognostic_gate_v2.py",
+      "sha256": "25fbcc633a9ea5b4450165b4667ddaf462ce17b323b8543464bf29d51d14e79d",
+      "size_bytes": 78535
+    },
+    {
+      "path": "scripts/03c_bounded_source_gate_diagnostics.py",
+      "sha256": "efbf0c60e5df7505775e51ce8a1a213950f134a35bd9176c970af2027ffcbee8",
+      "size_bytes": 48991
+    },
+    {
+      "path": "scripts/04a_freeze_sacrificial_human_premise_target.py",
+      "sha256": "ea413d6f1e40af1faea3c04e129bf3336cb508e7eb505cfaf5abd4cab077984a",
+      "size_bytes": 31634
+    },
+    {
+      "path": "scripts/04b_freeze_classical_premise_test_implementation.py",
+      "sha256": "95ea154e9e4e657e27712d23a64f0a20ad4cc0a16c8dbb05e8ad1163ca604c0a",
+      "size_bytes": 52110
+    },
+    {
+      "path": "scripts/04c0_freeze_conservative_ibs_feasibility_amendment.py",
+      "sha256": "c8099bfa57d171b86643d69a240da8c0b4ffd04b0e19c18df605f939738e715b",
+      "size_bytes": 13769
+    },
+    {
+      "path": "scripts/04c_run_classical_premise_test.py",
+      "sha256": "9534b5cd3a5f126ec73622c0a4e3570ea1d3b944026de1d538b63b46606bdd0f",
+      "size_bytes": 93164
+    },
+    {
+      "path": "scripts/04c_run_classical_premise_test_v2.py",
+      "sha256": "21a52322de6727ab7408dde8bba81a582aed9994877bc0308ef75217ef14d75f",
+      "size_bytes": 100788
+    },
+    {
+      "path": "scripts/04c_run_classical_premise_test_v3.py",
+      "sha256": "76deefaea942ab29cc19e93da550f55ef16c0deb25488568d0928e4b946d41d8",
+      "size_bytes": 101465
+    },
+    {
+      "path": "scripts/04d_audit_human_risk_orientation_and_reporting.py",
+      "sha256": "074d5624c80cd091a8fd65443dc74f1d763393cfd9dcbf2f64e742de6cfa14d5",
+      "size_bytes": 36276
+    },
+    {
+      "path": "scripts/04d_audit_human_risk_orientation_and_reporting_v3.py",
+      "sha256": "633228e4d3255d472e33b8c67cf055b54e708fff5a4a19e10e8f79011448d6ae",
+      "size_bytes": 43023
+    },
+    {
+      "path": "scripts/04e_audit_ridge_regularization_selection.py",
+      "sha256": "5b27a96085af23a5d012bfea04d4649ca350f1d09166f552dca768ded093336d",
+      "size_bytes": 15016
+    },
+    {
+      "path": "scripts/05a_freeze_negative_transfer_simulation_contract.py",
+      "sha256": "2cb1bd8a7993740d528d6b4b6e9615a1a694acaac539d855709b19fe91cd0879",
+      "size_bytes": 25523
+    },
+    {
+      "path": "scripts/05b_materialize_known_truth_simulation_recipes.py",
+      "sha256": "22e5695eb7774d1478e05a0d771ac269831d8921eb5c7e2bcd372eee7927b516",
+      "size_bytes": 42215
+    },
+    {
+      "path": "scripts/05c0_audit_synthetic_model_matrix_execution.py",
+      "sha256": "8bea3d77072715ed36890ab40245b4d2ffaa9f5ffe28bd16ef4ba5086eb37bbb",
+      "size_bytes": 19693
+    },
+    {
+      "path": "scripts/05c1_freeze_exploratory_A5_realignment_branch_contract.py",
+      "sha256": "731c1a724ab55245185d466640dde01b9bba7015df1e1d37e9ab2e5f0c5038f2",
+      "size_bytes": 21159
+    },
+    {
+      "path": "scripts/05c1a_freeze_A5_operational_branch_definitions.py",
+      "sha256": "ea98212d3bd515e9db8623ed8d4347b2015dc0ae8bf5e8dd0a6183e7a5b40e9e",
+      "size_bytes": 26080
+    },
+    {
+      "path": "scripts/05c_run_closed_synthetic_transfer_model_matrix.py",
+      "sha256": "0028c7965ff953b043927c14901512ead820493db5582a7b3dedbc11e42c4618",
+      "size_bytes": 68367
+    },
+    {
+      "path": "scripts/05d0_diagnose_frozen_ai_failure_modes.py",
+      "sha256": "70727cd2edde9c646ff33b690a82a3fbf09912e1b2b934e844f51413cc4e67dc",
+      "size_bytes": 53084
+    },
+    {
+      "path": "scripts/05d0a_followup_units_oracle_riskscale_diagnostic.py",
+      "sha256": "de084d5d67f455c1cef218acc7a4c012b0d803845bb6fe30c6e76acfd37534e6",
+      "size_bytes": 61890
+    },
+    {
+      "path": "scripts/05d0b_resolve_manual_uno_float32_precision.py",
+      "sha256": "7e3806b8fd02b4700fa6bb83737f7e102b28f6970cc4d7fa848fa2d178897596",
+      "size_bytes": 12297
+    },
+    {
+      "path": "scripts/05d0c_global_trust_feasibility_diagnostic.py",
+      "sha256": "2378948126f7c0dcc50f3423e1ff613307e2a5e07c2615534113093298e9a577",
+      "size_bytes": 44984
+    },
+    {
+      "path": "scripts/05d0d_mechanistic_operational_crosswalk_safety_utility.py",
+      "sha256": "3644dc1e9fc867830fc8d7176f14c05c8e486afe308ce7d50ad1fb6bf835e335",
+      "size_bytes": 22465
+    },
+    {
+      "path": "scripts/05d0e_audit_regime_semantics_and_auc_inversion.py",
+      "sha256": "fc48408d8ea48de2fc319bd78302ecbb6e3e843854613e08a788f61efd3d11f6",
+      "size_bytes": 20849
+    },
+    {
+      "path": "scripts/05d0f_audit_utility_comparator_regime_safety.py",
+      "sha256": "7213a2f71ca25c6b5a9180ff5cf22215d179a871aa4d7db782fdeecd0ee2f487",
+      "size_bytes": 33970
+    },
+    {
+      "path": "scripts/05d0g_audit_withinscenario_provenance_absoluteC.py",
+      "sha256": "9e500e68a0e258bf385a8b41cef1988fdbd5689bb7a99ac33b7250732d02c8b0",
+      "size_bytes": 44549
+    },
+    {
+      "path": "scripts/05d_aggregate_negative_transfer_phase_diagram.py",
+      "sha256": "e6ab4db3e64a2a55cf76974f211cdcdf9734573c15744b0eb0a517c4fedb7cb1",
+      "size_bytes": 70649
+    },
+    {
+      "path": "scripts/05d_recover_aggregation_after_scenario_id_bug.py",
+      "sha256": "546f677ee40b19dad6867657ee9e760e537a2adce4beca343a12ea03af6e0953",
+      "size_bytes": 30164
+    },
+    {
+      "path": "scripts/05e0_freeze_posthold_controlled_transfer_mechanism.py",
+      "sha256": "028d92ff5b3966e02eff7d8b4f1ad1a6765b9d9fc1a92f5468a1e94cf2c0ffd3",
+      "size_bytes": 17306
+    },
+    {
+      "path": "scripts/05e1_materialize_posthold_controlled_recipes.py",
+      "sha256": "88742751c1c68a97f61f84de8041831788c5128a110323385a77f556b7d3cbf5",
+      "size_bytes": 26027
+    },
+    {
+      "path": "scripts/05e1_materialize_posthold_controlled_recipes_v2.py",
+      "sha256": "417db2c9c25a2541792d5a0b3d2c5a79c8fc1926f625a39ef2496180fb2dbe39",
+      "size_bytes": 27591
+    },
+    {
+      "path": "scripts/05e1_materialize_posthold_controlled_recipes_v3.py",
+      "sha256": "2dc3dde14366f63d994142745c397520195fb958516f00ee85fee331769d546e",
+      "size_bytes": 31863
+    },
+    {
+      "path": "scripts/05e2_run_frozen_controlled_mechanism_model_matrix.py",
+      "sha256": "249cbeab7e163ba449939ac89bd8003499fd6106bf9cfecea832838d14e33fb9",
+      "size_bytes": 57944
+    },
+    {
+      "path": "scripts/05e3_evaluate_frozen_controlled_mechanism_contrasts.py",
+      "sha256": "6273525ef072246aa86cfd5389f1014ff9b845c47b93f68086e277de3a1bcd97",
+      "size_bytes": 48798
+    },
+    {
+      "path": "scripts/05e3a_audit_mechanism_support_rule_feasibility.py",
+      "sha256": "7affd6a1add51d4e1d911bb5a606513da39ab8b577cdfe2083a6300d61d7dbb2",
+      "size_bytes": 20283
+    },
+    {
+      "path": "scripts/05e3b_final_signinversion_regimeshape_fixedresidual_audit.py",
+      "sha256": "b1e4fb7fa3238f98a2af360f89f355d921c97d407dd2088d35992b7aab8a7301",
+      "size_bytes": 55194
+    },
+    {
+      "path": "scripts/05f1a_freeze_outcome_free_target_representation_contract.py",
+      "sha256": "d0b9abc5e438639c823e9d648ebbc0e18aa10a86ba8bfa5b42370d9d3888691b",
+      "size_bytes": 60785
+    },
+    {
+      "path": "scripts/05f1b_materialize_raw_aligned_dog2_target_expression.py",
+      "sha256": "fdab7d48edd52b16754a709ae2918b93f9d5b2dd3527da662c1a217d652fc16f",
+      "size_bytes": 36265
+    },
+    {
+      "path": "scripts/05f1c0_probe_target_clinical_identifier_schema.py",
+      "sha256": "b445bd4884d29b1d42984411f0edb587e5e10f4e80418db6675cd75a83b33e52",
+      "size_bytes": 13464
+    },
+    {
+      "path": "scripts/05f1c_freeze_target_clinical_schema_and_evaluation_mechanics.py",
+      "sha256": "379354b931ef38fa8aef930d9be0863b573f58641f236c326aa70b30065a229b",
+      "size_bytes": 43916
+    },
+    {
+      "path": "scripts/05f1c_freeze_target_clinical_schema_and_evaluation_mechanics_v2.py",
+      "sha256": "96d9515908e5eb46a40a186f52266915b6160c3c68d70ae3fc8a5959a02f967a",
+      "size_bytes": 48610
+    },
+    {
+      "path": "scripts/05f2a_freeze_human_model_implementation_source_inventory.py",
+      "sha256": "6f3efedb2bd0541a153234669ccbf4aa2ebf46d23995fc250cf46a6e02b7e1d6",
+      "size_bytes": 33160
+    },
+    {
+      "path": "scripts/05f2a_freeze_human_model_implementation_source_inventory_v2.py",
+      "sha256": "d1ad5f02a9efd8563511f641843255c7c7f5095db421e0d47a50d281e96cbf14",
+      "size_bytes": 38923
+    },
+    {
+      "path": "scripts/05f2b_materialize_dog2_source_artifacts_freeze_target_runner.py",
+      "sha256": "1bc7ca9dd8515602037c69cd9de54f5f6738bb31249090c29c4b26b27c88e3ba",
+      "size_bytes": 93269
+    },
+    {
+      "path": "scripts/05f2c_preoutcome_validate_amend_target_runner.py",
+      "sha256": "983ddac47ce3812fce61a0bdb589189cd7859cbc6619708cd6676b24c0ad1a27",
+      "size_bytes": 79142
+    },
+    {
+      "path": "scripts/05f2c_preoutcome_validate_amend_target_runner_v2.py",
+      "sha256": "40652180847b5ae77e508058ff7c2790b23526e9198f4905f226fe8accd8cfef",
+      "size_bytes": 81600
+    },
+    {
+      "path": "scripts/05f3_open_reserved_target_os_and_run_frozen_evaluation.py",
+      "sha256": "857ce7de6177c5cd84e5e1eb2fe10dc3fafbfcd3f5a909bf5f69da8de5f388b4",
+      "size_bytes": 30726
+    },
+    {
+      "path": "scripts/05f3a_open_reserved_target_os_id_order_fix_and_run_frozen_evaluation.py",
+      "sha256": "00bff1039121c3187a4ca14d01a5f622be25d03ef0ec3395f8d4cb6c24481a7f",
+      "size_bytes": 35268
+    },
+    {
+      "path": "scripts/05f3b_audit_target_os_preexisting_complete_case_policy.py",
+      "sha256": "7d3f8611b441e552a785dcde55877bda14129b76526d44a2166bc09d67c034ab",
+      "size_bytes": 31885
+    },
+    {
+      "path": "scripts/05f3b_v2_audit_target_os_complete_case_and_zero_time_policy.py",
+      "sha256": "4028d8f5ade1b0d9caf71cb68414c2f80dd5ab2fe5757ce23f29e649a788362b",
+      "size_bytes": 33847
+    },
+    {
+      "path": "scripts/05f3c_audit_target_zero_time_execution_semantics.py",
+      "sha256": "148fe4810df47e6bedcc1281f66276e0c9fc43afd2ba71e8807ddbe00bb72a26",
+      "size_bytes": 36454
+    },
+    {
+      "path": "scripts/05f3d_run_exact_target86_after_audited_zero_time_amendment.py",
+      "sha256": "c5e201220ebdf1e9b12b3e3cec4fccda71551ac23bf13babdea1efb8f6995a84",
+      "size_bytes": 35022
+    },
+    {
+      "path": "scripts/05f3e_run_exact_target86_bytesafe_audited_runner_patch.py",
+      "sha256": "a6fad08c3413252f0e429f3325e706e886ac23b32521dd8c36ed93039390aeb5",
+      "size_bytes": 40230
+    },
+    {
+      "path": "scripts/05f3f_run_exact_target86_semantic_f3c_lock.py",
+      "sha256": "a363e0922dbd8557cd42973adb018ea93207a2874560188f34090744ce70fb98",
+      "size_bytes": 28541
+    },
+    {
+      "path": "scripts/05g0_freeze_postopening_preresult_outcomeblind_biology_contract.py",
+      "sha256": "b7b3229033da1dc1063c82738d864e9baa688379137c9f521c34e88ffeb82ead",
+      "size_bytes": 57523
+    },
+    {
+      "path": "scripts/05g1_execute_frozen_outcomeblind_biology_context.py",
+      "sha256": "9dddd5f8287ebf10576c2cc2be0b44888055efb680470f0e5e02ac260692440a",
+      "size_bytes": 66610
+    },
+    {
+      "path": "scripts/05h0_freeze_cbm_strengthening_contract.py",
+      "sha256": "50ca403ef2b4e322f259ee5965ff50bfc831497694d93b3f1655c34a5f4f5e0f",
+      "size_bytes": 21669
+    }
+  ]
+}

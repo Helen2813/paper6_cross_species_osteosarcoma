@@ -1,0 +1,208 @@
+{
+  "contract_name": "Paper 6 CBM pre-submission strengthening contract",
+  "contract_version": "cbm-strengthening-v1",
+  "presentation_and_submission_fixes": {
+    "ai_declaration": "Use a separate Elsevier-compatible declaration immediately before References.",
+    "code_availability": "Remove copied Molecular Transport Audit language and state only the actual Paper 6 repository/material availability at submission.",
+    "figure_4": "Rebuild as a compact 2x2 grid with consistent panel dimensions, readable fonts, and minimal unused whitespace.",
+    "figure_5b": "Remove internal wording 'Paper-4 anchor'; use publication-facing wording such as 'Frozen external-preservation anchors'.",
+    "format": "Convert the final manuscript from the IEEE microwave example shell to the Computers in Biology and Medicine / Elsevier submission structure.",
+    "literature": "Add only publisher/PubMed/DOI-verified recent work relevant to transcriptomic survival transfer, negative transfer, cross-domain/cross-species transfer, event-limited survival modeling, and omics domain adaptation.",
+    "supplement": "Prepare Supplementary Material as a separate submission file rather than keeping the full supplement inside the main manuscript."
+  },
+  "prohibited_actions": [
+    "No refitting of the original 21,600-replicate benchmark models.",
+    "No new architecture, hyperparameter, gate, or transfer recipe.",
+    "No retrospective change to A2/A3 eligibility.",
+    "No retrospective change to the frozen HOLD safety rules.",
+    "No reopening or replacement of the frozen TARGET T-D interpretation.",
+    "No outcome access for GSE21257.",
+    "No outcome access for GSE39055.",
+    "No CORAL or other new domain-adaptation method.",
+    "No selection of sensitivity definitions after seeing sensitivity results.",
+    "No suppression of an unfavorable strengthening result."
+  ],
+  "purpose": "Freeze a limited, post-HOLD strengthening program for submission to Computers in Biology and Medicine without reopening the primary benchmark, model selection, TARGET interpretation, or sealed external cohorts.",
+  "reporting_commitment": "Every analysis authorized by this contract must be reported regardless of whether it strengthens, weakens, or leaves unchanged the current manuscript conclusions.",
+  "required_interpretive_fixes": {
+    "T1_IBS": {
+      "rule": "Do not present the lowest T1 IBS as evidence of superior individualized prediction without context from its compressed risk distribution and the descriptive no-covariate reference."
+    },
+    "compatibility_terminology": {
+      "outcome_blind_measure": "outcome-blind structural concordance",
+      "outcome_using_measure": "training-set prognostic compatibility",
+      "rule": "Do not describe a target-training-outcome Uno-C quantity as outcome-blind."
+    },
+    "operational_auroc_below_half": {
+      "interpretation_rule": "Do not claim that score inversion was forbidden unless an authoritative pre-result contract explicitly says so. The substantive interpretation must instead use the residualized and within-scenario evidence to assess whether the marginal inversion is stable.",
+      "required_fact": "Explicitly acknowledge that AUROC 0.254 has complementary orientation 0.746."
+    },
+    "target_N4_N5": {
+      "interpretation_rule": "Do not infer a ranking when intervals overlap and no frozen N4-vs-N5 contrast was specified.",
+      "required_fact": "Explicitly acknowledge that N4/N5 have the highest TARGET discrimination point estimates if that remains true in the frozen table."
+    },
+    "zero_shot_terminology": {
+      "preferred_term": "no-target-outcome transfer",
+      "rule": "Where target-training expression means/SDs are used, avoid implying that the target distribution was completely unseen."
+    }
+  },
+  "required_strengthening_analyses": {
+    "aggregation_sensitivity": {
+      "analysis_role": "POST-HOLD ROBUSTNESS ANALYSIS",
+      "estimands": {
+        "core_only": {
+          "guardrail": "Resolve the core set only from the frozen scenario-design metadata; fail if it is not exactly 36 scenarios.",
+          "scenario_set": "exactly the 36 pre-stress core scenarios from the authoritative frozen scenario design",
+          "weighting": "equal weight per core scenario"
+        },
+        "frozen_original": {
+          "role": "PRIMARY; unchanged",
+          "scenario_set": "all 180 frozen scenarios",
+          "weighting": "equal weight per frozen scenario"
+        },
+        "regime_balanced": {
+          "guardrail": "Regime labels must come from the authoritative frozen scenario design.",
+          "regimes": [
+            "R0",
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5"
+          ],
+          "scenario_set": "all 180 frozen scenarios",
+          "weighting": "first aggregate equally across scenarios within each regime, then assign each of the six regimes weight 1/6"
+        }
+      },
+      "minimum_reported_metrics": [
+        "mean_delta_uno_c",
+        "negative_transfer_rate_at_deltaC_le_-0.02",
+        "catastrophic_transfer_rate_at_deltaC_le_-0.05"
+      ],
+      "primary_models": [
+        "A2",
+        "A3"
+      ],
+      "uncertainty_policy": {
+        "if_replicate_outputs_are_not_retained": "Report deterministic sensitivity summaries and state that no additional Monte Carlo interval was reconstructed. Do not refit models solely to manufacture uncertainty.",
+        "preferred_if_retained_replicate_outputs_exist": "Estimate Monte Carlo uncertainty by resampling retained replicates within each fixed scenario and recomputing the aggregate.",
+        "scenario_design_interpretation": "Do not treat the fixed 36 or 180 scenarios as a random sample from a superpopulation of scenarios."
+      }
+    },
+    "all_model_safety_summary": {
+      "analysis_role": "POST-HOLD DESCRIPTIVE CONTEXT",
+      "interpretation_rule": "Non-eligible models remain non-eligible. Their results are descriptive and cannot reopen the frozen primary architecture-selection decision.",
+      "minimum_reported_fields": [
+        "model",
+        "frozen_role",
+        "eligible_for_primary_selection",
+        "mean_delta_uno_c_vs_B0_if_defined",
+        "negative_transfer_rate_at_deltaC_le_-0.02",
+        "catastrophic_transfer_rate_at_deltaC_le_-0.05",
+        "regime_specific_rates_or_effects_if_already_estimable"
+      ],
+      "models": [
+        "B0",
+        "B4",
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "reference_model": "B0"
+    },
+    "anchor_provenance": {
+      "goal": "Make M34, M40, M11, and M24 anchors independently auditable without requiring acceptance of the separate molecular-preservation paper.",
+      "machine_readable_membership_weights_required": true,
+      "programs": [
+        "M34",
+        "M40",
+        "M11",
+        "M24"
+      ],
+      "required_fields": [
+        "program",
+        "frozen_source_gene_count",
+        "frozen_membership",
+        "frozen_weights_or_signs",
+        "prior_preservation_class",
+        "prior_edge_statistic_if_available",
+        "prior_loading_statistic_if_available",
+        "prior_specificity_result_if_available",
+        "freeze_date_or_timestamp_if_available",
+        "artifact_sha256",
+        "source_dataset_identifiers"
+      ],
+      "rule": "Use the authoritative pre-existing frozen artifacts. Do not recreate memberships, weights, or labels from Paper 6 outcomes."
+    },
+    "target_km_ibs_reference": {
+      "allowed_new_estimation": true,
+      "analysis_role": "POST-OPENING DESCRIPTIVE NULL REFERENCE",
+      "method": "Within each already-frozen TARGET outer-training split, estimate a no-covariate Kaplan-Meier survival curve using only outer-training outcomes; assign that same curve to every corresponding outer-test patient; evaluate IBS using the same frozen time horizon, censoring mechanics, fold structure, and aggregation used for the existing TARGET IBS results.",
+      "prohibited_uses": [
+        "No tuning.",
+        "No model selection.",
+        "No change to T-A/T-B/T-C/T-D.",
+        "No use of full-cohort outcomes to fit a test-fold predictor."
+      ],
+      "purpose": "Contextualize the low IBS of a near-constant-risk transfer model without using the reference for model selection."
+    },
+    "threshold_definition_sensitivity": {
+      "analysis_role": "POST-HOLD SENSITIVITY OF THE ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "catastrophic_transfer_severity_grid_delta_uno_c": [
+        -0.04,
+        -0.05,
+        -0.06
+      ],
+      "negative_transfer_severity_grid_delta_uno_c": [
+        -0.01,
+        -0.02,
+        -0.03
+      ],
+      "presentation_rule": "Report how estimated rates vary with prespecified neighboring definitions. The frozen thresholds (-0.02, -0.05; 0.10, 0.05 rate limits) remain the only primary decision rules and are never replaced by a more favorable pair.",
+      "primary_models": [
+        "A2",
+        "A3"
+      ],
+      "reference_rate_lines": {
+        "catastrophic_transfer": [
+          0.025,
+          0.05,
+          0.075
+        ],
+        "negative_transfer": [
+          0.05,
+          0.1,
+          0.15
+        ]
+      }
+    }
+  },
+  "script_version": "05h0-freeze-cbm-strengthening-contract-v1-no-cli",
+  "sealed_future_assets": {
+    "GSE21257_outcomes": "SEALED",
+    "GSE39055_outcomes": "SEALED",
+    "reason": "Do not spend untouched external cohorts to rescue or alter the current TARGET answer; reserve them for prospectively specified future work."
+  },
+  "status_of_existing_science": {
+    "TARGET_primary_interpretation": "LOCKED; T-D remains unchanged",
+    "benchmark_predictions": "LOCKED; reuse retained outputs only",
+    "frozen_primary_catastrophic_transfer_definition": {
+      "delta_uno_c_threshold": -0.05,
+      "maximum_allowed_rate": 0.05
+    },
+    "frozen_primary_negative_transfer_definition": {
+      "delta_uno_c_threshold": -0.02,
+      "maximum_allowed_rate": 0.1
+    },
+    "hyperparameters": "LOCKED_AND_UNCHANGED",
+    "model_architectures": "LOCKED_AND_UNCHANGED",
+    "primary_HOLD_decision": "LOCKED_AND_UNCHANGED",
+    "selectable_architecture_eligibility": "LOCKED_AND_UNCHANGED",
+    "selectable_architectures": [
+      "A2",
+      "A3"
+    ]
+  }
+}

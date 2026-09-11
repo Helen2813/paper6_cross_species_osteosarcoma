@@ -1,0 +1,25 @@
+{
+  "TARGET_outcomes_accessed": false,
+  "freeze_name": "05h1_anchor_provenance",
+  "freeze_timestamp_utc": "2026-09-11T00:04:04.688463+00:00",
+  "metrics_reestimated": false,
+  "models_fitted": false,
+  "output_files_sha256": {
+    "README_for_supplement.txt": "001370fb5e32a978a7c383b0356911084e3fc83499c5889a21b649907facf136",
+    "Supplementary_Data_anchor_membership_weights.csv": "f9eee557cf4ffe5ccf0b2d6f55ba75d51b2de32968a7c31193cf64748e97705a",
+    "Supplementary_Data_anchor_prior_evidence.csv": "646c5128f783aa6d1201a864c10e193df9c8f426a4f5f8af8b781d77d8ffae8d",
+    "Supplementary_Data_anchor_structural_context.tsv": "7571fed7834036c8d0f21d2de4cad6ec93454d89a252024cacc4a7eff24c4d5d",
+    "Supplementary_Table_anchor_provenance.csv": "ff15940173d92bfcab4d1221f1a26ccab3d5c74d803f6f6026ab45a8d4cf48ed",
+    "anchor_provenance.json": "2c6aab4be3d1c94ebb130008659303b04ec79a76e7f30c5445824bbf6fab7136"
+  },
+  "script_version": "05h1-export-anchor-provenance-v1-no-cli",
+  "sealed_cohort_outcomes_accessed": false,
+  "source_files_sha256": {
+    "GSE238110_frozen_transfer_gene_weights_strict.csv": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+    "biological_gene_set_registry.tsv": "9c746b30c53f194ed961066d3c073ec9df372b6d27e83a7288972788054b4b57",
+    "paper4_anchor_structural_context.tsv": "a81a5ef1186f3d3c25f8f2161129a6216f5de719a61f8548b917a3d226a190c0",
+    "paper4_external_canine_evidence_manifest.json": "78459cfdb60847dacfc74f7aea9de2bb7b9a10dad0d64853cbffcf92001dc2a5",
+    "paper4_locked_independent_canine_representation.csv": "642ee4b0a1e5a04a5cdefb3d03d5329bde5ce920f77939473f151e51b3241d89"
+  },
+  "strengthening_contract_sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d"
+}

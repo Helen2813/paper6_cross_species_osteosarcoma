@@ -1,0 +1,8 @@
+model,frozen_role,eligible_for_primary_selection,n_frozen_scenarios,equal_scenario_mean_uno_c,mean_delta_uno_c_vs_B0_if_defined,negative_transfer_rate_at_deltaC_le_-0.02,catastrophic_transfer_rate_at_deltaC_le_-0.05,aggregation,analysis_role
+B0,frozen target-only reference,False,180,0.5555544101,0,0,0,existing within-scenario metrics; equal weight across all 180 frozen scenarios,POST-HOLD DESCRIPTIVE CONTEXT
+B4,frozen non-selectable comparator,False,180,0.5449887052,-0.01056570468,0.3055277778,0.09944444444,existing within-scenario metrics; equal weight across all 180 frozen scenarios,POST-HOLD DESCRIPTIVE CONTEXT
+A0,frozen non-selectable comparator,False,180,0.5553512035,-0.0002032063995,0.009,0,existing within-scenario metrics; equal weight across all 180 frozen scenarios,POST-HOLD DESCRIPTIVE CONTEXT
+A1,frozen non-selectable comparator,False,180,0.5721983229,0.01664391276,0.2867777778,0.1605555556,existing within-scenario metrics; equal weight across all 180 frozen scenarios,POST-HOLD DESCRIPTIVE CONTEXT
+A2,frozen selectable architecture,True,180,0.5698086889,0.01425427873,0.2154166667,0.07197222222,existing within-scenario metrics; equal weight across all 180 frozen scenarios,POST-HOLD DESCRIPTIVE CONTEXT
+A3,frozen selectable architecture,True,180,0.530066931,-0.02548747875,0.4863333333,0.3268888889,existing within-scenario metrics; equal weight across all 180 frozen scenarios,POST-HOLD DESCRIPTIVE CONTEXT
+A4,frozen non-selectable comparator,False,180,0.5191072772,-0.03644713288,0.5117222222,0.4078333333,existing within-scenario metrics; equal weight across all 180 frozen scenarios,POST-HOLD DESCRIPTIVE CONTEXT

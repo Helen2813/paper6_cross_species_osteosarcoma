@@ -1,0 +1,28 @@
+{
+  "outputs": [
+    {
+      "bytes": 22060,
+      "file": "aggregation_input_contract.json",
+      "sha256": "fb6c9369ebc4d70e6928cb860cc4e1678284edbd156d1387e945deb79a08731e"
+    },
+    {
+      "bytes": 1674,
+      "file": "README.txt",
+      "sha256": "bc78465dd3c8a686663edccb98b630c5393624c110fd95f4957c06bbea41222d"
+    },
+    {
+      "bytes": 12711,
+      "file": "resolved_frozen_scenario_design.tsv",
+      "sha256": "3cfcdea06c9534bdc78b92a5b607e437ef8743c5dbe67c362f18f6678fbc68ff"
+    },
+    {
+      "bytes": 33752,
+      "file": "retained_npz_source_inventory.csv",
+      "sha256": "4389e67cd53cef57be7019903db2820794663875f76b1c13fdaf7d28312aea56"
+    }
+  ],
+  "script_relative_path": "scripts\\05h3c_freeze_aggregation_input_contract.py",
+  "script_sha256": "1e267edd14cbb4b12ac8f856a24d128fb2747c1c8868cda5d1e8cfb94633c893",
+  "script_version": "05h3c-freeze-aggregation-input-contract-v1-no-cli",
+  "status": "PASS_READY_FOR_05H3D_AGGREGATION_SENSITIVITY"
+}

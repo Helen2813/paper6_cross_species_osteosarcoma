@@ -1,0 +1,7 @@
+check,model,metric,observed,expected,absolute_difference,tolerance,pass
+frozen_original_reproduces_05h2b,A2,mean_delta_uno_c,0.0142542787303,0.0142542787303,1.73472347598e-18,5e-10,True
+frozen_original_reproduces_05h2b,A2,negative_transfer_rate_at_deltaC_le_-0.02,0.215416666667,0.215416666667,0,5e-10,True
+frozen_original_reproduces_05h2b,A2,catastrophic_transfer_rate_at_deltaC_le_-0.05,0.0719722222222,0.0719722222222,0,5e-10,True
+frozen_original_reproduces_05h2b,A3,mean_delta_uno_c,-0.0254874787484,-0.0254874787484,3.46944695195e-18,5e-10,True
+frozen_original_reproduces_05h2b,A3,negative_transfer_rate_at_deltaC_le_-0.02,0.486333333333,0.486333333333,0,5e-10,True
+frozen_original_reproduces_05h2b,A3,catastrophic_transfer_rate_at_deltaC_le_-0.05,0.326888888889,0.326888888889,0,5e-10,True

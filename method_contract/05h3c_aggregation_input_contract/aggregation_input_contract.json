@@ -1,0 +1,1028 @@
+{
+  "05h2b_chain": {
+    "primary_decision_changed": false,
+    "primary_models": [
+      "A2",
+      "A3"
+    ],
+    "status": "PASS_FROZEN_ALL_MODEL_SAFETY_SUMMARY_EXPORTED"
+  },
+  "analysis_role": "TECHNICAL PREFLIGHT / INPUT CONTRACT ONLY",
+  "descriptive_family_labels": {
+    "CORE_PHASE_DIAGRAM": 36,
+    "MAPPING_PRIOR_STRESS": 72,
+    "SHIFT_CENSOR_STRESS": 72
+  },
+  "exact_column_bindings": {
+    "catastrophic_transfer_rate": "catastrophic_negative_transfer_rate",
+    "descriptive_family": "family",
+    "mean_delta_uno_c": "mean_delta_c_vs_B0",
+    "model": "model",
+    "negative_transfer_rate": "negative_transfer_rate",
+    "replicate_count": "replicates",
+    "scenario_id": "scenario_id",
+    "transfer_regime": "transfer_regime"
+  },
+  "frozen_primary_decision_changed": false,
+  "frozen_thresholds": {
+    "catastrophic_transfer_delta_uno_c": -0.05,
+    "negative_transfer_delta_uno_c": -0.02,
+    "retained_flags_match_thresholds_exactly": true
+  },
+  "next_stage": "05h3d may compute frozen_original, core_only, and regime_balanced only after re-verifying every source hash and this exact contract.",
+  "regime_rule": {
+    "counts": {
+      "R0": 6,
+      "R1": 6,
+      "R2": 78,
+      "R3": 6,
+      "R4": 6,
+      "R5": 78
+    },
+    "resolver": "prefix before first underscore in existing transfer_regime label",
+    "scenario_to_regime": [
+      {
+        "regime": "R0",
+        "scenario_id": "CORE_0000"
+      },
+      {
+        "regime": "R1",
+        "scenario_id": "CORE_0001"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "CORE_0002"
+      },
+      {
+        "regime": "R3",
+        "scenario_id": "CORE_0003"
+      },
+      {
+        "regime": "R4",
+        "scenario_id": "CORE_0004"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "CORE_0005"
+      },
+      {
+        "regime": "R0",
+        "scenario_id": "CORE_0006"
+      },
+      {
+        "regime": "R1",
+        "scenario_id": "CORE_0007"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "CORE_0008"
+      },
+      {
+        "regime": "R3",
+        "scenario_id": "CORE_0009"
+      },
+      {
+        "regime": "R4",
+        "scenario_id": "CORE_0010"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "CORE_0011"
+      },
+      {
+        "regime": "R0",
+        "scenario_id": "CORE_0012"
+      },
+      {
+        "regime": "R1",
+        "scenario_id": "CORE_0013"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "CORE_0014"
+      },
+      {
+        "regime": "R3",
+        "scenario_id": "CORE_0015"
+      },
+      {
+        "regime": "R4",
+        "scenario_id": "CORE_0016"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "CORE_0017"
+      },
+      {
+        "regime": "R0",
+        "scenario_id": "CORE_0018"
+      },
+      {
+        "regime": "R1",
+        "scenario_id": "CORE_0019"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "CORE_0020"
+      },
+      {
+        "regime": "R3",
+        "scenario_id": "CORE_0021"
+      },
+      {
+        "regime": "R4",
+        "scenario_id": "CORE_0022"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "CORE_0023"
+      },
+      {
+        "regime": "R0",
+        "scenario_id": "CORE_0024"
+      },
+      {
+        "regime": "R1",
+        "scenario_id": "CORE_0025"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "CORE_0026"
+      },
+      {
+        "regime": "R3",
+        "scenario_id": "CORE_0027"
+      },
+      {
+        "regime": "R4",
+        "scenario_id": "CORE_0028"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "CORE_0029"
+      },
+      {
+        "regime": "R0",
+        "scenario_id": "CORE_0030"
+      },
+      {
+        "regime": "R1",
+        "scenario_id": "CORE_0031"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "CORE_0032"
+      },
+      {
+        "regime": "R3",
+        "scenario_id": "CORE_0033"
+      },
+      {
+        "regime": "R4",
+        "scenario_id": "CORE_0034"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "CORE_0035"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0036"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0037"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0038"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0039"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0040"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0041"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0042"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0043"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0044"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0045"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0046"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0047"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0048"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0049"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0050"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0051"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0052"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0053"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0054"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0055"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0056"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0057"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0058"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0059"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0060"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0061"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0062"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0063"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0064"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0065"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0066"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0067"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0068"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0069"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0070"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0071"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0072"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0073"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0074"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0075"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0076"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0077"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0078"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0079"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0080"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0081"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0082"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0083"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0084"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0085"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0086"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0087"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0088"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0089"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0090"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0091"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0092"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0093"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0094"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0095"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0096"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0097"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0098"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0099"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0100"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0101"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0102"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0103"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0104"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0105"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0106"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0107"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0108"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0109"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0110"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0111"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0112"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0113"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0114"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0115"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0116"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0117"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0118"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0119"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0120"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0121"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0122"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0123"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0124"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0125"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0126"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0127"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0128"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0129"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0130"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0131"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0132"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0133"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0134"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0135"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0136"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0137"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0138"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0139"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0140"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0141"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0142"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0143"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0144"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0145"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0146"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0147"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0148"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0149"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0150"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0151"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0152"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0153"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0154"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0155"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0156"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0157"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0158"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0159"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0160"
+      },
+      {
+        "regime": "R2",
+        "scenario_id": "STRESS_0161"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0162"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0163"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0164"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0165"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0166"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0167"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0168"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0169"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0170"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0171"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0172"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0173"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0174"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0175"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0176"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0177"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0178"
+      },
+      {
+        "regime": "R5",
+        "scenario_id": "STRESS_0179"
+      }
+    ],
+    "scenario_to_regime_mapping_sha256": "91606fdb7e08bdc5b02382cba75d700fea1de8b3c20eafa8c2a313f817931eb7"
+  },
+  "replay": {
+    "A2_A3_all_180_scenarios": "PASS",
+    "max_catastrophic_rate_replay_difference": 0.0,
+    "max_delta_replay_difference": 1.5720725055068385e-08,
+    "max_nt_rate_replay_difference": 0.0
+  },
+  "replicates": {
+    "n_scenarios": 180,
+    "retained_npz_count": 180,
+    "total_replicates": 21600
+  },
+  "retained_metric_schema": {
+    "A2_index": 4,
+    "A3_index": 5,
+    "model_axis_evidence": [
+      "authoritative_scenario_summary_stable_row_order"
+    ],
+    "model_axis_order": [
+      "B0",
+      "B4",
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A3_NO_EVOLUTION_PRIOR",
+      "A3_NO_TARGET_OVERRIDE",
+      "A3_PERMUTED_PRIOR",
+      "A3_MAPPING_PERMUTATION",
+      "A3_SOURCE_OUTCOME_PERMUTATION"
+    ],
+    "model_axis_validation_max_abs_delta_difference": 1.5720725055068385e-08,
+    "required_npz_keys": [
+      "replicate_seed",
+      "delta_c_vs_B0",
+      "negative_transfer",
+      "catastrophic_negative_transfer"
+    ]
+  },
+  "scenario_class_rule": {
+    "core_prefix": "CORE_",
+    "core_scenario_ids": [
+      "CORE_0000",
+      "CORE_0001",
+      "CORE_0002",
+      "CORE_0003",
+      "CORE_0004",
+      "CORE_0005",
+      "CORE_0006",
+      "CORE_0007",
+      "CORE_0008",
+      "CORE_0009",
+      "CORE_0010",
+      "CORE_0011",
+      "CORE_0012",
+      "CORE_0013",
+      "CORE_0014",
+      "CORE_0015",
+      "CORE_0016",
+      "CORE_0017",
+      "CORE_0018",
+      "CORE_0019",
+      "CORE_0020",
+      "CORE_0021",
+      "CORE_0022",
+      "CORE_0023",
+      "CORE_0024",
+      "CORE_0025",
+      "CORE_0026",
+      "CORE_0027",
+      "CORE_0028",
+      "CORE_0029",
+      "CORE_0030",
+      "CORE_0031",
+      "CORE_0032",
+      "CORE_0033",
+      "CORE_0034",
+      "CORE_0035"
+    ],
+    "core_scenario_set_sha256": "12022016cce25006f975bfcda07db86921a001f0ceb27bc30c2182a16f6c6711",
+    "n_core": 36,
+    "n_stress": 144,
+    "resolver": "existing scenario_id string prefix only; no regex",
+    "stress_prefix": "STRESS_",
+    "stress_scenario_ids": [
+      "STRESS_0036",
+      "STRESS_0037",
+      "STRESS_0038",
+      "STRESS_0039",
+      "STRESS_0040",
+      "STRESS_0041",
+      "STRESS_0042",
+      "STRESS_0043",
+      "STRESS_0044",
+      "STRESS_0045",
+      "STRESS_0046",
+      "STRESS_0047",
+      "STRESS_0048",
+      "STRESS_0049",
+      "STRESS_0050",
+      "STRESS_0051",
+      "STRESS_0052",
+      "STRESS_0053",
+      "STRESS_0054",
+      "STRESS_0055",
+      "STRESS_0056",
+      "STRESS_0057",
+      "STRESS_0058",
+      "STRESS_0059",
+      "STRESS_0060",
+      "STRESS_0061",
+      "STRESS_0062",
+      "STRESS_0063",
+      "STRESS_0064",
+      "STRESS_0065",
+      "STRESS_0066",
+      "STRESS_0067",
+      "STRESS_0068",
+      "STRESS_0069",
+      "STRESS_0070",
+      "STRESS_0071",
+      "STRESS_0072",
+      "STRESS_0073",
+      "STRESS_0074",
+      "STRESS_0075",
+      "STRESS_0076",
+      "STRESS_0077",
+      "STRESS_0078",
+      "STRESS_0079",
+      "STRESS_0080",
+      "STRESS_0081",
+      "STRESS_0082",
+      "STRESS_0083",
+      "STRESS_0084",
+      "STRESS_0085",
+      "STRESS_0086",
+      "STRESS_0087",
+      "STRESS_0088",
+      "STRESS_0089",
+      "STRESS_0090",
+      "STRESS_0091",
+      "STRESS_0092",
+      "STRESS_0093",
+      "STRESS_0094",
+      "STRESS_0095",
+      "STRESS_0096",
+      "STRESS_0097",
+      "STRESS_0098",
+      "STRESS_0099",
+      "STRESS_0100",
+      "STRESS_0101",
+      "STRESS_0102",
+      "STRESS_0103",
+      "STRESS_0104",
+      "STRESS_0105",
+      "STRESS_0106",
+      "STRESS_0107",
+      "STRESS_0108",
+      "STRESS_0109",
+      "STRESS_0110",
+      "STRESS_0111",
+      "STRESS_0112",
+      "STRESS_0113",
+      "STRESS_0114",
+      "STRESS_0115",
+      "STRESS_0116",
+      "STRESS_0117",
+      "STRESS_0118",
+      "STRESS_0119",
+      "STRESS_0120",
+      "STRESS_0121",
+      "STRESS_0122",
+      "STRESS_0123",
+      "STRESS_0124",
+      "STRESS_0125",
+      "STRESS_0126",
+      "STRESS_0127",
+      "STRESS_0128",
+      "STRESS_0129",
+      "STRESS_0130",
+      "STRESS_0131",
+      "STRESS_0132",
+      "STRESS_0133",
+      "STRESS_0134",
+      "STRESS_0135",
+      "STRESS_0136",
+      "STRESS_0137",
+      "STRESS_0138",
+      "STRESS_0139",
+      "STRESS_0140",
+      "STRESS_0141",
+      "STRESS_0142",
+      "STRESS_0143",
+      "STRESS_0144",
+      "STRESS_0145",
+      "STRESS_0146",
+      "STRESS_0147",
+      "STRESS_0148",
+      "STRESS_0149",
+      "STRESS_0150",
+      "STRESS_0151",
+      "STRESS_0152",
+      "STRESS_0153",
+      "STRESS_0154",
+      "STRESS_0155",
+      "STRESS_0156",
+      "STRESS_0157",
+      "STRESS_0158",
+      "STRESS_0159",
+      "STRESS_0160",
+      "STRESS_0161",
+      "STRESS_0162",
+      "STRESS_0163",
+      "STRESS_0164",
+      "STRESS_0165",
+      "STRESS_0166",
+      "STRESS_0167",
+      "STRESS_0168",
+      "STRESS_0169",
+      "STRESS_0170",
+      "STRESS_0171",
+      "STRESS_0172",
+      "STRESS_0173",
+      "STRESS_0174",
+      "STRESS_0175",
+      "STRESS_0176",
+      "STRESS_0177",
+      "STRESS_0178",
+      "STRESS_0179"
+    ],
+    "stress_scenario_set_sha256": "41c33527529aeaf7e14c4f2cfc9574fb8846b9468f61648771692ab80e86edde"
+  },
+  "scientific_estimate_computed": false,
+  "script_version": "05h3c-freeze-aggregation-input-contract-v1-no-cli",
+  "sources": {
+    "05d_metric_contract": {
+      "path": "results\\simulation_phase_diagram\\05d\\metric_implementation_contract.json",
+      "sha256": "9e575f076a92e7ce3002df7b1b0efc4a356371ceaa0b64cfea9de8cfb804a113"
+    },
+    "05d_metric_manifest": {
+      "path": "results\\simulation_phase_diagram\\05d\\scenario_metric_manifest.tsv",
+      "sha256": "980fb6644b91a3860e7af143a5d8bd1dd67c49eff3d621429c8b104694141c63"
+    },
+    "05d_scenario_summary": {
+      "path": "results\\simulation_phase_diagram\\05d\\scenario_model_metric_summary.tsv",
+      "sha256": "303b61ac560fa4e4692c8b4939ef84feb71a8f5d7065f98656d07ef483426a16"
+    },
+    "05h0_contract": {
+      "path": "method_contract\\05h0_cbm_strengthening_contract\\cbm_strengthening_contract.json",
+      "sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d"
+    },
+    "05h2b_manifest": {
+      "path": "method_contract\\05h2b_all_model_safety_summary\\freeze_manifest.json",
+      "sha256": "0ac5a6811b147ccf07a56867426221b8e14e6bb2de9d533416c0d8c6757fc7e0"
+    },
+    "05h2b_summary": {
+      "path": "method_contract\\05h2b_all_model_safety_summary\\all_model_safety_summary.json",
+      "sha256": "7bb83c3b4594db4b542d4245c3299c20f33e07626d8685c150721708624f8f83"
+    }
+  },
+  "status": "PASS_READY_FOR_05H3D_AGGREGATION_SENSITIVITY"
+}

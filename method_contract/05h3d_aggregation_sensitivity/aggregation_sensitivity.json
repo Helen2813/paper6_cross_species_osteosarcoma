@@ -1,0 +1,97 @@
+{
+  "05h3c_contract_sha256": "fb6c9369ebc4d70e6928cb860cc4e1678284edbd156d1387e945deb79a08731e",
+  "analysis_role": "POST-HOLD ROBUSTNESS ANALYSIS",
+  "estimands": {
+    "core_only": {
+      "role": "POST-HOLD robustness sensitivity",
+      "scenario_count": 36,
+      "weighting": "equal weight per exact frozen CORE scenario"
+    },
+    "frozen_original": {
+      "role": "PRIMARY; unchanged",
+      "scenario_count": 180,
+      "weighting": "equal weight per frozen scenario"
+    },
+    "regime_balanced": {
+      "role": "POST-HOLD robustness sensitivity",
+      "scenario_count": 180,
+      "weighting": "equal within-regime scenario weight, then equal 1/6 weight per R0-R5"
+    }
+  },
+  "frozen_primary_decision": "HOLD_NO_SAFE_SELECTABLE_ARCHITECTURE",
+  "human_outcomes_read": false,
+  "mc_uncertainty": {
+    "draws": 4000,
+    "interval_quantiles": [
+      0.025,
+      0.975
+    ],
+    "resampling_unit": "retained replicate within fixed scenario",
+    "scenario_resampling": false,
+    "seed": 2070713194,
+    "seed_source": "05h3c contract SHA256"
+  },
+  "model_fitting": false,
+  "point_estimates": [
+    {
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.07197222222222222,
+      "estimand": "frozen_original",
+      "mean_delta_uno_c": 0.014254278730330784,
+      "model": "A2",
+      "n_scenarios_with_positive_weight": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.21541666666666665
+    },
+    {
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.3268888888888889,
+      "estimand": "frozen_original",
+      "mean_delta_uno_c": -0.02548747874837428,
+      "model": "A3",
+      "n_scenarios_with_positive_weight": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.4863333333333334
+    },
+    {
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.08569444444444443,
+      "estimand": "core_only",
+      "mean_delta_uno_c": 0.01928696342199738,
+      "model": "A2",
+      "n_scenarios_with_positive_weight": 36,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.20958333333333332
+    },
+    {
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.15305555555555556,
+      "estimand": "core_only",
+      "mean_delta_uno_c": 0.0032476698524831426,
+      "model": "A3",
+      "n_scenarios_with_positive_weight": 36,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.3247222222222222
+    },
+    {
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.08537393162393161,
+      "estimand": "regime_balanced",
+      "mean_delta_uno_c": 0.015576709742189585,
+      "model": "A2",
+      "n_scenarios_with_positive_weight": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.21926282051282045
+    },
+    {
+      "catastrophic_transfer_rate_at_deltaC_le_-0.05": 0.17354700854700855,
+      "estimand": "regime_balanced",
+      "mean_delta_uno_c": -0.0011318371036840545,
+      "model": "A3",
+      "n_scenarios_with_positive_weight": 180,
+      "negative_transfer_rate_at_deltaC_le_-0.02": 0.3437179487179487
+    }
+  ],
+  "primary_decision_changed": false,
+  "primary_models": [
+    "A2",
+    "A3"
+  ],
+  "script_version": "05h3d-compute-frozen-aggregation-sensitivity-v1-no-discovery-no-cli",
+  "status": "PASS_POSTHOLD_AGGREGATION_SENSITIVITY",
+  "thresholds": {
+    "catastrophic_transfer_delta_uno_c": -0.05,
+    "negative_transfer_delta_uno_c": -0.02
+  },
+  "thresholds_changed": false
+}
