@@ -1,0 +1,138 @@
+{
+  "05d_hold_changed": false,
+  "05h0_sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d",
+  "05h5b_contract_sha256": "21accb77cc8d92b96aa5ed573628d78873aab793d26abdda369a973f1926c250",
+  "TARGET86": {
+    "censored": 57,
+    "events": 29,
+    "n": 86
+  },
+  "analysis_role": "POST-OPENING DESCRIPTIVE NULL REFERENCE",
+  "branch_decision_changed": false,
+  "existing_models_vs_null": [
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.2092921910216827,
+      "existing_model_minus_km_null_ibs": 0.04364738189063108,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "T0",
+      "risk_q99_q01": 13.960011967173456,
+      "risk_sd": 3.7989812505088687
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.15903241134048,
+      "existing_model_minus_km_null_ibs": -0.006612397790571628,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": true,
+      "model_id": "T1",
+      "risk_q99_q01": 0.5418500065447807,
+      "risk_sd": 0.1418392924193218
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.2038350773309908,
+      "existing_model_minus_km_null_ibs": 0.038190268199939176,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "T2",
+      "risk_q99_q01": 16.570047822099536,
+      "risk_sd": 4.59859034689006
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.2365920996526119,
+      "existing_model_minus_km_null_ibs": 0.07094729052156029,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "N0",
+      "risk_q99_q01": 23.058608841180803,
+      "risk_sd": 7.084047127497469
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.1690706072670209,
+      "existing_model_minus_km_null_ibs": 0.0034257981359692713,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "N1",
+      "risk_q99_q01": 1.410399719394397,
+      "risk_sd": 0.3838596561850081
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.1690978138860977,
+      "existing_model_minus_km_null_ibs": 0.0034530047550460907,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "N2",
+      "risk_q99_q01": 1.4103070517771463,
+      "risk_sd": 0.383880824493117
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.2045557821643694,
+      "existing_model_minus_km_null_ibs": 0.03891097303331778,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "N3",
+      "risk_q99_q01": 4.441365371609149,
+      "risk_sd": 1.2135727690359834
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.238839419885144,
+      "existing_model_minus_km_null_ibs": 0.07319461075409239,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "N4",
+      "risk_q99_q01": 23.48438567189941,
+      "risk_sd": 7.397388237384272
+    },
+    {
+      "comparison_role": "DESCRIPTIVE CONTEXT ONLY; NOT MODEL SELECTION",
+      "existing_model_ibs": 0.2341137418292268,
+      "existing_model_minus_km_null_ibs": 0.0684689326981752,
+      "ibs_valid_repeats": 20,
+      "km_null_ibs": 0.16564480913105162,
+      "lower_ibs_than_km_null": false,
+      "model_id": "N5",
+      "risk_q99_q01": 19.57504648641791,
+      "risk_sd": 5.719975917764026
+    }
+  ],
+  "fold_ibs": {
+    "max": 0.24136864736819783,
+    "median": 0.17270670518957337,
+    "min": 0.04619017457614347,
+    "valid": 100
+  },
+  "km_crosscheck": {
+    "folds_with_finite_ibs": 100,
+    "max_ibs_grid_points": 20,
+    "max_manual_vs_sksurv_km_abs_difference": 0.0,
+    "min_ibs_grid_points": 13
+  },
+  "km_null_ibs": 0.16564480913105162,
+  "method": {
+    "aggregation": "frozen_04c_weighted_mean_ibs_helper",
+    "fold_structure": "exact frozen 20x5 TARGET outer partitions",
+    "ibs": "exact frozen 04c integrated_brier_custom",
+    "ibs_grid": "exact frozen 04c choose_ibs_grid",
+    "km_fit": "no-covariate Kaplan-Meier on outer-training outcomes only",
+    "test_prediction": "same training-derived survival curve for every outer-test patient"
+  },
+  "model_selection_performed": false,
+  "prohibited_use_respected": true,
+  "script_version": "05h5d-compute-target-km-ibs-reference-v1-safe-module-import-no-cli",
+  "status": "PASS_POSTOPENING_TARGET_KM_IBS_NULL_REFERENCE"
+}

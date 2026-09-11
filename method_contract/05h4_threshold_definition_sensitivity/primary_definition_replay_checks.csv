@@ -1,0 +1,5 @@
+model,definition_family,threshold,observed,expected_05h3d,absolute_difference,tolerance,pass
+A2,negative_transfer,-0.02,0.215416666667,0.215416666667,0,5e-10,True
+A2,catastrophic_transfer,-0.05,0.0719722222222,0.0719722222222,0,5e-10,True
+A3,negative_transfer,-0.02,0.486333333333,0.486333333333,0,5e-10,True
+A3,catastrophic_transfer,-0.05,0.326888888889,0.326888888889,0,5e-10,True

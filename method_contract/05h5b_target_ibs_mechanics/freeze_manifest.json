@@ -1,0 +1,38 @@
+{
+  "outputs": [
+    {
+      "bytes": 366,
+      "file": "existing_fold_ibs_availability.tsv",
+      "sha256": "63d23e866226d740781f60a0d151cbb7ef2b1368bd60594cf2b3ef36f4e41f50"
+    },
+    {
+      "bytes": 1593,
+      "file": "frozen_function_signatures_and_hashes.csv",
+      "sha256": "4ea167b67111c8b4496f5ff706631adffd5dabdc3e77a10b6facaa5db338a998"
+    },
+    {
+      "bytes": 14374,
+      "file": "frozen_ibs_mechanics_source_extract.txt",
+      "sha256": "fe7ed148404149a778d560abe5eeed6dea23ca97d543a9eb58ac9f5236223582"
+    },
+    {
+      "bytes": 26544,
+      "file": "frozen_outer_fold_structure.tsv",
+      "sha256": "3658b0fee92878e035c68f9a6550b6f1eb95e012353d38c6429fe56c5a018764"
+    },
+    {
+      "bytes": 9646,
+      "file": "target_ibs_mechanics_contract.json",
+      "sha256": "21accb77cc8d92b96aa5ed573628d78873aab793d26abdda369a973f1926c250"
+    },
+    {
+      "bytes": 1131,
+      "file": "target_runner_call_context_index.csv",
+      "sha256": "62c85a1d95fc65afbe97dc6f8953f9c5cbbc65dbdf59ace9d030a64fb8bbbb69"
+    }
+  ],
+  "script_relative_path": "scripts\\05h5b_freeze_target_ibs_mechanics.py",
+  "script_sha256": "e7a2ddc2b642e2c5c0c747d45f27c4a86030173a6263db7706c5132247ffdf24",
+  "script_version": "05h5b-freeze-target-ibs-mechanics-v1-readonly-no-cli",
+  "status": "PASS_READY_FOR_05H5C_KM_IBS_ESTIMATION"
+}

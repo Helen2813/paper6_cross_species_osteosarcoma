@@ -1,0 +1,10 @@
+model_id	fold_rows	finite_fold_ibs	nonfinite_fold_ibs	ibs_status_counts_json
+T0	100	100	0	"{""PASS"": 100}"
+T1	100	100	0	"{""PASS"": 100}"
+T2	100	100	0	"{""PASS"": 100}"
+N0	100	100	0	"{""PASS"": 100}"
+N1	100	100	0	"{""PASS"": 100}"
+N2	100	100	0	"{""PASS"": 100}"
+N3	100	100	0	"{""PASS"": 100}"
+N4	100	100	0	"{""PASS"": 100}"
+N5	100	100	0	"{""PASS"": 100}"

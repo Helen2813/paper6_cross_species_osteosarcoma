@@ -1,0 +1,228 @@
+{
+  "05h0_sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d",
+  "05h3c_contract_sha256": "fb6c9369ebc4d70e6928cb860cc4e1678284edbd156d1387e945deb79a08731e",
+  "05h3d_result_sha256": "5178aeef118f3a98ed2e7e74ee39d3afb4e79f60a8e153238fc5aad497942688",
+  "aggregation": "equal scenario weight across all 180 frozen scenarios",
+  "analysis_role": "POST-HOLD SENSITIVITY OF THE ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+  "frozen_primary_decision": "HOLD_NO_SAFE_SELECTABLE_ARCHITECTURE",
+  "frozen_primary_definitions": {
+    "catastrophic_transfer_delta_uno_c": -0.05,
+    "negative_transfer_delta_uno_c": -0.02
+  },
+  "human_outcomes_read": false,
+  "model_fitting": false,
+  "primary_decision_changed": false,
+  "primary_models": [
+    "A2",
+    "A3"
+  ],
+  "reference_rate_lines": {
+    "catastrophic_transfer": [
+      0.025,
+      0.05,
+      0.075
+    ],
+    "negative_transfer": [
+      0.05,
+      0.1,
+      0.15
+    ]
+  },
+  "results": [
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "negative_transfer",
+      "difference_vs_frozen_primary_definition": 0.07419444444444445,
+      "equal_scenario_rate": 0.2896111111111111,
+      "is_frozen_primary_definition": false,
+      "model": "A2",
+      "reference_rate_line_1": 0.05,
+      "reference_rate_line_2": 0.1,
+      "reference_rate_line_3": 0.15,
+      "severity_threshold_delta_uno_c": -0.01
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "negative_transfer",
+      "difference_vs_frozen_primary_definition": 0.0,
+      "equal_scenario_rate": 0.21541666666666665,
+      "is_frozen_primary_definition": true,
+      "model": "A2",
+      "reference_rate_line_1": 0.05,
+      "reference_rate_line_2": 0.1,
+      "reference_rate_line_3": 0.15,
+      "severity_threshold_delta_uno_c": -0.02
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "negative_transfer",
+      "difference_vs_frozen_primary_definition": -0.06202777777777774,
+      "equal_scenario_rate": 0.1533888888888889,
+      "is_frozen_primary_definition": false,
+      "model": "A2",
+      "reference_rate_line_1": 0.05,
+      "reference_rate_line_2": 0.1,
+      "reference_rate_line_3": 0.15,
+      "severity_threshold_delta_uno_c": -0.03
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "catastrophic_transfer",
+      "difference_vs_frozen_primary_definition": 0.03500000000000002,
+      "equal_scenario_rate": 0.10697222222222223,
+      "is_frozen_primary_definition": false,
+      "model": "A2",
+      "reference_rate_line_1": 0.025,
+      "reference_rate_line_2": 0.05,
+      "reference_rate_line_3": 0.075,
+      "severity_threshold_delta_uno_c": -0.04
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": true,
+      "definition_family": "catastrophic_transfer",
+      "difference_vs_frozen_primary_definition": 0.0,
+      "equal_scenario_rate": 0.07197222222222222,
+      "is_frozen_primary_definition": true,
+      "model": "A2",
+      "reference_rate_line_1": 0.025,
+      "reference_rate_line_2": 0.05,
+      "reference_rate_line_3": 0.075,
+      "severity_threshold_delta_uno_c": -0.05
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": true,
+      "at_or_below_reference_rate_line_3": true,
+      "definition_family": "catastrophic_transfer",
+      "difference_vs_frozen_primary_definition": -0.024666666666666656,
+      "equal_scenario_rate": 0.04730555555555556,
+      "is_frozen_primary_definition": false,
+      "model": "A2",
+      "reference_rate_line_1": 0.025,
+      "reference_rate_line_2": 0.05,
+      "reference_rate_line_3": 0.075,
+      "severity_threshold_delta_uno_c": -0.06
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "negative_transfer",
+      "difference_vs_frozen_primary_definition": 0.06044444444444441,
+      "equal_scenario_rate": 0.5467777777777778,
+      "is_frozen_primary_definition": false,
+      "model": "A3",
+      "reference_rate_line_1": 0.05,
+      "reference_rate_line_2": 0.1,
+      "reference_rate_line_3": 0.15,
+      "severity_threshold_delta_uno_c": -0.01
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "negative_transfer",
+      "difference_vs_frozen_primary_definition": 0.0,
+      "equal_scenario_rate": 0.4863333333333334,
+      "is_frozen_primary_definition": true,
+      "model": "A3",
+      "reference_rate_line_1": 0.05,
+      "reference_rate_line_2": 0.1,
+      "reference_rate_line_3": 0.15,
+      "severity_threshold_delta_uno_c": -0.02
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "negative_transfer",
+      "difference_vs_frozen_primary_definition": -0.057083333333333375,
+      "equal_scenario_rate": 0.42925,
+      "is_frozen_primary_definition": false,
+      "model": "A3",
+      "reference_rate_line_1": 0.05,
+      "reference_rate_line_2": 0.1,
+      "reference_rate_line_3": 0.15,
+      "severity_threshold_delta_uno_c": -0.03
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "catastrophic_transfer",
+      "difference_vs_frozen_primary_definition": 0.04899999999999988,
+      "equal_scenario_rate": 0.3758888888888888,
+      "is_frozen_primary_definition": false,
+      "model": "A3",
+      "reference_rate_line_1": 0.025,
+      "reference_rate_line_2": 0.05,
+      "reference_rate_line_3": 0.075,
+      "severity_threshold_delta_uno_c": -0.04
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "catastrophic_transfer",
+      "difference_vs_frozen_primary_definition": 0.0,
+      "equal_scenario_rate": 0.3268888888888889,
+      "is_frozen_primary_definition": true,
+      "model": "A3",
+      "reference_rate_line_1": 0.025,
+      "reference_rate_line_2": 0.05,
+      "reference_rate_line_3": 0.075,
+      "severity_threshold_delta_uno_c": -0.05
+    },
+    {
+      "analysis_role": "POST-HOLD SENSITIVITY OF ESTIMATED SAFETY PROFILE; NOT A REOPENED PASS/FAIL DECISION",
+      "at_or_below_reference_rate_line_1": false,
+      "at_or_below_reference_rate_line_2": false,
+      "at_or_below_reference_rate_line_3": false,
+      "definition_family": "catastrophic_transfer",
+      "difference_vs_frozen_primary_definition": -0.04505555555555557,
+      "equal_scenario_rate": 0.2818333333333333,
+      "is_frozen_primary_definition": false,
+      "model": "A3",
+      "reference_rate_line_1": 0.025,
+      "reference_rate_line_2": 0.05,
+      "reference_rate_line_3": 0.075,
+      "severity_threshold_delta_uno_c": -0.06
+    }
+  ],
+  "script_version": "05h4-compute-threshold-definition-sensitivity-v1-no-discovery-no-cli",
+  "severity_grids": {
+    "catastrophic_transfer": [
+      -0.04,
+      -0.05,
+      -0.06
+    ],
+    "negative_transfer": [
+      -0.01,
+      -0.02,
+      -0.03
+    ]
+  },
+  "status": "PASS_POSTHOLD_THRESHOLD_DEFINITION_SENSITIVITY",
+  "thresholds_changed": false
+}

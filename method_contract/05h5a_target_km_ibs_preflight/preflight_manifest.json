@@ -1,0 +1,39 @@
+{
+  "05f3f_namespace": "results\\human_posthold_descriptive\\05f3f",
+  "05h0_sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d",
+  "outputs": [
+    {
+      "bytes": 2375,
+      "file": "05f3f_json_inventory.csv",
+      "sha256": "1e43b0007e0871f8e8b90cee1e6794a6d4b5993fceba27c88fa105d196a7c0ad"
+    },
+    {
+      "bytes": 775,
+      "file": "05h0_target_km_ibs_reference.json",
+      "sha256": "3d40a2654b1b1385f2ab9c0d695c57fdaf8a96e1593cd8365969d7a15744f02c"
+    },
+    {
+      "bytes": 11482,
+      "file": "file_inventory.csv",
+      "sha256": "d754eec4a97e131b18d8986c319326cb8cfb28e2534dfc6cf1cb30023602137d"
+    },
+    {
+      "bytes": 266733,
+      "file": "keyword_source_matches.csv",
+      "sha256": "f29e70c0eaa88e3aea9899b793d2298ea4d5362d716570c846813a42b510e78c"
+    },
+    {
+      "bytes": 2600,
+      "file": "python_function_inventory.csv",
+      "sha256": "d5f58732c4462609f71e86f2f6490524978facaa8650012e93b188af768a3c8f"
+    },
+    {
+      "bytes": 4181,
+      "file": "tabular_schema_inventory.csv",
+      "sha256": "92462a0bfdfb4f37e2d5a3faa943f731b5b8ece60705bfaa83512b4e22be92b8"
+    }
+  ],
+  "scientific_km_or_ibs_estimate_computed": false,
+  "script_version": "05h5a-preflight-target-km-ibs-inputs-v1-readonly-no-cli",
+  "status": "PASS_TECHNICAL_INVENTORY_READY_FOR_05H5B_DESIGN"
+}

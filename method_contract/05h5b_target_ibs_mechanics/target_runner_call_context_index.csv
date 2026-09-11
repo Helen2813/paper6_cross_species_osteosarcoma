@@ -1,0 +1,6 @@
+relative_path,match_line,matched_text,context_start,context_end,context_sha256
+results\human_posthold_descriptive\05f3f\runner\frozen_TARGET86_evaluation_runner_v3_bytesafe.py,538,grid = m04c.choose_ibs_grid(,520,560,647155c55b0a37418a42e47733010a1c09ace7f921a49c8ca89183955c60304f
+results\human_posthold_descriptive\05f3f\runner\frozen_TARGET86_evaluation_runner_v3_bytesafe.py,553,ibs = m04c.integrated_brier_custom(,535,575,c09cec2980a22bcf8105e22e3238205b8a4e84a4e92bdb0cb3206f28123f08d6
+results\human_posthold_descriptive\05f3f\runner\frozen_TARGET86_evaluation_runner_v3_bytesafe.py,1458,"/ ""TARGET_fold_metrics.tsv"",",1440,1480,aecabda4d1a0b28154f268a9270de21e1913647e9e0f05a1d34f8aee15bdd601
+results\human_posthold_descriptive\05f3f\runner\frozen_TARGET86_evaluation_runner_v3_bytesafe.py,1513,"""ibs_valid_repeats"": nrep_ibs,",1495,1535,ee892ae57b4d67951b07481d9a5b35ca9b82ae86a66c333a66347be3e27af0df
+results\human_posthold_descriptive\05f3f\runner\frozen_TARGET86_evaluation_runner_v3_bytesafe.py,1526,"/ ""TARGET_model_summary.tsv"",",1508,1548,ab33877ca05cd03c851e5e395ee2c76217b2517fb9b21c446097e105e64ee626

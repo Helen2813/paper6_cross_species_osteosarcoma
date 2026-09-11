@@ -1,0 +1,12 @@
+{
+  "allowed_new_estimation": true,
+  "analysis_role": "POST-OPENING DESCRIPTIVE NULL REFERENCE",
+  "method": "Within each already-frozen TARGET outer-training split, estimate a no-covariate Kaplan-Meier survival curve using only outer-training outcomes; assign that same curve to every corresponding outer-test patient; evaluate IBS using the same frozen time horizon, censoring mechanics, fold structure, and aggregation used for the existing TARGET IBS results.",
+  "prohibited_uses": [
+    "No tuning.",
+    "No model selection.",
+    "No change to T-A/T-B/T-C/T-D.",
+    "No use of full-cohort outcomes to fit a test-fold predictor."
+  ],
+  "purpose": "Contextualize the low IBS of a near-constant-risk transfer model without using the reference for model selection."
+}

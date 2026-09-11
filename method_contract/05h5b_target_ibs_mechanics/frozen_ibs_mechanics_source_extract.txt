@@ -1,0 +1,529 @@
+Paper 6 05h5b - exact frozen IBS mechanics source extracts
+
+These excerpts are copied verbatim from the current frozen source files
+and are hash-locked by this technical contract.
+
+### scripts\04c_run_classical_premise_test.py :: censoring_km_training
+### signature: censoring_km_training(y_train: np.ndarray) -> Tuple[np.ndarray, np.ndarray]
+### source_sha256: e1490812955df2681ae7280317be11d4c56b91792747a6b24dcf80635404a8eb
+
+def censoring_km_training(
+    y_train: np.ndarray,
+) -> Tuple[np.ndarray, np.ndarray]:
+    times = np.asarray(y_train["time"], dtype=float)
+    original_event = np.asarray(y_train["event"], dtype=bool)
+    censor_event = ~original_event
+
+    unique_times = np.sort(np.unique(times))
+    surv = 1.0
+    out_times = []
+    out_surv = []
+
+    for t in unique_times:
+        at_risk = int(np.sum(times >= t))
+        d_censor = int(np.sum((times == t) & censor_event))
+
+        if at_risk > 0 and d_censor > 0:
+            surv *= 1.0 - d_censor / at_risk
+
+        out_times.append(float(t))
+        out_surv.append(float(surv))
+
+    return np.asarray(out_times), np.asarray(out_surv)
+
+
+### scripts\04c_run_classical_premise_test.py :: ipcw_brier_score
+### signature: ipcw_brier_score(y_train: np.ndarray, y_test: np.ndarray, survival_prob: np.ndarray, eval_times: np.ndarray) -> np.ndarray
+### source_sha256: 4bd9dafe3d426a4405f7e0928c97126659f9e6e328833077eb5fdb5052fd4c90
+
+def ipcw_brier_score(
+    y_train: np.ndarray,
+    y_test: np.ndarray,
+    survival_prob: np.ndarray,
+    eval_times: np.ndarray,
+) -> np.ndarray:
+    km_times, km_surv = censoring_km_training(y_train)
+
+    test_time = np.asarray(y_test["time"], dtype=float)
+    test_event = np.asarray(y_test["event"], dtype=bool)
+
+    survival_prob = np.asarray(survival_prob, dtype=float)
+    eval_times = np.asarray(eval_times, dtype=float)
+
+    if survival_prob.shape != (len(y_test), len(eval_times)):
+        raise RuntimeError("Brier survival-probability shape mismatch.")
+
+    scores = []
+
+    for j, t in enumerate(eval_times):
+        G_t = km_step_value(km_times, km_surv, t, left_limit=False)
+        if G_t <= 1e-8:
+            raise RuntimeError("Training censoring survival too small at IBS time.")
+
+        weighted_error = np.zeros(len(y_test), dtype=float)
+
+        for i in range(len(y_test)):
+            Ti = float(test_time[i])
+            di = bool(test_event[i])
+            S = float(survival_prob[i, j])
+
+            if Ti <= t and di:
+                G_Tminus = km_step_value(
+                    km_times,
+                    km_surv,
+                    Ti,
+                    left_limit=True,
+                )
+                if G_Tminus <= 1e-8:
+                    raise RuntimeError(
+                        "Training censoring survival too small at test event time."
+                    )
+                weighted_error[i] = (S ** 2) / G_Tminus
+
+            elif Ti > t:
+                weighted_error[i] = ((1.0 - S) ** 2) / G_t
+
+            else:
+                # Censored at/before t: zero IPCW contribution.
+                weighted_error[i] = 0.0
+
+        scores.append(float(np.mean(weighted_error)))
+
+    return np.asarray(scores, dtype=float)
+
+
+### scripts\04c_run_classical_premise_test.py :: choose_ibs_grid
+### signature: choose_ibs_grid(y_train: np.ndarray, y_test: np.ndarray) -> np.ndarray
+### source_sha256: f4619186849aba855585a6b6f1945437d8e2e761fd104e98a5b024d69866e2e1
+
+def choose_ibs_grid(
+    y_train: np.ndarray,
+    y_test: np.ndarray,
+) -> np.ndarray:
+    train_time = np.asarray(y_train["time"], dtype=float)
+    train_event = np.asarray(y_train["event"], dtype=bool)
+    test_time = np.asarray(y_test["time"], dtype=float)
+
+    event_times = train_time[train_event]
+    if len(event_times) < 2:
+        raise RuntimeError("Too few training events for frozen IBS grid.")
+
+    lo = float(np.quantile(event_times, IBS_LOW_Q))
+    hi = float(np.quantile(event_times, IBS_HIGH_Q))
+
+    if not np.isfinite(lo) or not np.isfinite(hi) or hi <= lo:
+        raise RuntimeError("Invalid frozen IBS event-time quantiles.")
+
+    grid = np.linspace(lo, hi, IBS_GRID_POINTS)
+
+    lower_support = max(
+        float(np.min(train_time)),
+        float(np.min(test_time)),
+    )
+    upper_support = min(
+        float(np.max(train_time)),
+        float(np.max(test_time)),
+    )
+
+    grid = grid[
+        (grid > lower_support)
+        & (grid < np.nextafter(upper_support, 0.0))
+    ]
+
+    if len(grid) < IBS_MIN_POINTS:
+        raise RuntimeError(
+            f"Only {len(grid)} supported IBS points; "
+            f"minimum={IBS_MIN_POINTS}."
+        )
+
+    return grid
+
+
+### scripts\04c_run_classical_premise_test.py :: integrated_brier_custom
+### signature: integrated_brier_custom(y_train: np.ndarray, y_test: np.ndarray, survival_prob: np.ndarray, eval_times: np.ndarray) -> float
+### source_sha256: 4bcfd0e1e54881b4b732633e2c86af9862770acae9c9ae65d2602d6786ac8252
+
+def integrated_brier_custom(
+    y_train: np.ndarray,
+    y_test: np.ndarray,
+    survival_prob: np.ndarray,
+    eval_times: np.ndarray,
+) -> float:
+    bs = ipcw_brier_score(
+        y_train,
+        y_test,
+        survival_prob,
+        eval_times,
+    )
+    span = float(eval_times[-1] - eval_times[0])
+    if span <= 0:
+        raise RuntimeError("Invalid IBS integration span.")
+    return float(np.trapz(bs, eval_times) / span)
+
+
+### scripts\04c_run_classical_premise_test.py :: weighted_mean_ibs
+### signature: weighted_mean_ibs(ibs: pd.DataFrame, model: str) -> float
+### source_sha256: 589cb2f1fdddf799c356db2cc2b97024b7ce1eb0ef04a5230e65c8b850d3a7b7
+
+def weighted_mean_ibs(
+    ibs: pd.DataFrame,
+    model: str,
+) -> float:
+    part = ibs[ibs["model"] == model].copy()
+    weights = part["n_test"].to_numpy(dtype=float)
+    values = part["ibs"].to_numpy(dtype=float)
+
+    if not np.isfinite(values).all():
+        raise RuntimeError(f"{model}: non-finite IBS values.")
+
+    return float(np.average(values, weights=weights))
+
+
+### results\human_posthold_descriptive\05f3f\runner\frozen_TARGET86_evaluation_runner_v3_bytesafe.py :: _breslow_survival_from_fixed_risk
+### signature: _breslow_survival_from_fixed_risk(train_time: np.ndarray, train_event: np.ndarray, train_risk: np.ndarray, test_risk: np.ndarray, eval_times: np.ndarray) -> np.ndarray
+### source_sha256: 43bd3516b7c408b187b59f5c390e9788d049d679afcd8dcb60426bd54df2b90d
+
+def _breslow_survival_from_fixed_risk(
+    train_time: np.ndarray,
+    train_event: np.ndarray,
+    train_risk: np.ndarray,
+    test_risk: np.ndarray,
+    eval_times: np.ndarray,
+) -> np.ndarray:
+    """
+    Target-training-only Breslow baseline recalibration for a fixed risk score.
+
+    No coefficient, slope, intercept, or rank score is refit.
+    This secondary IBS adapter places all ranking models on the TARGET time scale.
+    """
+    train_time = np.asarray(
+        train_time,
+        dtype=float,
+    )
+    train_event = np.asarray(
+        train_event,
+        dtype=bool,
+    )
+    train_risk = np.asarray(
+        train_risk,
+        dtype=float,
+    )
+    test_risk = np.asarray(
+        test_risk,
+        dtype=float,
+    )
+    eval_times = np.asarray(
+        eval_times,
+        dtype=float,
+    )
+
+    if not (
+        np.isfinite(train_time).all()
+        and np.isfinite(train_risk).all()
+        and np.isfinite(test_risk).all()
+    ):
+        raise RuntimeError(
+            "Non-finite Breslow input."
+        )
+
+    eta = np.clip(
+        train_risk,
+        -50,
+        50,
+    )
+    exp_eta = np.exp(eta)
+
+    event_times = np.unique(
+        train_time[train_event]
+    )
+
+    increments = []
+
+    for t in event_times:
+        d = int(
+            np.sum(
+                train_event
+                & (train_time == t)
+            )
+        )
+        risk_sum = float(
+            np.sum(
+                exp_eta[
+                    train_time >= t
+                ]
+            )
+        )
+
+        if (
+            risk_sum <= 0
+            or not np.isfinite(
+                risk_sum
+            )
+        ):
+            raise RuntimeError(
+                "Invalid Breslow risk-set sum."
+            )
+
+        increments.append(
+            d / risk_sum
+        )
+
+    cum = np.cumsum(
+        np.asarray(
+            increments,
+            dtype=float,
+        )
+    )
+
+    idx = np.searchsorted(
+        event_times,
+        eval_times,
+        side="right",
+    ) - 1
+
+    H0 = np.zeros(
+        len(eval_times),
+        dtype=float,
+    )
+
+    valid = idx >= 0
+    H0[valid] = cum[
+        idx[valid]
+    ]
+
+    multiplier = np.exp(
+        np.clip(
+            test_risk,
+            -50,
+            50,
+        )
+    )
+
+    return np.exp(
+        -multiplier[:, None]
+        * H0[None, :]
+    )
+
+
+
+### TARGET runner call/aggregation contexts
+
+### runner context lines 520-560, match at 538
+520:         test_time,
+521:         test_event,
+522:     )
+523: 
+524:     uno = m04c.safe_uno_c(
+525:         y_train,
+526:         y_test,
+527:         np.asarray(
+528:             test_risk,
+529:             dtype=float,
+530:         ),
+531:         quantile=UNO_TAU_QUANTILE,
+532:     )
+533: 
+534:     ibs = float("nan")
+535:     ibs_status = "PASS"
+536: 
+537:     try:
+538:         grid = m04c.choose_ibs_grid(
+539:             y_train,
+540:             y_test,
+541:         )
+542: 
+543:         survival = (
+544:             _breslow_survival_from_fixed_risk(
+545:                 train_time,
+546:                 train_event,
+547:                 train_risk,
+548:                 test_risk,
+549:                 grid,
+550:             )
+551:         )
+552: 
+553:         ibs = m04c.integrated_brier_custom(
+554:             y_train,
+555:             y_test,
+556:             survival,
+557:             grid,
+558:         )
+559: 
+560:     except Exception as exc:
+
+
+### runner context lines 535-575, match at 553
+535:     ibs_status = "PASS"
+536: 
+537:     try:
+538:         grid = m04c.choose_ibs_grid(
+539:             y_train,
+540:             y_test,
+541:         )
+542: 
+543:         survival = (
+544:             _breslow_survival_from_fixed_risk(
+545:                 train_time,
+546:                 train_event,
+547:                 train_risk,
+548:                 test_risk,
+549:                 grid,
+550:             )
+551:         )
+552: 
+553:         ibs = m04c.integrated_brier_custom(
+554:             y_train,
+555:             y_test,
+556:             survival,
+557:             grid,
+558:         )
+559: 
+560:     except Exception as exc:
+561:         ibs_status = (
+562:             "NOT_ASSESSABLE:"
+563:             f"{type(exc).__name__}"
+564:         )
+565: 
+566:     return {
+567:         "uno_c": float(uno),
+568:         "ibs": float(ibs),
+569:         "ibs_status": ibs_status,
+570:         "risk_sd": float(
+571:             np.std(
+572:                 test_risk,
+573:                 ddof=0,
+574:             )
+575:         ),
+
+
+### runner context lines 1440-1480, match at 1458
+1440:         fold_rows
+1441:     )
+1442:     splits = pd.DataFrame(
+1443:         split_rows
+1444:     )
+1445:     tuning = pd.concat(
+1446:         tuning_rows,
+1447:         ignore_index=True,
+1448:     )
+1449: 
+1450:     predictions.to_csv(
+1451:         output_dir
+1452:         / "TARGET_oof_predictions.tsv",
+1453:         sep="\t",
+1454:         index=False,
+1455:     )
+1456:     folds.to_csv(
+1457:         output_dir
+1458:         / "TARGET_fold_metrics.tsv",
+1459:         sep="\t",
+1460:         index=False,
+1461:     )
+1462:     splits.to_csv(
+1463:         output_dir
+1464:         / "TARGET_split_registry.tsv",
+1465:         sep="\t",
+1466:         index=False,
+1467:     )
+1468:     tuning.to_csv(
+1469:         output_dir
+1470:         / "TARGET_classical_inner_tuning.tsv",
+1471:         sep="\t",
+1472:         index=False,
+1473:     )
+1474: 
+1475:     summary_rows = []
+1476: 
+1477:     for model in MODEL_IDS:
+1478:         part = folds[
+1479:             folds["model_id"]
+1480:             == model
+
+
+### runner context lines 1495-1535, match at 1513
+1495:         risk_sd, nrep_sd = (
+1496:             _aggregate_repeat_metric(
+1497:                 part,
+1498:                 "risk_sd",
+1499:             )
+1500:         )
+1501:         qrange, nrep_q = (
+1502:             _aggregate_repeat_metric(
+1503:                 part,
+1504:                 "risk_q99_q01",
+1505:             )
+1506:         )
+1507: 
+1508:         summary_rows.append({
+1509:             "model_id": model,
+1510:             "uno_c": c,
+1511:             "uno_valid_repeats": nrep_c,
+1512:             "ibs": ibs,
+1513:             "ibs_valid_repeats": nrep_ibs,
+1514:             "risk_sd": risk_sd,
+1515:             "risk_sd_valid_repeats": nrep_sd,
+1516:             "risk_q99_q01": qrange,
+1517:             "risk_q99_q01_valid_repeats": nrep_q,
+1518:         })
+1519: 
+1520:     model_summary = pd.DataFrame(
+1521:         summary_rows
+1522:     )
+1523: 
+1524:     model_summary.to_csv(
+1525:         output_dir
+1526:         / "TARGET_model_summary.tsv",
+1527:         sep="\t",
+1528:         index=False,
+1529:     )
+1530: 
+1531:     branch_values = (
+1532:         model_summary
+1533:         .set_index("model_id")
+1534:         .loc[
+1535:             [
+
+
+### runner context lines 1508-1548, match at 1526
+1508:         summary_rows.append({
+1509:             "model_id": model,
+1510:             "uno_c": c,
+1511:             "uno_valid_repeats": nrep_c,
+1512:             "ibs": ibs,
+1513:             "ibs_valid_repeats": nrep_ibs,
+1514:             "risk_sd": risk_sd,
+1515:             "risk_sd_valid_repeats": nrep_sd,
+1516:             "risk_q99_q01": qrange,
+1517:             "risk_q99_q01_valid_repeats": nrep_q,
+1518:         })
+1519: 
+1520:     model_summary = pd.DataFrame(
+1521:         summary_rows
+1522:     )
+1523: 
+1524:     model_summary.to_csv(
+1525:         output_dir
+1526:         / "TARGET_model_summary.tsv",
+1527:         sep="\t",
+1528:         index=False,
+1529:     )
+1530: 
+1531:     branch_values = (
+1532:         model_summary
+1533:         .set_index("model_id")
+1534:         .loc[
+1535:             [
+1536:                 "T0",
+1537:                 "T1",
+1538:                 "N0",
+1539:                 "N1",
+1540:             ],
+1541:             "uno_c",
+1542:         ]
+1543:         .to_numpy(
+1544:             dtype=float
+1545:         )
+1546:     )
+1547: 
+1548:     branch_point_estimates_assessable = bool(
+

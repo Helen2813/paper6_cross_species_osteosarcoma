@@ -1,0 +1,2 @@
+reference_id,analysis_role,TARGET_n,TARGET_events,TARGET_censored,outer_repeats,outer_folds,valid_fold_ibs,km_null_ibs,fold_ibs_median,fold_ibs_min,fold_ibs_max,aggregation_method,min_ibs_grid_points,max_ibs_grid_points,max_manual_vs_sksurv_km_abs_difference,model_selection_performed,branch_decision_changed
+KM_NULL_NO_COVARIATE,POST-OPENING DESCRIPTIVE NULL REFERENCE,86,29,57,20,5,100,0.165644809131,0.17270670519,0.0461901745761,0.241368647368,frozen_04c_weighted_mean_ibs_helper,13,20,0,False,False

@@ -1,0 +1,64 @@
+{
+  "inputs": {
+    "05h0_contract": {
+      "path": "method_contract\\05h0_cbm_strengthening_contract\\cbm_strengthening_contract.json",
+      "sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d"
+    },
+    "05h5b_contract": {
+      "path": "method_contract\\05h5b_target_ibs_mechanics\\target_ibs_mechanics_contract.json",
+      "sha256": "21accb77cc8d92b96aa5ed573628d78873aab793d26abdda369a973f1926c250"
+    },
+    "TARGET86_endpoint": {
+      "path": "results\\human_posthold_descriptive\\05f3f\\execution_input\\TARGET_OS_complete86_primary_endpoint.tsv",
+      "sha256": "5a0dbc272fa0809f7bd41493ab34868dd06a053e57e55eeb421e11813f626dfc"
+    },
+    "TARGET_fold_metrics": {
+      "path": "results\\human_posthold_descriptive\\05f3f\\frozen_execution\\TARGET_fold_metrics.tsv",
+      "sha256": "05b8426dcd7d35ef8689ccaa8bf0ae9015a8723c0919a30180da7a88c5d0cba4"
+    },
+    "TARGET_model_summary": {
+      "path": "results\\human_posthold_descriptive\\05f3f\\frozen_execution\\TARGET_model_summary.tsv",
+      "sha256": "4822dbcfecaf94cc2c6a1ee99e862fc4708173e60c7638c03099d9611296d157"
+    },
+    "frozen_04c_metric_implementation": {
+      "path": "scripts\\04c_run_classical_premise_test.py",
+      "sha256": "9534b5cd3a5f126ec73622c0a4e3570ea1d3b944026de1d538b63b46606bdd0f"
+    }
+  },
+  "outputs": [
+    {
+      "bytes": 1942,
+      "file": "existing_target_ibs_aggregation_replay.tsv",
+      "sha256": "7b515ce08b18f99976b206af4d243f1ed5b274da35524f1f11da9e7e946bd31a"
+    },
+    {
+      "bytes": 2175,
+      "file": "README_for_supplement.txt",
+      "sha256": "b6d66026f580c0a79e6c75c6cb3a02f39971082fc0c3863b0e90c0ee32af93f2"
+    },
+    {
+      "bytes": 506,
+      "file": "Supplementary_Table_TARGET_KM_null_IBS_reference.csv",
+      "sha256": "ba7ab51dba063607825279f4739b21e453dd1a43e9049f13388f75c70b14bc1e"
+    },
+    {
+      "bytes": 1354,
+      "file": "TARGET_existing_models_vs_KM_null.tsv",
+      "sha256": "ec4be4c65ef909a644c7f6f17b99b55f96e13997bc083c2ade32f590d09e372c"
+    },
+    {
+      "bytes": 5105,
+      "file": "target_km_ibs_reference.json",
+      "sha256": "08d1c95663799943bea72a8c7cdb4064adb4a6d03fc996aa000f774047486e91"
+    },
+    {
+      "bytes": 10481,
+      "file": "TARGET_KM_null_fold_metrics.tsv",
+      "sha256": "58e8080fb9c36f6627178d37123818e1393072124dff952ad0256ac1e61bd9e4"
+    }
+  ],
+  "script_relative_path": "scripts\\05h5d_compute_target_km_ibs_reference.py",
+  "script_sha256": "d1cc7a46d50627d67d2e136cd07e10539cf1b0cf471fc368e2d1513ef18a088a",
+  "script_version": "05h5d-compute-target-km-ibs-reference-v1-safe-module-import-no-cli",
+  "status": "PASS_POSTOPENING_TARGET_KM_IBS_NULL_REFERENCE"
+}

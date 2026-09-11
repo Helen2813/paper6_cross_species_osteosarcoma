@@ -1,0 +1,51 @@
+{
+  "inputs": {
+    "05h0_contract": {
+      "path": "method_contract\\05h0_cbm_strengthening_contract\\cbm_strengthening_contract.json",
+      "sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d"
+    },
+    "05h3c_contract": {
+      "path": "method_contract\\05h3c_aggregation_input_contract\\aggregation_input_contract.json",
+      "sha256": "fb6c9369ebc4d70e6928cb860cc4e1678284edbd156d1387e945deb79a08731e"
+    },
+    "05h3c_npz_inventory": {
+      "path": "method_contract\\05h3c_aggregation_input_contract\\retained_npz_source_inventory.csv",
+      "sha256": "4389e67cd53cef57be7019903db2820794663875f76b1c13fdaf7d28312aea56"
+    },
+    "05h3d_result": {
+      "path": "method_contract\\05h3d_aggregation_sensitivity\\aggregation_sensitivity.json",
+      "sha256": "5178aeef118f3a98ed2e7e74ee39d3afb4e79f60a8e153238fc5aad497942688"
+    }
+  },
+  "outputs": [
+    {
+      "bytes": 388,
+      "file": "primary_definition_replay_checks.csv",
+      "sha256": "11f437b549375f7948ba564b9f7d06161623ea0e10fd99f8ad0f0b69719a946a"
+    },
+    {
+      "bytes": 2601,
+      "file": "README_for_supplement.txt",
+      "sha256": "bd90c0bcd3d9053ba8a3038333f75494fadcc605b825a4011438c3a28cba7a18"
+    },
+    {
+      "bytes": 65664,
+      "file": "Supplementary_Data_threshold_scenario_rates.csv",
+      "sha256": "bbebcba833dcb42469bc5823abe55c73a212ce7464356326303a5af724bcd435"
+    },
+    {
+      "bytes": 2435,
+      "file": "Supplementary_Table_threshold_definition_sensitivity.csv",
+      "sha256": "ed4a9436e930d0b2ca8ae2699daab3985650edb580b6cd6a20979850b92a8a96"
+    },
+    {
+      "bytes": 9280,
+      "file": "threshold_definition_sensitivity.json",
+      "sha256": "ed793f0d0be6ed4d18d3fe6a41d54aad09eb13e68df7d79e6152d8958c4c42f8"
+    }
+  ],
+  "script_relative_path": "scripts\\05h4_compute_threshold_definition_sensitivity.py",
+  "script_sha256": "c4c83bb7efaef61095b7acef631785575a5c99f95fe83a9f2e52c80541718593",
+  "script_version": "05h4-compute-threshold-definition-sensitivity-v1-no-discovery-no-cli",
+  "status": "PASS_POSTHOLD_THRESHOLD_DEFINITION_SENSITIVITY"
+}

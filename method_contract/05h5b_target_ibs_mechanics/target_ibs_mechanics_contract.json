@@ -1,0 +1,239 @@
+{
+  "05h0_target_km_ibs_reference": {
+    "allowed_new_estimation": true,
+    "analysis_role": "POST-OPENING DESCRIPTIVE NULL REFERENCE",
+    "method": "Within each already-frozen TARGET outer-training split, estimate a no-covariate Kaplan-Meier survival curve using only outer-training outcomes; assign that same curve to every corresponding outer-test patient; evaluate IBS using the same frozen time horizon, censoring mechanics, fold structure, and aggregation used for the existing TARGET IBS results.",
+    "prohibited_uses": [
+      "No tuning.",
+      "No model selection.",
+      "No change to T-A/T-B/T-C/T-D.",
+      "No use of full-cohort outcomes to fit a test-fold predictor."
+    ],
+    "purpose": "Contextualize the low IBS of a near-constant-risk transfer model without using the reference for model selection."
+  },
+  "TARGET86": {
+    "censored": 57,
+    "endpoint_columns": [
+      "execution_index_86",
+      "source_sample_index_88",
+      "sample_id",
+      "case_key",
+      "os_time_days",
+      "os_event"
+    ],
+    "events": 29,
+    "n": 86,
+    "zero_time_is_censored": true,
+    "zero_time_n": 1
+  },
+  "analysis_role": "TECHNICAL MECHANICS FREEZE ONLY",
+  "existing_result_structure": {
+    "fold_metric_rows": 900,
+    "ibs_profile_file": "existing_fold_ibs_availability.tsv",
+    "model_ids": [
+      "T0",
+      "T1",
+      "T2",
+      "N0",
+      "N1",
+      "N2",
+      "N3",
+      "N4",
+      "N5"
+    ],
+    "model_summary_rows": 9,
+    "oof_prediction_rows": 15480
+  },
+  "frozen_functions": [
+    {
+      "function": "censoring_km_training",
+      "line_end": 1133,
+      "line_start": 1111,
+      "relative_path": "scripts\\04c_run_classical_premise_test.py",
+      "signature": "censoring_km_training(y_train: np.ndarray) -> Tuple[np.ndarray, np.ndarray]",
+      "source_sha256": "e1490812955df2681ae7280317be11d4c56b91792747a6b24dcf80635404a8eb"
+    },
+    {
+      "function": "ipcw_brier_score",
+      "line_end": 1203,
+      "line_start": 1150,
+      "relative_path": "scripts\\04c_run_classical_premise_test.py",
+      "signature": "ipcw_brier_score(y_train: np.ndarray, y_test: np.ndarray, survival_prob: np.ndarray, eval_times: np.ndarray) -> np.ndarray",
+      "source_sha256": "4bd9dafe3d426a4405f7e0928c97126659f9e6e328833077eb5fdb5052fd4c90"
+    },
+    {
+      "function": "choose_ibs_grid",
+      "line_end": 1246,
+      "line_start": 1206,
+      "relative_path": "scripts\\04c_run_classical_premise_test.py",
+      "signature": "choose_ibs_grid(y_train: np.ndarray, y_test: np.ndarray) -> np.ndarray",
+      "source_sha256": "f4619186849aba855585a6b6f1945437d8e2e761fd104e98a5b024d69866e2e1"
+    },
+    {
+      "function": "integrated_brier_custom",
+      "line_end": 1264,
+      "line_start": 1249,
+      "relative_path": "scripts\\04c_run_classical_premise_test.py",
+      "signature": "integrated_brier_custom(y_train: np.ndarray, y_test: np.ndarray, survival_prob: np.ndarray, eval_times: np.ndarray) -> float",
+      "source_sha256": "4bcfd0e1e54881b4b732633e2c86af9862770acae9c9ae65d2602d6786ac8252"
+    },
+    {
+      "function": "weighted_mean_ibs",
+      "line_end": 1653,
+      "line_start": 1642,
+      "relative_path": "scripts\\04c_run_classical_premise_test.py",
+      "signature": "weighted_mean_ibs(ibs: pd.DataFrame, model: str) -> float",
+      "source_sha256": "589cb2f1fdddf799c356db2cc2b97024b7ce1eb0ef04a5230e65c8b850d3a7b7"
+    },
+    {
+      "function": "_breslow_survival_from_fixed_risk",
+      "line_end": 503,
+      "line_start": 384,
+      "relative_path": "results\\human_posthold_descriptive\\05f3f\\runner\\frozen_TARGET86_evaluation_runner_v3_bytesafe.py",
+      "signature": "_breslow_survival_from_fixed_risk(train_time: np.ndarray, train_event: np.ndarray, train_risk: np.ndarray, test_risk: np.ndarray, eval_times: np.ndarray) -> np.ndarray",
+      "source_sha256": "43bd3516b7c408b187b59f5c390e9788d049d679afcd8dcb60426bd54df2b90d"
+    }
+  ],
+  "next_stage_rule": "05h5c must use these exact TARGET86 memberships and the exact frozen 04c IBS mechanics. It may fit only the 05h0-authorized no-covariate Kaplan-Meier survival curve within each frozen outer-training partition.",
+  "outer_cv": {
+    "fold_structure_file": "frozen_outer_fold_structure.tsv",
+    "fold_structure_sha256": "3658b0fee92878e035c68f9a6550b6f1eb95e012353d38c6429fe56c5a018764",
+    "heldout_role": "TEST",
+    "n_partitions": 100,
+    "outer_fold_labels": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "repeat_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "training_role": "TRAIN"
+  },
+  "runner_call_context_index": [
+    {
+      "context_end": 560,
+      "context_sha256": "647155c55b0a37418a42e47733010a1c09ace7f921a49c8ca89183955c60304f",
+      "context_start": 520,
+      "match_line": 538,
+      "matched_text": "grid = m04c.choose_ibs_grid(",
+      "relative_path": "results\\human_posthold_descriptive\\05f3f\\runner\\frozen_TARGET86_evaluation_runner_v3_bytesafe.py"
+    },
+    {
+      "context_end": 575,
+      "context_sha256": "c09cec2980a22bcf8105e22e3238205b8a4e84a4e92bdb0cb3206f28123f08d6",
+      "context_start": 535,
+      "match_line": 553,
+      "matched_text": "ibs = m04c.integrated_brier_custom(",
+      "relative_path": "results\\human_posthold_descriptive\\05f3f\\runner\\frozen_TARGET86_evaluation_runner_v3_bytesafe.py"
+    },
+    {
+      "context_end": 1480,
+      "context_sha256": "aecabda4d1a0b28154f268a9270de21e1913647e9e0f05a1d34f8aee15bdd601",
+      "context_start": 1440,
+      "match_line": 1458,
+      "matched_text": "/ \"TARGET_fold_metrics.tsv\",",
+      "relative_path": "results\\human_posthold_descriptive\\05f3f\\runner\\frozen_TARGET86_evaluation_runner_v3_bytesafe.py"
+    },
+    {
+      "context_end": 1535,
+      "context_sha256": "ee892ae57b4d67951b07481d9a5b35ca9b82ae86a66c333a66347be3e27af0df",
+      "context_start": 1495,
+      "match_line": 1513,
+      "matched_text": "\"ibs_valid_repeats\": nrep_ibs,",
+      "relative_path": "results\\human_posthold_descriptive\\05f3f\\runner\\frozen_TARGET86_evaluation_runner_v3_bytesafe.py"
+    },
+    {
+      "context_end": 1548,
+      "context_sha256": "ab33877ca05cd03c851e5e395ee2c76217b2517fb9b21c446097e105e64ee626",
+      "context_start": 1508,
+      "match_line": 1526,
+      "matched_text": "/ \"TARGET_model_summary.tsv\",",
+      "relative_path": "results\\human_posthold_descriptive\\05f3f\\runner\\frozen_TARGET86_evaluation_runner_v3_bytesafe.py"
+    }
+  ],
+  "scientific_ibs_reference_computed": false,
+  "scientific_km_reference_computed": false,
+  "script_version": "05h5b-freeze-target-ibs-mechanics-v1-readonly-no-cli",
+  "source_extract_file": "frozen_ibs_mechanics_source_extract.txt",
+  "source_extract_sha256": "fe7ed148404149a778d560abe5eeed6dea23ca97d543a9eb58ac9f5236223582",
+  "source_files": {
+    "05f3f_input_audit": {
+      "bytes": 1082,
+      "path": "results\\human_posthold_descriptive\\05f3f\\TARGET86_execution_input_audit.json",
+      "sha256": "976fe40dc907958392a9e95757f448b6701f493f8a8d090676d776fdece15871"
+    },
+    "05f3f_summary": {
+      "bytes": 4814,
+      "path": "results\\human_posthold_descriptive\\05f3f\\summary.json",
+      "sha256": "a6c0b9ebb3ca576d55c0932dfbd60c50fa344522855fc958a7c84a91c61b70a7"
+    },
+    "05h0_contract": {
+      "bytes": 10328,
+      "path": "method_contract\\05h0_cbm_strengthening_contract\\cbm_strengthening_contract.json",
+      "sha256": "570e3927564cde868585dfbda22ed9cd022c9dc9afada8aa71821c15d09b883d"
+    },
+    "05h5a_manifest": {
+      "bytes": 1337,
+      "path": "method_contract\\05h5a_target_km_ibs_preflight\\preflight_manifest.json",
+      "sha256": "344ff8017ad0b97c739d58f93cc3f1ebbbd577784421d3f8ad8851639f88b0c3"
+    },
+    "TARGET86_endpoint": {
+      "bytes": 4323,
+      "path": "results\\human_posthold_descriptive\\05f3f\\execution_input\\TARGET_OS_complete86_primary_endpoint.tsv",
+      "sha256": "5a0dbc272fa0809f7bd41493ab34868dd06a053e57e55eeb421e11813f626dfc"
+    },
+    "TARGET_fold_metrics": {
+      "bytes": 90655,
+      "path": "results\\human_posthold_descriptive\\05f3f\\frozen_execution\\TARGET_fold_metrics.tsv",
+      "sha256": "05b8426dcd7d35ef8689ccaa8bf0ae9015a8723c0919a30180da7a88c5d0cba4"
+    },
+    "TARGET_model_summary": {
+      "bytes": 955,
+      "path": "results\\human_posthold_descriptive\\05f3f\\frozen_execution\\TARGET_model_summary.tsv",
+      "sha256": "4822dbcfecaf94cc2c6a1ee99e862fc4708173e60c7638c03099d9611296d157"
+    },
+    "TARGET_oof_predictions": {
+      "bytes": 1007502,
+      "path": "results\\human_posthold_descriptive\\05f3f\\frozen_execution\\TARGET_oof_predictions.tsv",
+      "sha256": "3d104a293d578dfc6844a7bcfdc4f2c7719eee76721a4bc5f7ce11a6bc1b7f4e"
+    },
+    "TARGET_runner_v3_bytesafe": {
+      "bytes": 48566,
+      "path": "results\\human_posthold_descriptive\\05f3f\\runner\\frozen_TARGET86_evaluation_runner_v3_bytesafe.py",
+      "sha256": "315789ee964cc356ef2f76909c1969c7c5e9c210f8ffaa9690ffa3e22dd97245"
+    },
+    "TARGET_split_registry": {
+      "bytes": 414436,
+      "path": "results\\human_posthold_descriptive\\05f3f\\frozen_execution\\TARGET_split_registry.tsv",
+      "sha256": "ec5b714b8faaa7bf38380d3134bde72fb25db2d1410d3b657183a3dfbf12f5bd"
+    },
+    "frozen_04c_metric_implementation": {
+      "bytes": 93164,
+      "path": "scripts\\04c_run_classical_premise_test.py",
+      "sha256": "9534b5cd3a5f126ec73622c0a4e3570ea1d3b944026de1d538b63b46606bdd0f"
+    }
+  },
+  "status": "PASS_READY_FOR_05H5C_KM_IBS_ESTIMATION"
+}
